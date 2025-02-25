@@ -1,0 +1,58 @@
+    <!-- Use -->
+    <section id="setup" class="content-section text-center">
+        <div class="setup-section">
+            <div class="container">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2>Setup</h2>
+                    <listheading>Battery</listheading>
+                    <div class="m-3">
+                        <p class="condensed-para">The system runs on a 12v battery which must be bought seperately. For stability the battery should be rated for at least 5 amps. The system can run on any battery chemistry which gives great flexibility, a very basic chemistry comparison is provided below. Press on the battery chemistry types below to reveal or hide information:</p>
+                        <div class="buttons-container">
+                            <a tabindex="13" class="btn btn-info opacity-75" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-trigger="manual" data-bs-title="Lithium-ion" data-bs-content="Lithium-ion batteries are lighter, easier to maintain and retain good capacity for years. This chemistry can maintain charge even in cold temperatures. Lithium-ion batteries are more expensive than their (lead-acid AGM and gel) counterparts for the equivalent capacity (amp Hours). Make sure to use a battery which is safe to discharge and transport.">Lithium-ion</a>
+        
+                            <a tabindex="14" class="btn btn-info opacity-75" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-trigger="manual" data-bs-title="Lead-acid & AGM" data-bs-content="A lead-acid battery is roughly twice as heavy but costs about half as much as a lithium-ion battery. Over time, lead-acid batteries gradually lose capacity, especially with continued use or inadequate maintenance. They also lose capacity when repeatedly cycled from fully charge to completely discharged. Among lead-acid options, AGM (Absorbent Glass Mat) batteries are recommended because they are sealed, allowing them to be tipped or bumped without the risk of acid leakage.">Lead-acid AGM</a>
+
+                            <a tabindex="14" class="btn btn-info opacity-75" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-trigger="manual" data-bs-title="Gel" data-bs-content="Gel batteries are similar to lead-acid and AGM batteries in weight and price. These batteries are often sealed and if so should be suitable for use in the field. This chemistry is more susceptible to losing charge in the cold than other chemistries.">Gel</a>
+                        </div>
+                    </div>
+                    <div class="m-3">
+                        <div class="container">
+                            <p class="condensed-para">The system run time is dependent on the capacity of the battery (amp Hours) and camera settings. The number of nights it can record will be dependent on the battery temperature, night length and settings. Higher frame rates require brighter lighting, which in turn consumes more power. Consequently, a camera set at 30 FPS will last twice as long as one set at 120 FPS.</p>
+                            <br>    
+                            <p class="condensed-para">A battery weighing 11kg can be carried safely in a backpack while navigating a woodland. This weight corresponds to a 75Ah lithium battery or a 40Ah lead-acid battery, both of which will provide weeks of recording at 30FPS. Smaller, more portable 12V batteries, such as Talentcells, can also be used but will deplete more quickly.</p>
+                            <br>
+                            <p class="condensed-para">Enter a batteries capacity in amp hours below to estimate the run time for the system at 30FPS in summer, assuming an average night length of 9 hours.</p>
+                            <div>
+                                <label for="ampHours" class="form-label form-label2">12v Battery Capacity in Amp Hours:</label>
+                                <!-- Add Bootstrap classes to the input box -->
+                                <input type="number" class="form-control" id="ampHours" step="any" placeholder="Enter amp hours">
+                            </div>
+                            <button class="btn btn-info opacity-75" style="margin: 1rem;" onclick="calculateRunTime()">Calculate Run Time</button>
+                            <p id="result" class="mt-3"></p>
+                        </div>
+                        <p id="result"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function calculateRunTime() {
+          // Get the amp hours input value
+          var AmpHours = parseFloat(document.getElementById('ampHours').value);
+    
+          // Define the base values
+          var BaseVoltage = 12; // 12v as the base value
+          var Consumptionat30 = 2.55; // Watts - based on run Jun 9th 2024 for 55 nights
+        //   var Consumptionat30 = 4.4; // Watts - based on big blue plug
+          var NightLength = 9; // in hours
+    
+          // Calculate the run time based on the ratio
+          var calculatedHours = (AmpHours * BaseVoltage) / Consumptionat30;
+          var calculatedRunTime = calculatedHours / NightLength;
+    
+          // Display the result
+          document.getElementById('result').innerHTML = 'Estimated run time: ' + calculatedRunTime.toFixed(2) + ' nights';
+        }
+      </script>

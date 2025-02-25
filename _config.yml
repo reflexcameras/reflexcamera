@@ -1,0 +1,52 @@
+# Site settings
+title: REFLEX
+email: your-email@domain.com
+url: https://tennisparty.github.io/reflexcamera/
+#added below
+baseurl: /
+description: "A nocturnal wildlife camera trap designed specifically for recording bat roosts in trees. The camera trap detects ultra-fast motion events at night and records bats emerging and re-entering from tree roosts."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: REFLEX wildlife
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+# The URL for the staticman API bridge endpoint
+# You will want to modify some of the values:
+#  ${github-username}: the username of the account with which you publish your blog
+#  ${blog-repo}: the name of your blog repository in github
+#  master: this the branch out of which your blog is published, often master or gh-pages
+#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
+#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
+#
+# for me, this line reads:
+# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
+staticman_url: https://staticman-reflex.herokuapp.com/v2/entry/tennisparty/reflexcamera/master/comments
+
+# reCaptcha configuration info: the exact same site key and *encrypted* secret that you used in staticman.yml
+# I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
+# it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
+reCaptcha:
+  siteKey: 6LfYwuYaAAAAAAN01_bqJ3oQ-0Zybq0oRG-YGYNE
+  secret: uY+rO19gGyNcubBWEYULsqdyhPN1dNvUPYW8lbCYfBBMfqD30QfknAlciE3hRVU3qalNO2ScJ5Qx2JBS8GhG892bjj2M6m6yNIiUt4r2dT+Yxe89W8moJx+aTsYwx0xa9I/scmx/nUzqLYBGRALWOwL2CCLnukpjXEQJJEceb3IE4sPjKvpxiA/ovI82OX766ovszaduPOmtRYrHVwnmNuVjB5C6CZ0tOh3WU2/8bR4FuPhMPk5DO14Thp5VuDQIwfD+Hov0MDsZhY8YEr8LoN/8SnbxXxz1KgT9ZpznOrZEf6f65478DK3/vQOHIflHC8khSABocEtKyMaeQcjX690s7MIDZGz47iwHLIdBhAWkWoBr0448FMS53SLc5Nf2Ol4zN0G00cx/BFcsD5Xkc90LZrOrwPn1INJS8Hp7kSE6hjTwU0WZg6SAIbLgS0HPqcL7ZG1tZ01KN1j1zozrEwBGhwYydwYynJnVbz9SRUJ36AR+D+wxQ7+m8ma/GI75RV/2rC7/1FqbX8O1+FnxK3ianC6OrSlHamUijXqL0wF6UsnbCSlVNhLHxLIB25o1YKFaF8e6Qb7fjTkKPa1HtyooyWIq7jUGWALa6MuhNtGs9xyeCsmgCne5EuQ2slkYFCIMhlUi12Q8Y+s48yXfxssyN70GEA50IZ8qS1e6O00=
