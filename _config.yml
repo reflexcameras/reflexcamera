@@ -4,7 +4,7 @@ email: your-email@domain.com
 url: https://tennisparty.github.io/reflexcamera/
 #added below
 baseurl: /
-description: "A nocturnal wildlife camera trap designed specifically for recording bat roosts in trees. The camera trap detects ultra-fast motion events at night and records bats emerging and re-entering from tree roosts."
+description: "A state-of-the-art wildlife camera trap designed for recording bat roosts in trees. The camera records ultra-fast motion in the dark, documenting every moment as bats emerge from and return to their roosts."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
