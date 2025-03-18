@@ -28,9 +28,9 @@ social:
     url: https://github.com/IronSummitMedia/startbootstrap
 
 # Build settings
+google_analytics: G-K5380EE6TQ
 markdown: kramdown
 permalink: pretty
-
 
 # The URL for the staticman API bridge endpoint
 # You will want to modify some of the values:
