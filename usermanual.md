@@ -23,7 +23,7 @@ On your device (phone or computer) open Chrome and head to [http://10.42.0.1:500
 Use the camera's **Reflex settings webpage** to check:
 - that the roost entrance is visible and the image includes the area beneath the feature where the bats will drop out
 - that the green boxes cover only the area of interest and excludes anything that could move such as leaves and cobwebs
-- that the camera is in focus - adjust the focus with the `Focus 0.0` to `Focus 10.0` slider or use ‘Autofocus’
+- that the camera is in focus - adjust the focus with the `Focus 0.0` to `Focus 10.0` slider or use `Autofocus`
 - that the motion sensitivity is appropriate:
     - high sensitivity is suitable for most applications
     - medium sensitivity is suitable when there are lots of insects and the camera is close to the feature. The motion will only trigger when a larger portion of the image changes. This will reduce false triggers associated with insects and noise.
@@ -86,7 +86,6 @@ Waterproof the battery in a suitable bag or box. The cables can be run out of a 
 If your battery has posts rather than screws you can attach the cable to the battery with copper post connectors rather than screws. To do this, screw the lugs on the Reflex Leisure Battery Terminal Connector onto the bolts on the copper post connectors with the provided nuts. Then to attach them to the battery posts push the large hole on the copper post connectors over each battery post and tighten the relevant screws. 
 
 Be careful not to touch both battery posts at the same time.
-![Battery post connectors](/img/usermanual/Batterypostconnectors.png)
 
 ### Large Talentcell
 Attach the `Reflex 12v Male Barrel Jack Connector` to a suitably rated Talentcell.
@@ -100,11 +99,11 @@ Turn the Talentcell on.
 
 ### Extension leads
 
-`Reflex Standard Extension Cables` have been produced for demanding use with a weatherproof, extremely durable cable. These extension cables allow you to position the camera at height whilst the battery stays on the ground. Each ‘Reflex Standard Extension Cable’ is just over 4m long.
+`Reflex Standard Extension Cables` have been produced for demanding use with a weatherproof, extremely durable cable. These extension cables allow you to position the camera at height whilst the battery stays on the ground. Each `Reflex Standard Extension Cable` is just over 4m long.
 
-These extension cables extend the connection between the battery connectors described above and the camera (via the port on the bottom of the camera). Multiple `Reflex Standard Extension Cables` can be linked together if you want to position the camera at a greater height. To buy additional cables use the contact form at the bottom of our webpage.
+These extension cables extend the connection between the battery connectors described above and the camera (via the port on the bottom of the camera). Multiple `Reflex Standard Extension Cables` can be linked together if you want to position the camera at a greater height. To buy additional cables use the <a href="/index.html#contact">contact</a> form on our webpage.
 
-Using the ‘Reflex Standard Extension Cables’ batteries can positioned on the ground whilst the camera is running higher up in a tree. The `Reflex Standard Extension Cables` can be run up the tree wrapping around the trunk to stop them moving. This setup allows you to change the batteries on the ground without access to the camera. Make sure the camera is properly switched off using the `Shutdown` button (described below) before unplugging the battery.
+Using the `Reflex Standard Extension Cables` batteries can positioned on the ground whilst the camera is running higher up in a tree. The `Reflex Standard Extension Cables` can be run up the tree wrapping around the trunk to stop them moving. This setup allows you to change the batteries on the ground without access to the camera. Make sure the camera is properly switched off using the `Shutdown` button (described below) before unplugging the battery.
 
 ![Reflex Standard Extension Lead](/img/usermanual/ReflexStandardExtensionLead.jpg)
 
@@ -146,7 +145,7 @@ To check that your camera has the latest updates - compare the date at the botto
 
 If the date on your camera's **Reflex settings webpage** is older than the latest date in the `REFLEX Camera Software Changelog` document then there are updates available for your camera. 
 
-The camera needs to be connected to the internet to receive updates. A method is described in the 'Advanced Users' section below. If you have followed this guide but still need help updating the camera email: sam@reflexcameras.co.uk
+The camera needs to be connected to the internet to receive updates. A method is described in the 'Advanced Users' section below. If you have followed this guide but still need help updating the camera contact us using the <a href="/index.html#contact">contact</a> form on our webpage.
 
 ### Automatic shutdown in the day
 The camera will shutdown after 15 minutes if turned on in the daytime
@@ -221,11 +220,11 @@ The best framerate will depend on your objective, see the table below.
 Default settings for LED brightness
 
 `Motion Boxes` `Motion Average`
-There are two different motion algorithms built into the camera, ‘average’ and ‘boxes’. These can be selected using this dropdown. The algorithms only search for changes within the green box.
+There are two different motion algorithms built into the camera, `motion boxes` and `motion average`. These can be selected using this dropdown. The algorithms only search for changes within the green box.
 
-‘Motion boxes’ - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than ‘Motion average’
+`Motion boxes` - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than ‘Motion average’
 
-‘Motion average’ - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than 'Motion boxes' but works very effetively when surveying a bat from a short distance when a bat will represent a larger area in the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
+`Motion average` - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than 'Motion boxes' but works very effetively when surveying a bat from a short distance when a bat will represent a larger area in the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
 
 To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure the darker areas of the image are not triggering motion events. If the darker areas of the image are triggering motion events during testing, consider increasing the LED brightness or tuning the motion sensitivity with the `sensitivity` `motion area` and `motion frames` buttons.
 
@@ -233,7 +232,7 @@ To test the motion settings, set the camera up in a dark room. Load the webpage 
 
 `Autofocus x1` Initiate autofocus of the camera.
 
-`Autofocus ∞ ON` `Autofocus ∞ OFF` Autofocus on boot. The camera will attempt to refocus every time it starts up. As the autofocus is not always reliable it is recommend that this setting is set to ‘Off’.
+`Autofocus ∞ ON` `Autofocus ∞ OFF` Autofocus on boot. The camera will attempt to refocus every time it starts up. As the autofocus is not always reliable it is recommend that this setting is set to `Off`.
 
 `LED 0.0` to `LED 60.0`
 Fine-tuning slider for LED brightness.
@@ -244,7 +243,7 @@ Circular On - Pre-record for 2 seconds before motion. Circular Off - Do not pre-
 `Upgrade` 
 Software updates may have been issued for the camera, see here: [REFLEX Camera Software Changelog](https://docs.google.com/document/d/1RrwahLq1giOLBvLCXRYnbYzcS-O2mhe-h3U20ZcZxuQ/edit?usp=sharing)
 
-If you need help updating the camera email: sam@reflexcameras.co.uk 
+If you need help updating the camera contact us using the <a href="/index.html#contact">contact</a> form on this webpage.
 
 To download an update the camera must be in WiFi mode with an internet connection.
 Some updates can take some time. Wait for the progress tracker to reach 100% before refreshing the page. If the update hangs and does not change for 30 seconds or more manually refresh the page.
@@ -457,7 +456,7 @@ You should now see the **Reflex settings webpage**
 
 #### WiFi receive mode - additional connections
 
-The camera can be connected to a normal WiFI connection at home or in an office. Due to complications with IP addresses this method is not included in this guide. If you need to use this feature please contact me at sam@reflexcameras.co.uk and I can supply more information.
+The camera can be connected to a normal WiFI connection at home or in an office. Due to complications with IP addresses this method is not included in this guide. If you need to use this feature please contact us using the <a href="/index.html#contact">contact</a> form on our webpage and we can supply more information.
 
 # Product FAQs
 
