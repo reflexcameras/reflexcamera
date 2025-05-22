@@ -1,0 +1,125 @@
+/* ────────────────────────────────────────────────
+   TIGHTER VERTICAL RHYTHM INSIDE .markdown-body
+   (works even when Markdown is wrapped in .container)
+   ──────────────────────────────────────────────── */
+
+
+
+/* 3.  SLIGHTLY TIGHTER LINE HEIGHT INSIDE TEXT & LISTS */
+/* Give 1.25 rem bottom-margin only if the paragraph is **not**
+   immediately followed by ANY heading (h1…h6) */
+p:not(:has(+ :is(h1,h2,h3,h4,h5,h6))) {
+  margin-block-end: 1.25rem;   /* ← bottom-margin only */
+}
+
+p {
+    margin-top: 0.1rem
+}
+
+   /* 3.  SLIGHTLY TIGHTER LINE HEIGHT INSIDE TEXT & LISTS */
+
+
+/* 4.  FORCE EVERY LIST TO 20 PX & REDUCE BULLET SPACING */
+ul,
+ol,
+li {
+  font-size: 20px;                      /* = 1.25 rem   */
+}
+
+
+/* 5.  KEEP LIST INDENT & BULLET ALIGNMENT */
+ul,
+ol {
+  padding-inline-start: 1.5em;
+  list-style-position: inside;
+}
+
+/* Ensure images do not exceed the window width */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image if it's smaller than the container */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Toggle Switch Styles */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3498db; /* Blue (default for 2025 Models) */
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    border-radius: 50px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+/* When checked, change the color to purple and move the slider to the left */
+input:checked + .slider {
+    background-color: #9b59b6;  /* Purple (default for 2024 Models) */
+}
+
+input:checked + .slider:before {
+    transform: translateX(0px); /* Moves the slider to the left */
+}
+
+/* When unchecked, keep the slider to the right (for 2025 model) */
+input:not(:checked) + .slider:before {
+    transform: translateX(26px); /* Moves the slider to the right */
+}
+
+/* Table formatting */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: transparent; /* No background */
+  color: white; /* Text stays visible on dark background */
+}
+
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #666; /* Darker grey border for contrast */
+  padding: 0.5rem;
+  background-color: transparent; /* Ensures no background color overrides */
+}
+
+.markdown-body thead {
+  font-weight: bold;
+  border-bottom: 2px solid #999;
+}
+
+.markdown-body tr:nth-child(even),
+.markdown-body tr:nth-child(odd) {
+  background-color: transparent; /* Removes row striping */
+}

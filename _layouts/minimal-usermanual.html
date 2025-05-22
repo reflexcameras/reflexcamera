@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="/assets/css/usermanual.css">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  {% include nav.html %}
+
+  <div class="container my-4">
+    <!-- Action button -->
+    <div id="switch" class="col-lg-8 offset-lg-2">
+        <h3 id="modelYearText">2025 Model</h3>
+
+        <!-- Toggle Switch -->
+        <label class="switch">
+            <input type="checkbox" id="toggleModels">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <!-- Markdown gets an id so we can target it -->
+    <div id="manual" class="col-lg-8 offset-lg-2 markdown-body">
+      {{ content }}
+    <section id="batterylife" class="text-center">
+        
+        <div class="battery-life-section">
+                    <!-- <listheading>Battery</listheading> -->
+                    <div class="m-3">
+                        <div class="container">
+                            <p class="condensed-para"></p>
+                            <div>
+                                <label for="ampHours" class="form-label form-label2">12v Battery Capacity in amp-hours:</label>
+                                <!-- Add Bootstrap classes to the input box -->
+                                <input type="number" class="form-control" id="ampHours" step="any" placeholder="Enter amp-hours">
+                            </div>
+                            <button class="btn btn-info opacity-75" style="margin: 1rem;" onclick="calculateRunTime()">Calculate Run Time</button>
+                            <p id="result" class="mt-3"></p>
+                        </div>
+                        <p id="result"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    
+  </div>
+
+  {% include js.html %}
+
+  <!-- Inline helper script (you could also drop this in js.html) -->
+
+<script>
+    function calculateRunTime() {
+        // Get the amp hours input value
+        var AmpHours = parseFloat(document.getElementById('ampHours').value);
+
+        // Define the base values
+        var BaseVoltage = 12; // 12v as the base value
+        var Consumptionat30 = 2.55; // Watts - based on run Jun 9th 2024 for 55 nights
+    //   var Consumptionat30 = 4.4; // Watts - based on big blue plug
+        var NightLength = 9; // in hours
+
+        // Calculate the run time based on the ratio
+        var calculatedHours = (AmpHours * BaseVoltage) / Consumptionat30;
+        var calculatedRunTime = calculatedHours / NightLength;
+
+        // Display the result
+        document.getElementById('result').innerHTML = 'Estimated run time: ' + calculatedRunTime.toFixed(2) + ' nights';
+
+        // Scroll to the result element
+        document.getElementById('result').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+<script>
+    document.getElementById('renameSerials').addEventListener('click', () => {
+    const manual = document.querySelector('#manual');
+    if (!manual) return;
+
+    manual.innerHTML = manual.innerHTML
+        /* REFLEX0000  →  ADJECTIVE-FRUIT */
+        .replace(/REFLEX0000/gi, 'ADJECTIVE-FRUIT')
+        /* replace 0000 → replace ADJECTIVE-FRUIT */
+        .replace(/replace\s+0000/gi, 'replace ADJECTIVE-FRUIT');
+    });
+</script>
+
+<script>
+    document.getElementById('renameSerials').addEventListener('click', () => {
+        const manual = document.querySelector('#manual');
+        if (!manual) return;
+
+        manual.innerHTML = manual.innerHTML
+            /* REFLEX0000  →  ADJECTIVE-FRUIT */
+            .replace(/REFLEX0000/gi, 'ADJECTIVE-FRUIT')
+            /* replace 0000 → replace ADJECTIVE-FRUIT */
+            .replace(/replace\s+0000/gi, 'replace ADJECTIVE-FRUIT')
+            /* Turn the camera off → 2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section */
+            .replace(/Turn the camera off/gi, '2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section')
+            /* Send a larger zip file... → send a larger zip file */
+            .replace(/send a larger zip file\. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments\./gi, 'send a larger zip file.')
+            /* Format an SD card so that it can be used by the camera → 2024 models do not have an external SD card */
+            .replace(/Format an SD card so that it can be used by the camera\./gi, '2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section.');
+    });
+</script>
+
+<script>
+    document.getElementById('toggleModels').addEventListener('change', (e) => {
+        const manual = document.querySelector('#manual');
+        const modelYearText = document.getElementById('modelYearText'); // Get the model year text element
+        if (!manual || !modelYearText) return;
+
+        if (e.target.checked) {
+            // When the switch is ON (checked), show 2024 Models
+            modelYearText.textContent = '2024 Model'; // Update the text
+            manual.innerHTML = manual.innerHTML
+                .replace(/REFLEX0000/gi, 'ADJECTIVE-FRUIT')
+                .replace(/replace\s+0000/gi, 'replace ADJECTIVE-FRUIT')
+                /* Turn the camera off → 2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section */
+                .replace(/Turn the camera off/gi, '2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section')
+                /* Send a larger zip file... → send a larger zip file */
+                .replace(/send a larger zip file\. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments\./gi, 'send a larger zip file.')
+                /* Format an SD card so that it can be used by the camera → 2024 models do not have an external SD card */
+                .replace(/Format an SD card so that it can be used by the camera\./gi, '2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section.');
+                // Replace the image source for the 2024 model
+                const images = manual.querySelectorAll('img');
+                images.forEach(img => {
+                    if (img.alt === "Small IR Indicator LED Location") {
+                        img.src = img.src.replace('IndicatorLEDStatus.png', 'IndicatorLEDStatus2024.png');
+                    }
+                    if (img.alt === "Large LED Location") {
+                        img.src = img.src.replace('LargeLEDStatus.png', 'LargeLEDStatus2024.png');
+                    }
+                });
+        } else {
+            // When the switch is OFF (unchecked), revert to 2025 Models
+            modelYearText.textContent = '2025 Model'; // Update the text
+            manual.innerHTML = manual.innerHTML
+                .replace(/ADJECTIVE-FRUIT/gi, 'REFLEX0000')
+                .replace(/replace\s+ADJECTIVE-FRUIT/gi, 'replace 0000')
+                /* Revert back to "Turn the camera off" for 2025 models */
+                .replace(/2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section/gi, 'Turn the camera off')
+                /* Revert back to the longer version of the zip file message for 2025 models */
+                .replace(/send a larger zip file/gi, 'send a larger zip file. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments')
+                /* Revert back to "Format an SD card so that it can be used by the camera" for 2025 models */
+                .replace(/2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section/gi, 'Format an SD card so that it can be used by the camera');
+            // Replace the image source back for 2025 model
+            const images = manual.querySelectorAll('img');
+            images.forEach(img => {
+                if (img.alt === "Small IR Indicator LED Location") {
+                    img.src = img.src.replace('IndicatorLEDStatus2024.png', 'IndicatorLEDStatus.png');
+                }
+                if (img.alt === "Large LED Location") {
+                    img.src = img.src.replace('LargeLEDStatus2024.png', 'LargeLEDStatus.png');
+                }
+            });
+            // Remove any extra period after reverting
+            // manual.innerHTML = manual.innerHTML.replace(/send a larger zip file\.(?!\s)/gi, 'send a larger zip file');
+        }
+    });
+</script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const manual = document.getElementById('manual');
+
+        // Ensure the word "kit" is replaced with a link and rendered inline
+        if (manual) {
+            manual.innerHTML = manual.innerHTML.replace(/\bkit\b/g, '<a href="/index.html#kit" style="display:inline;">Kit</a>');
+        }
+    });
+</script>
+
+
+</body>
+</html>

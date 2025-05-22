@@ -431,12 +431,37 @@ div.buttons-container a.btn {
     transition: all .3s ease-in-out;
 }
 
-.btn-default2 {
+/* .btn-default2 {
     border: 1px solid {{ site.color.links }};
     color: {{ site.color.links }};
     background-color: white;
-    /* opacity-50; */
+} */
+
+/* .btn-default2:hover {
+    background-color: #efefef;
+    color: black;
+    border-color: #333;
+} */
+
+/* Default Button Styling */
+/* Default Button Styling */
+.btn-default2 {
+    border: 1px solid #ccc; /* Light border to contrast with dark background */
+    color: #fff; /* White text for better contrast on dark bg */
+    background-color: #6c757d; /* Bootstrap's secondary color (grayish tone) */
+    padding: 10px 20px; /* Padding for a good button size */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    font-weight: 600; /* Slightly bolder text */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effects */
 }
+
+/* Button Hover Styling */
+.btn-default2:hover {
+    background-color: #5a6268; /* Darker shade for hover background */
+    color: #fff; /* Keep text white for hover */
+    border-color: #9eeaf9; /* Darker border for contrast on hover */
+}
+
 
 .btn-default:hover,
 .btn-default:focus {
@@ -502,4 +527,51 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+/* Card Styles */
+.card {
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* White text */
+  border: 1px solid #333; /* Subtle border to match dark theme */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+
+/* Card Hover Effects */
+.card:hover {
+  transform: translateY(-10px); /* Slight lift effect */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+/* Icon Styles */
+.card-body i {
+  color: #9eeaf9; /* Icon color (use a bright color to stand out) */
+  margin-bottom: 10px; /* Space between icon and text */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Card Hover Effects */
+.card:hover .card-body i {
+  color: #5ee4ff; /* Icon color on card hover */
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Responsive Design - On smaller screens, make cards full width */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px; /* Add margin between cards on small screens */
+  }
 }

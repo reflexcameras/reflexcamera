@@ -1,0 +1,62 @@
+    <!-- Battery Life -->
+
+    <section id="batterylife" class="content-section text-center">
+        
+        <div class="battery-life-section">
+            <div class="container">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2>Power</h2>
+                        <p class="m-3">
+                            <section id="battery-life">
+                                {% assign ftkit = site.pages | where: "permalink", "/battery-life/" | first %}
+                                {% if ftkit %}
+                                    <div class="container">
+                                        <div>
+                                        <!-- <div class="col-lg-8 offset-lg-2"> -->
+                                            {{ ftkit.content | markdownify }}
+                                        </div>
+                                    </div>
+                                {% else %}
+                                    <p>Battery life content not available.</p>
+                                {% endif %}
+                            </section>
+                        </p>
+                    <!-- <listheading>Battery</listheading> -->
+                    <div class="m-3">
+                        <div class="container">
+                            <p class="condensed-para">If you'd like to estimate the system's runtime at 30FPS, enter a battery’s capacity in amp-hours below. This estimation assumes an average night length of 9 hours.</p>
+                            <div>
+                                <label for="ampHours" class="form-label form-label2">12v Battery Capacity in amp-hours:</label>
+                                <!-- Add Bootstrap classes to the input box -->
+                                <input type="number" class="form-control" id="ampHours" step="any" placeholder="Enter amp-hours">
+                            </div>
+                            <button class="btn btn-info opacity-75" style="margin: 1rem;" onclick="calculateRunTime()">Calculate Run Time</button>
+                            <p id="result" class="mt-3"></p>
+                        </div>
+                        <p id="result"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        function calculateRunTime() {
+          // Get the amp hours input value
+          var AmpHours = parseFloat(document.getElementById('ampHours').value);
+    
+          // Define the base values
+          var BaseVoltage = 12; // 12v as the base value
+          var Consumptionat30 = 2.55; // Watts - based on run Jun 9th 2024 for 55 nights
+        //   var Consumptionat30 = 4.4; // Watts - based on big blue plug
+          var NightLength = 9; // in hours
+    
+          // Calculate the run time based on the ratio
+          var calculatedHours = (AmpHours * BaseVoltage) / Consumptionat30;
+          var calculatedRunTime = calculatedHours / NightLength;
+    
+          // Display the result
+          document.getElementById('result').innerHTML = 'Estimated run time: ' + calculatedRunTime.toFixed(2) + ' nights';
+        }
+      </script>

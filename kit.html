@@ -1,0 +1,58 @@
+---
+layout: minimal-kit
+title: Compatible Kit
+permalink: /kit/
+---
+
+    <section id="kit" class="content-section text-center">
+        
+        <div class="kit-section">
+            <div class="container">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2>Compatible kit</h2>
+                        <p class="m-3">
+                            <section id="field-tested-kit">
+                                {% assign ftkit = site.pages | where: "permalink", "/field-tested-kit/" | first %}
+                                {% if ftkit %}
+                                    <div class="container">
+                                        <div>
+                                        <!-- <div class="col-lg-8 offset-lg-2"> -->
+                                            {{ ftkit.content | markdownify }}
+                                        </div>
+                                    </div>
+                                {% else %}
+                                    <p>Field Tested Kit content not available.</p>
+                                {% endif %}
+                            </section>
+                        </p>
+                    <!-- <listheading>Battery</listheading> -->
+                    <div class="m-3">
+                        <p class="condensed-para">Press on the battery chemistry types to reveal or hide information:</p>
+                        <div class="buttons-container">
+                            <a tabindex="13" class="btn btn-info opacity-75" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-trigger="manual" data-bs-title="Lithium-ion" data-bs-content="Lithium-ion batteries are lighter, easier to maintain and retain good capacity for years. This chemistry can maintain charge even in cold temperatures. Lithium-ion batteries are more expensive than their (lead-acid AGM and gel) counterparts for the equivalent capacity (amp-hours). Make sure to use a battery which is safe to discharge and transport.">Lithium-ion</a>
+        
+                            <a tabindex="14" class="btn btn-info opacity-75" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-trigger="manual" data-bs-title="Lead-acid & AGM" data-bs-content="A lead-acid battery is roughly twice as heavy but costs about half as much as a lithium-ion battery. Over time, lead-acid batteries gradually lose capacity, especially with continued use or inadequate maintenance. They also lose capacity when repeatedly cycled from fully charge to completely discharged. Among lead-acid options, AGM (Absorbent Glass Mat) batteries are recommended because they are sealed, allowing them to be tipped or bumped without the risk of acid leakage.">Lead-acid AGM</a>
+
+                            <a tabindex="14" class="btn btn-info opacity-75" data-bs-custom-class="custom-popover" data-bs-toggle="popover" data-trigger="manual" data-bs-title="Gel" data-bs-content="Gel batteries are similar to lead-acid and AGM batteries in weight and price. These batteries are often sealed and if so should be suitable for use in the field. This chemistry is more susceptible to losing charge in the cold than other chemistries.">Gel</a>
+                        </div>
+                    </div>
+                        <p class="m-3">
+                            <section id="field-tested-kit2">
+                                {% assign ftkit = site.pages | where: "permalink", "/field-tested-kit2/" | first %}
+                                {% if ftkit %}
+                                    <div class="container">
+                                        <div>
+                                        <!-- <div class="col-lg-8 offset-lg-2"> -->
+                                            {{ ftkit.content | markdownify }}
+                                        </div>
+                                    </div>
+                                {% else %}
+                                    <p>Field Tested Kit content not available.</p>
+                                {% endif %}
+                            </section>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

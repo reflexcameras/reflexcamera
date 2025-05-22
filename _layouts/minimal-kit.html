@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="/assets/css/usermanual.css">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  {% include nav.html %}
+
+    <!-- Markdown gets an id so we can target it -->
+    <div id="kit" class="col-lg-8 offset-lg-2 markdown-body">
+      {{ content }}
+    </div>
+  </div>
+
+  {% include js.html %}
