@@ -98,6 +98,15 @@ input:checked + .slider:before {
 input:not(:checked) + .slider:before {
     transform: translateX(26px); /* Moves the slider to the right */
 }
+/* Table wrapper to handle overflow on small screens */
+.markdown-body .table-wrapper {
+  overflow-x: auto;  /* Enables horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+}
+/* Ensures the table stays within the screen width on smaller devices */
+.markdown-body {
+  overflow-x: auto;  /* Enable horizontal scrolling */
+}
 
 /* Table formatting */
 .markdown-body table {
