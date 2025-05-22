@@ -5,7 +5,7 @@ permalink: /field-tested-kit2/
 ---
 
 #### Battery waterproofing
-The following bags have been used to quickly and easily waterproof batteries in the field. More waterproof robust options are likely to exist.
+The following bags have been used to quickly and easily waterproof batteries in the field. Dedicated fully waterproof options are likely to exist but are not included here - reflect on what conditions the battery will be left in.
 
 | Waterproofing                                                                    | Application               | Installation                | Link                                                                                                       | 2024 Price   |
 |-------------------------------------------------------------------------------|--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------|-------------|
