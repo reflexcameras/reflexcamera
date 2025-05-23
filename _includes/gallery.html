@@ -1,7 +1,7 @@
 <!-- About Gallery -->
 
 <head>
-  <link rel="stylesheet" href="/assets/css/usermanual.css">
+  <link rel="stylesheet" href="/assets/css/gallery.css">
 </head>
 
 <section id="gallery" class="container content-section text-center">
@@ -102,36 +102,3 @@
         </div>
     </section>
 
-<script>
-// Function to calculate and set the maximum height for all caption containers
-
-// Function to calculate and set the maximum height for all caption containers
-function setEqualCaptionHeight() {
-    var captions = document.querySelectorAll('.caption-container p');
-    var maxHeight = 0;
-
-    // Find the height of the longest caption
-    captions.forEach(function(caption) {
-        var height = caption.offsetHeight;
-        if (height > maxHeight) {
-            maxHeight = height;
-        }
-    });
-
-    // Apply double the max height to all caption containers
-    captions.forEach(function(caption) {
-        caption.parentElement.style.height = (maxHeight * 2.25) + 'px';
-    });
-}
-
-// Call the function when the page loads
-window.onload = function() {
-    setEqualCaptionHeight();
-};
-
-// Call the function again on window resize to adjust dynamically
-window.onresize = function() {
-    setEqualCaptionHeight();
-};
-
-</script>

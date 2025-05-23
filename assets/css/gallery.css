@@ -1,0 +1,21 @@
+/* Ensure that the row uses flexbox for better control */
+
+
+/* For the column with the image and caption, ensure equal height */
+
+/* Image styling */
+
+
+/* The caption container takes up the remaining space, but doesn't stretch the images */
+
+/* Make sure that all captions are equal height based on the longest caption */
+.caption-container p {
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;
+    min-height: 4rem; /* Adjust this to control the minimum height for captions */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit the caption to 2 lines (adjust as needed) */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
