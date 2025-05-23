@@ -9,24 +9,13 @@
 /* The caption container takes up the remaining space, but doesn't stretch the images */
 
 /* Make sure that all captions are equal height based on the longest caption */
-/* .caption-container p {
-    margin: 0;
-    text-align: center;
-    word-wrap: break-word;
-    min-height: 4rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-} */
-
 .caption-container p {
     margin: 0;
     text-align: center;
     word-wrap: break-word;
-    min-height: 4rem; /* Adjust this to control the minimum height for captions */
-    max-height: 8rem; /* Set a maximum height to limit how tall the caption can grow */
-    display: block; /* Use block to allow vertical scrolling */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max-height */
-    padding: 0 5px; /* Add some padding if needed for the text */
+    min-height: 6rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
