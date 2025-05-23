@@ -98,22 +98,16 @@ input:checked + .slider:before {
 input:not(:checked) + .slider:before {
     transform: translateX(26px); /* Moves the slider to the right */
 }
-/* Table wrapper to handle overflow on small screens */
-.markdown-body .table-wrapper {
-  overflow-x: auto;  /* Enables horizontal scrolling */
-  -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
-}
-/* Ensures the table stays within the screen width on smaller devices */
-.markdown-body {
-  overflow-x: auto;  /* Enable horizontal scrolling */
-}
 
-/* Table formatting */
+/* Apply to individual tables within the markdown-body */
 .markdown-body table {
   width: 100%;
   border-collapse: collapse;
   background-color: transparent; /* No background */
   color: white; /* Text stays visible on dark background */
+  display: block; /* Makes the table block-level so it can scroll */
+  overflow-x: auto;  /* Enable horizontal scrolling for overflow */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
 }
 
 .markdown-body th,
@@ -132,3 +126,9 @@ input:not(:checked) + .slider:before {
 .markdown-body tr:nth-child(odd) {
   background-color: transparent; /* Removes row striping */
 }
+
+/* Optional: You can add a specific height if needed for better control */
+.markdown-body table {
+  max-width: 100%;  /* Ensure it doesn't exceed the page width */
+}
+
