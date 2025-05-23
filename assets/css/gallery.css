@@ -14,13 +14,12 @@
     text-align: center;
     word-wrap: break-word;
     min-height: 4rem; /* Default min-height for wide screens */
-    display: -webkit-box;
-    /* -webkit-line-clamp: 2; */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    display: block;   /* Make sure the <p> behaves like a block element */
+    overflow: hidden; /* Hide any overflow text */
+    align-content: center;
 }
 
-/* Apply 4rem min-height for smaller screens (e.g., screens less than 768px wide) */
+/* Apply 6rem min-height for smaller screens (e.g., screens less than 768px wide) */
 @media (max-width: 768px) {
     .caption-container p {
         min-height: 6rem; /* Min-height for narrow screens */
