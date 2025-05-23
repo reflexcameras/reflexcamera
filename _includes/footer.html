@@ -2,16 +2,9 @@
     <footer>
         <div class="container text-center">
             <p>Copyright &copy; {{ site.footer }} 20{{ site.time | date: '%y' }}</p>
-            <a href="#" id="cookie-settings">Cookie settings</a>
+            <!-- <a href="#" id="cookie-settings">Cookie settings</a> -->
+            <a data-cc="show-consentModal">Cookie settings</a>
             <a href="/privacy/">Privacy & Cookies</a>
         </div>
     </footer>
 
-    <script>
-    document.getElementById('cookie-settings').addEventListener('click', function (e) {
-    e.preventDefault();
-    if (window.ccBanner && typeof window.ccBanner.open === 'function') {
-        window.ccBanner.open();      // ← re-opens the banner in one click
-    }
-    });
-    </script>
