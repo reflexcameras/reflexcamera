@@ -56,3 +56,37 @@ permalink: /kit/
             </div>
         </div>
     </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const popovers = document.querySelectorAll('[data-bs-toggle="popover"]');
+      
+          popovers.forEach(function (popover) {
+            let popoverInstance = new bootstrap.Popover(popover);
+      
+            function showPopover() {
+              // Hide all other popovers
+              popovers.forEach(function (otherPopover) {
+                if (otherPopover !== popover) {
+                  const otherPopoverInstance = bootstrap.Popover.getInstance(otherPopover);
+                  if (otherPopoverInstance) {
+                    otherPopoverInstance.hide();
+                  }
+                }
+              });
+      
+              // Show the popover
+              popoverInstance.show();
+            }
+      
+            popover.addEventListener('click', showPopover);
+            popover.addEventListener('focus', showPopover);
+          });
+        });
+      </script>
+      

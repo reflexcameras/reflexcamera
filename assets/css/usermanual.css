@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 
+.popover-header {
+    margin-top: 0; /* Remove margin-top from popover title */
+}
+
 /* Toggle Switch Styles */
 .switch {
     position: relative;

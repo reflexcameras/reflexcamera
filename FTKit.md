@@ -29,3 +29,9 @@ Reflex Cameras can run on any 12V battery, and there are numerous 12V battery op
 <!-- Add a blank line below -->
 
 There are countless 12v battery options compatible with the cameras, giving you lots of flexibility in your choice. However, we recommend avoiding unsealed lead-acid batteries, as they can leak acid during transport. If you're opting for a portable lithium battery, make sure its output is at least 5 amps at 12V to ensure optimal performance. Below is a basic comparison of various battery chemistries to help guide your selection.
+
+<!-- Lithium-ion: Lithium-ion batteries are lighter, easier to maintain and retain good capacity for years. This chemistry can maintain charge even in cold temperatures. Lithium-ion batteries are more expensive than their (lead-acid AGM and gel) counterparts for the equivalent capacity (amp-hours). Make sure to use a battery which is safe to discharge and transport.
+
+Lead-acid & AGM: A lead-acid battery is roughly twice as heavy but costs about half as much as a lithium-ion battery. Over time, lead-acid batteries gradually lose capacity, especially with continued use or inadequate maintenance. They also lose capacity when repeatedly cycled from fully charge to completely discharged. Among lead-acid options, AGM (Absorbent Glass Mat) batteries are recommended because they are sealed, allowing them to be tipped or bumped without the risk of acid leakage.
+
+Gel: "Gel batteries are similar to lead-acid and AGM batteries in weight and price. These batteries are often sealed and if so should be suitable for use in the field. This chemistry is more susceptible to losing charge in the cold than other chemistries." -->
