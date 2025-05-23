@@ -18,3 +18,41 @@
 
     <!-- ReCaptcha JavaScript -->
     <script src="{{ "/js/recaptcha.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Cookie Consent script -->
+      <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
+      <script>
+      window.addEventListener('load', function () {
+      window.cookieconsent.initialise({
+         palette: {
+            popup:  {background: '#222'},
+            button: {background: '#f1d600', text: '#222'}
+         },
+         theme:  'classic',
+         position: 'bottom',   // or 'top'
+         type:    'opt-in',    // block optional cookies until user says yes
+         revokable: true,      // little gear icon to change mind later
+         content: {
+            message: 'We use cookies to improve your experience.',
+            dismiss: 'Accept all',
+            deny:    'Reject',
+            link:    'Learn more',
+            href:    '/privacy/' // make /privacy.md in Jekyll
+         },
+
+         /* Hold back analytics until consent */
+         onInitialise: loadScriptsWhenAllowed,
+         onStatusChange: loadScriptsWhenAllowed
+      });
+
+      function loadScriptsWhenAllowed (status) {
+         if (this.hasConsented()) {
+            /* === Place optional scripts here === */
+            /* Example: Google Analytics v4 cookieless mode */
+            // gtag('consent', 'update', {analytics_storage: 'granted'});
+            // (or dynamically inject your GA / Plausible / Hotjar script tag)
+         }
+      }
+      });
+      </script>
