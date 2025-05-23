@@ -21,9 +21,9 @@
 
    <!-- Cookie Consent script -->
 
-   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-
-   <script>
+<!-- 1. Banner initialisation (keep this in _includes/js.html) -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
    /* helper – minimal, no jQuery */
    function addScript (src, attrs = {}) {
    const s = document.createElement('script');
@@ -33,9 +33,11 @@
    }
 
    window.addEventListener('load', function () {
-   window.cookieconsent.initialise({
-      type:      'opt-in',        // hold optional stuff
-      revokable: true,
+
+   /* ▼   SAVE the returned instance  ▼ */
+   window.cc = window.cookieconsent.initialise({
+      type:      'opt-in',
+      revokable: true,              // leave true if you still want the gear icon
       palette:   {popup:{background:'#222'},button:{background:'#f1d600',text:'#222'}},
       content:   {
          message: 'We use cookies to improve your visit.',
@@ -48,16 +50,11 @@
       onStatusChange: toggleOptionalTools
    });
 
-   function toggleOptionalTools(status) {
+   function toggleOptionalTools () {
       /* GA → optional */
-      if (this.hasConsented() &&
-         !window.gaLoaded) {                    // load only once
+      if (this.hasConsented() && !window.gaLoaded) {
          window.gaLoaded = true;
-
-         /* load GA4 library AFTER consent */
          addScript('https://www.googletagmanager.com/gtag/js?id=G-K5380EE6TQ', {async: ''});
-
-         /* basic GA4 config */
          window.dataLayer = window.dataLayer || [];
          function gtag(){dataLayer.push(arguments);}
          gtag('js', new Date());
@@ -65,5 +62,4 @@
       }
    }
    });
-   </script>
-
+</script>

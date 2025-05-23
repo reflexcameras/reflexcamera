@@ -8,9 +8,10 @@
     </footer>
 
     <script>
-        document.getElementById('cookie-settings')
-                .addEventListener('click', function (e) {
+        document.getElementById('cookie-settings').addEventListener('click', function (e) {
         e.preventDefault();
-        if (window.cc) window.cc.open();   // re-open the banner in one click
+        if (window.cc && typeof window.cc.open === 'function') {
+            window.cc.open();        // <— re-opens the banner in one click
+        }
         });
     </script>
