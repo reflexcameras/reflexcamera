@@ -23,43 +23,38 @@
 
 <!-- 1. Banner initialisation (keep this in _includes/js.html) -->
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 <script>
-   /* helper – minimal, no jQuery */
-   function addScript (src, attrs = {}) {
-   const s = document.createElement('script');
-   s.src = src;
-   for (const [k,v] of Object.entries(attrs)) s.setAttribute(k, v);
-   document.head.appendChild(s);
-   }
+function addScript (src, attrs = {}) { … }            /*  ← your helper stays */
 
-   window.addEventListener('load', function () {
+window.addEventListener('load', function () {
 
-   /* ▼   SAVE the returned instance  ▼ */
-   window.cc = window.cookieconsent.initialise({
-      type:      'opt-in',
-      revokable: true,              // leave true if you still want the gear icon
-      palette:   {popup:{background:'#222'},button:{background:'#f1d600',text:'#222'}},
-      content:   {
-         message: 'We use cookies to improve your visit.',
-         dismiss: 'Accept all',
-         deny:    'Reject',
-         link:    'Learn more',
-         href:    '{{ "/privacy/" | relative_url }}'
-      },
-      onInitialise: toggleOptionalTools,
-      onStatusChange: toggleOptionalTools
-   });
+  /* ⬇︎  capture the instance so other scripts can reach it */
+  window.ccBanner = window.cookieconsent.initialise({
+    type: 'opt-in',
+    revokable: true,          // leave true if you want the gear icon as well
+    palette : { popup:{background:'#222'},
+                button:{background:'#f1d600',text:'#222'} },
+    content : {
+      message: 'We use cookies to improve your visit.',
+      dismiss: 'Accept all',
+      deny   : 'Reject',
+      link   : 'Learn more',
+      href   : '{{ "/privacy/" | relative_url }}'
+    },
+    onInitialise  : toggleOptionalTools,
+    onStatusChange: toggleOptionalTools
+  });
 
-   function toggleOptionalTools () {
-      /* GA → optional */
-      if (this.hasConsented() && !window.gaLoaded) {
-         window.gaLoaded = true;
-         addScript('https://www.googletagmanager.com/gtag/js?id=G-K5380EE6TQ', {async: ''});
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-K5380EE6TQ');
-      }
-   }
-   });
+  function toggleOptionalTools () {
+    if (this.hasConsented() && !window.gaLoaded) {
+      window.gaLoaded = true;
+      addScript('https://www.googletagmanager.com/gtag/js?id=G-K5380EE6TQ', {async:''});
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-K5380EE6TQ');
+    }
+  }
+});
 </script>
