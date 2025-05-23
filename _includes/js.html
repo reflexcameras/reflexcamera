@@ -1,58 +1,69 @@
  <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
+   <script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+   <!-- Bootstrap Core JavaScript -->
+   <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+   <!-- Plugin JavaScript -->
+   <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+   <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ 
+   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
 
     <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}"></script>
+   <script src="{{ "/js/grayscale.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Gallery JavaScript -->
-    <script src="{{ "/js/gallery.js" | prepend: site.baseurl }}"></script>
+   <!-- Gallery JavaScript -->
+   <script src="{{ "/js/gallery.js" | prepend: site.baseurl }}"></script>
 
-    <!-- ReCaptcha JavaScript -->
-    <script src="{{ "/js/recaptcha.js" | prepend: site.baseurl }}"></script>
+   <!-- ReCaptcha JavaScript -->
+   <script src="{{ "/js/recaptcha.js" | prepend: site.baseurl }}"></script>
 
-    <!-- Cookie Consent script -->
-      <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+   <!-- Cookie Consent script -->
 
-      <script>
-      window.addEventListener('load', function () {
-      window.cookieconsent.initialise({
-         palette: {
-            popup:  {background: '#222'},
-            button: {background: '#f1d600', text: '#222'}
-         },
-         theme:  'classic',
-         position: 'bottom',   // or 'top'
-         type:    'opt-in',    // block optional cookies until user says yes
-         revokable: true,      // little gear icon to change mind later
-         content: {
-            message: 'We use cookies to improve your experience.',
-            dismiss: 'Accept all',
-            deny:    'Reject',
-            link:    'Learn more',
-            href:    '/privacy/' // make /privacy.md in Jekyll
-         },
+   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 
-         /* Hold back analytics until consent */
-         onInitialise: loadScriptsWhenAllowed,
-         onStatusChange: loadScriptsWhenAllowed
-      });
+   <script>
+   /* helper – minimal, no jQuery */
+   function addScript (src, attrs = {}) {
+   const s = document.createElement('script');
+   s.src = src;
+   for (const [k,v] of Object.entries(attrs)) s.setAttribute(k, v);
+   document.head.appendChild(s);
+   }
 
-      function loadScriptsWhenAllowed (status) {
-         if (this.hasConsented()) {
-            /* === Place optional scripts here === */
-            /* Example: Google Analytics v4 cookieless mode */
-            // gtag('consent', 'update', {analytics_storage: 'granted'});
-            // (or dynamically inject your GA / Plausible / Hotjar script tag)
-         }
+   window.addEventListener('load', function () {
+   window.cookieconsent.initialise({
+      type:      'opt-in',        // hold optional stuff
+      revokable: true,
+      palette:   {popup:{background:'#222'},button:{background:'#f1d600',text:'#222'}},
+      content:   {
+         message: 'We use cookies to improve your visit.',
+         dismiss: 'Accept all',
+         deny:    'Reject',
+         link:    'Learn more',
+         href:    '{{ "/privacy/" | relative_url }}'
+      },
+      onInitialise: toggleOptionalTools,
+      onStatusChange: toggleOptionalTools
+   });
+
+   function toggleOptionalTools(status) {
+      /* GA → optional */
+      if (this.hasConsented() &&
+         !window.gaLoaded) {                    // load only once
+         window.gaLoaded = true;
+
+         /* load GA4 library AFTER consent */
+         addScript('https://www.googletagmanager.com/gtag/js?id=G-K5380EE6TQ', {async: ''});
+
+         /* basic GA4 config */
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-K5380EE6TQ');
       }
-      });
-      </script>
+   }
+   });
+   </script>
+
