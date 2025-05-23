@@ -6,3 +6,11 @@
             <a href="/privacy/">Privacy & Cookies</a>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('cookie-settings')
+                .addEventListener('click', function (e) {
+        e.preventDefault();
+        if (window.cc) window.cc.open();   // re-open the banner in one click
+        });
+    </script>

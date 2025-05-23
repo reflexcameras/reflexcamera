@@ -15,7 +15,7 @@ We keep our use of cookies to the bare minimum—just one **strictly necessary**
 | **Strictly necessary** | Enable secure payments and prevent fraud (Stripe)  | Always on      |
 | **Optional analytics** | Understand how visitors use the site (GA 4)        | Only after you click **Accept all** |
 
-You can withdraw or change your choice at any time by clearing cookies in your browser.
+You can withdraw or change your choice at any time by clicking the cookie settings footer at the bottom of our home page or clear cookies in your browser.
 
 ---
 
@@ -62,7 +62,11 @@ If you click **Reject**, or revoke consent later, these scripts will not run and
 
 ## How to revoke or change consent
 
-Delete cookies manually through your browser settings. Removing cookies does not delete historical analytics reports because those reports contain only aggregated, non-identifiable data.
+1. Click the **Cookie settings** link at the bottom of our home page.  
+2. Choose **Accept all** or **Reject**.  
+3. Refresh the page—your new preference will take effect immediately.
+
+You can also delete cookies manually through your browser settings. Removing cookies does not delete historical analytics reports because those reports contain only aggregated, non-identifiable data.
 
 ---
 
