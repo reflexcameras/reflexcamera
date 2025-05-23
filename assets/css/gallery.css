@@ -23,6 +23,6 @@
 /* Apply 4rem min-height for smaller screens (e.g., screens less than 768px wide) */
 @media (max-width: 768px) {
     .caption-container p {
-        min-height: 6rem; /* Min-height for narrow screens */
+        min-height: 8rem; /* Min-height for narrow screens */
     }
 }
