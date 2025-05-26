@@ -4,7 +4,7 @@ email: your-email@domain.com
 url: https://tennisparty.github.io/reflexcamera/
 #added below
 baseurl: /
-description: "High-performance camera traps for long term monitoring of bat roosts. Capturing ultra-fast movement at night, Reflex Cameras record each moment as bats emerge and return to their roosts."
+description: "High-performance camera traps for long term monitoring of bat roosts."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

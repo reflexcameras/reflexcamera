@@ -35,7 +35,7 @@ It is good practice to `clear logs` (on the **Log Page**) and `delete all` media
 
 ***Leave it to run - the camera will now handle recording activity automatically.***
 
-In the daytime the camera will turn itself off after 15 minutes and turn itself back on half an hour before sunset. If the camera unexpectedly powers off during setup this could be the reason, if this is the case just unplug the camera and plug it back in and it will power up for another 15 minutes. It will always power up automatically 15 minutes before sunset.
+In the daytime the camera will turn itself off after 15 minutes and turn itself back on half an hour before sunset. If the camera unexpectedly powers off during setup this is most likely to be the reason, if this is the case just unplug the camera and plug it back in and it will power up for another 15 minutes. It will always power up automatically 15 minutes before sunset.
 
 <div style="page-break-after: always;"></div>
 
@@ -59,18 +59,20 @@ Lay the camera on its back so the clear window is facing up. Firmly press down o
 
 Lever the clear window up and open.
 
-Use a finger or soft plastic tool to push the micro SD card in or out of its slot (on the left hand side of the camera). If removing the micro SD card after it has been released tip the camera upside down so the card falls out being careful not to lose it.
+Use a finger or soft plastic tool to push the micro SD card in or out of its slot (on the left hand side of the camera).
 
 The SD card will need formatting by using the `Format SD card` button on the **Media Page** on the **Reflex settings webpage**. Futher information is included below.
 
+If removing the micro SD card after it has been released tip the camera upside down so the card falls out being careful not to lose it.
+
 ## Battery connections
 
-Details of the Reflex Connectors and battery options are described in the kit section of this website.
+Details of different battery options are described in the [Compatible Kit](/kit/#kit) page on this website
 
 Connect the relevant cable to your battery.
 
 ### Leisure Battery
-Attach the `Reflex Leisure Battery Terminal Connector` to the relevant battery post.
+If connecting to a leisure battery attach the `Reflex Leisure Battery Terminal Connector` to the relevant battery post.
 
 Black is negative, red is positive. The red and black indicators are located on the wires closest to the metal rings.
 
@@ -80,17 +82,15 @@ Be careful not to touch both battery posts at the same time.
 ](/img/usermanual/LeisureBatteryConnector.jpg)
 ![Leisure battery with post connectors](/img/usermanual/LeisureBattery.png)
 
-Waterproof the battery in a suitable bag or box. The cables can be run out of a roll top bag in a way to ensure that the bag is sealed properly and will remain waterproof.
+Waterproof the battery in a suitable bag or box. If using a roll top bag run the cables along the roll whilst ensuring that the bag is sealed properly and will remain waterproof.
 ![Leisure battery in a waterproof bag](/img/usermanual/LeisureBatteryInBag.png)
-
-If your battery has posts rather than screws you can attach the cable to the battery with copper post connectors rather than screws. To do this, screw the lugs on the Reflex Leisure Battery Terminal Connector onto the bolts on the copper post connectors with the provided nuts. Then to attach them to the battery posts push the large hole on the copper post connectors over each battery post and tighten the relevant screws. 
 
 Be careful not to touch both battery posts at the same time.
 
 ### Large Talentcell
-Attach the `Reflex 12v Male Barrel Jack Connector` to a suitably rated Talentcell.
+If connecting to a talentcell battery push the `Reflex 12v Male Barrel Jack Connector` into the 12v output port on a suitably rated Talentcell
 
-Make sure this connection won’t disconnect during deployment.
+Make sure this connection won’t disconnect during deployment. Consider using an elastic band or electrical tape to secure the cable to the battery.
 
 Turn the Talentcell on.
 
@@ -99,11 +99,9 @@ Turn the Talentcell on.
 
 ### Extension leads
 
-`Reflex Standard Extension Cables` have been produced for demanding use with a weatherproof, extremely durable cable. These extension cables allow you to position the camera at height whilst the battery stays on the ground. Each `Reflex Standard Extension Cable` is just over 4m long.
+`Reflex Standard Extension Cables` extend the connection between the battery connectors described above and the camera (via the port on the bottom of the camera). They have been produced for demanding use with a weatherproof, extremely durable cable. Using the extension cables allows you to position the camera at height whilst the battery stays on the ground. This setup allows you to change the batteries and download videos over WiFi whilst staying on the ground. When running the `Reflex Standard Extension Cables` up a tree, wrap them around the trunk or branches to reduce moment and drag.
 
-These extension cables extend the connection between the battery connectors described above and the camera (via the port on the bottom of the camera). Multiple `Reflex Standard Extension Cables` can be linked together if you want to position the camera at a greater height. To buy additional cables use the <a href="/index.html#contact">contact</a> form on our webpage.
-
-Using the `Reflex Standard Extension Cables` batteries can positioned on the ground whilst the camera is running higher up in a tree. The `Reflex Standard Extension Cables` can be run up the tree wrapping around the trunk to stop them moving. This setup allows you to change the batteries on the ground without access to the camera. Make sure the camera is properly switched off using the `Shutdown` button (described below) before unplugging the battery.
+Each Reflex Standard Extension Cable is just over 4m long. Multiple `Reflex Standard Extension Cables` can be linked together if you want to position the camera at a greater height. To buy additional cables use the <a href="/index.html#contact">contact</a> form on our webpage.
 
 ![Reflex Standard Extension Lead](/img/usermanual/ReflexStandardExtensionLead.jpg)
 
@@ -115,11 +113,15 @@ Using the `Reflex Standard Extension Cables` batteries can positioned on the gro
 
 - Attach the relevant battery connector (`Reflex Leisure Battery Terminal Connector` or `Reflex 12v Male Barrel Jack Connector`) to the battery
 - Attach the `Reflex Standard Extension Cable` to the battery connector:
+    - Make sure the connectors are in the unlocked position
     - Line up lines on the battery connectors
-    - Twist clockwise to lock, the lock symbol should line up with the dot
+    - Push the connectors together firmly
+    - Twist the connector clockwise to lock, the lock symbol should line up with the dot
 - Connect the extension cable to camera:
+    - Make sure the connectors are in the unlocked position
     - Line up the lines on the connectors
-    - Twist clockwise to lock, the lock symbol should line up with the dot
+    - Push the connectors together firmly
+    - Twist the connector clockwise to lock, the lock symbol should line up with the dot
 - The camera will boot automatically
 - Wait for 20 seconds whilst the camera turns on and starts a WiFi hotspot (or connects to a saved WiFi connection)
 
@@ -136,7 +138,7 @@ When the camera is fully running the large infra-red LED will be lit and visible
 ### Connecting to the settings page
 Connect to the camera's WiFi hotspot:
 - SSID: `REFLEXHOTSPOT-REFLEX0000` - replace 0000 with the number printed inside the camera lid
-- Password: `REFLEXREFLEX`- on Windows it may ask you to enter a pin number rather than a password. In this case press connect using a password instead and enter REFLEXREFLEX
+- Password: `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case press connect using a password instead and enter REFLEXREFLEX
 
 Open an internet browser on your phone or laptop and head to the web address [http://10.42.0.1:5000](http://10.42.0.1:5000)
 
@@ -200,10 +202,10 @@ Select a box to move its edges, it will become bold when selected.
 Arrows to move box edges. Move the boxes to exclude cobwebs/ leaves and other objects that might move and trigger unwanted recordings.
 
 `Default settings` Use this button to apply the camera's default settings.
-These settings are optimised for long deployments and provide relatively low but acceptable lighting to minimise the camera's power consumption. For clearer images increase the LED brightness to improve the video quality,
+These settings are optimised for long deployments and provide relatively low but acceptable lighting to minimise the camera's power consumption. For clearer images increase the LED brightness to improve the image quality.
 
 `Focus 0.0` to `Focus 10.0`
-Slider for fine-tuning the camera's focus. Right = close focus. Left = infinity. Watch the video feed and adjust the slider until the image is in focus. It can be helpful to zoom into the image to triple check it is in focus. This slider tends to be more reliable than the Autofocus.
+Slider for fine-tuning the camera's focus. Right = close focus. Left = infinity. Watch the video feed and adjust the slider until the image is in focus. It can be helpful to zoom into the image to triple check it is in focus. Fine tuning this slider tends to be more reliable than using Autofocus when there is not much light (i.e. under a tree canopy).
 
 `30FPS` `60FPS` `120FPS`
 Frames per second (FPS) refers to the number of images recorded in each second of video. Higher frame rates provide clearer images with less blur. There is a tradeoff however as each frame needs more light to compensate for the short exposure time. Higher frame rates are therefore associated with better quality videos but also higher power consumption due to the LED brightness and CPU processing demands.
@@ -224,11 +226,11 @@ There are two different motion algorithms built into the camera, `motion boxes` 
 
 `Motion boxes` - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than ‘Motion average’
 
-`Motion average` - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than 'Motion boxes' but works very effetively when surveying a bat from a short distance when a bat will represent a larger area in the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
+`Motion average` - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than 'Motion boxes' but works very effectively when surveying a bat from a short distance as the bat represents a larger area of the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
 
-To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure the darker areas of the image are not triggering motion events. If the darker areas of the image are triggering motion events during testing, consider increasing the LED brightness or tuning the motion sensitivity with the `sensitivity` `motion area` and `motion frames` buttons.
+To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure that noise in darker areas of the image is not triggering motion events. If the noise in darker areas of the image is triggering motion events during testing, consider increasing the LED brightness or decreasing the motion sensitivity with the `sensitivity` `motion area` and `motion frames` buttons.
 
-`Autofocus Box` `Autofocus Centre` Decide whether to autofocus based on the purple box in the video feed by selecting `Autofocus Box` or based on the centre of the image by selecting `Autofocus Centre`. `Autofocus Centre` is often more reliable at focusing the image than `Autofocus Box`. If there are insufficient light levels some manual fine-tuning is often needed after Autofocusing the camera.
+`Autofocus Box` `Autofocus Centre` Decide whether to autofocus based on the purple box in the video feed by selecting `Autofocus Box` or based on the centre of the image by selecting `Autofocus Centre`. `Autofocus Centre` is often more reliable at focusing the image than Autofocus Box. In low light conditions some manual fine-tuning using the focus slider is often needed after using autofocus.
 
 `Autofocus x1` Initiate autofocus of the camera.
 
@@ -249,7 +251,7 @@ To download an update the camera must be in WiFi mode with an internet connectio
 Some updates can take some time. Wait for the progress tracker to reach 100% before refreshing the page. If the update hangs and does not change for 30 seconds or more manually refresh the page.
 
 `Shutdown` 
-To avoid data loss or damage to your camera, if it is running always shut it down properly before disconnecting the power.
+To avoid data loss or damage to your camera, always shut it down properly before disconnecting the power.
 
 Before disconnecting the power source, follow these steps to shut the camera down safely if it is on:
 - Initiate the shutdown process by clicking `Shutdown`.
@@ -277,7 +279,7 @@ The values in the table on this page detail the power statistics and scheduling 
 | Low Voltage Threshold  | n/a                                         |
 
 `Latitude` `Longitude` `Set custom lat long`
-The camera turns on 20 minutes before sunrise and turns off 20 minutes after sunset. The scheduling is calculated based on the camera's latitiude and longitude values. Enter new Lat Long values based on the camera's deployment location and press `Set custom lat long`, the camera will automatically calculate the correct times and update the scheduled values for shutdown and startup, new values are displayed in the table on this page.
+The cameras scheduling (sunset and sunrise times) are calculated based on the camera’s `Latitude` and `Longitude` values. The camera turns on 20 minutes before sunrise and turns off 20 minutes after sunset `Set custom lat long`, the camera will automatically calculate the correct times and update the scheduled values for shutdown and startup, new values are displayed in the table on this page.
 
 `Delay Shutdown` Delay camera shutdown by three hours. Useful when downloading media over WiFi or extending the time you have for setting up a camera in the daytime.
 
