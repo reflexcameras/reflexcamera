@@ -35,7 +35,7 @@ It is good practice to `clear logs` (on the **Log Page**) and `delete all` media
 
 ***Leave it to run - the camera will now handle recording activity automatically.***
 
-In the daytime the camera will turn itself off after 15 minutes and turn itself back on half an hour before sunset. If the camera unexpectedly powers off during setup this is most likely to be the reason, if this is the case just unplug the camera and plug it back in and it will power up for another 15 minutes. It will always power up automatically 15 minutes before sunset.
+In the daytime the camera is scheduled to turn itself off after 15 minutes and will turn itself back on half an hour before sunset. If the camera unexpectedly powers off during setup this is the most likely reason. If this happens just unplug the camera and plug it back in and it will power up for another 15 minutes. It will always power up automatically 15 minutes before sunset.
 
 <div style="page-break-after: always;"></div>
 
@@ -99,7 +99,7 @@ Turn the Talentcell on.
 
 ### Extension leads
 
-`Reflex Standard Extension Cables` extend the connection between the battery connectors described above and the camera (via the port on the bottom of the camera). They have been produced for demanding use with a weatherproof, extremely durable cable. Using the extension cables allows you to position the camera at height whilst the battery stays on the ground. This setup allows you to change the batteries and download videos over WiFi whilst staying on the ground. When running the `Reflex Standard Extension Cables` up a tree, wrap them around the trunk or branches to reduce moment and drag.
+`Reflex Standard Extension Cables` extend the connection between the battery connectors described above and the camera (via the port on the bottom of the camera). They have been produced for demanding use with a weatherproof, extremely durable cable. Using the extension cables allows you to position the camera at height whilst the battery stays on the ground. You can still change the batteries and download videos over WiFi without access to the camera itself. When running the `Reflex Standard Extension Cables` up a tree, wrap them around the trunk or branches to reduce moment and drag.
 
 Each Reflex Standard Extension Cable is just over 4m long. Multiple `Reflex Standard Extension Cables` can be linked together if you want to position the camera at a greater height. To buy additional cables use the <a href="/index.html#contact">contact</a> form on our webpage.
 
@@ -226,7 +226,7 @@ There are two different motion algorithms built into the camera, `motion boxes` 
 
 `Motion boxes` - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than ‘Motion average’
 
-`Motion average` - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than 'Motion boxes' but works very effectively when surveying a bat from a short distance as the bat represents a larger area of the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
+`Motion average` - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than `Motion boxes` but works very effectively when surveying a bat from a short distance as the bat represents a larger area of the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
 
 To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure that noise in darker areas of the image is not triggering motion events. If the noise in darker areas of the image is triggering motion events during testing, consider increasing the LED brightness or decreasing the motion sensitivity with the `sensitivity` `motion area` and `motion frames` buttons.
 
@@ -245,10 +245,10 @@ Circular On - Pre-record for 2 seconds before motion. Circular Off - Do not pre-
 `Upgrade` 
 Software updates may have been issued for the camera, see here: [REFLEX Camera Software Changelog](https://docs.google.com/document/d/1RrwahLq1giOLBvLCXRYnbYzcS-O2mhe-h3U20ZcZxuQ/edit?usp=sharing)
 
-If you need help updating the camera contact us using the <a href="/index.html#contact">contact</a> form on this webpage.
-
 To download an update the camera must be in WiFi mode with an internet connection.
 Some updates can take some time. Wait for the progress tracker to reach 100% before refreshing the page. If the update hangs and does not change for 30 seconds or more manually refresh the page.
+
+If you have followed this guide but still need help updating the camera contact us using the <a href="/index.html#contact">contact</a> form on our webpage.
 
 `Shutdown` 
 To avoid data loss or damage to your camera, always shut it down properly before disconnecting the power.
