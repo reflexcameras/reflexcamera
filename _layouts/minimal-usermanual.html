@@ -90,80 +90,90 @@
     });
 </script>
 
-<script>
-    document.getElementById('renameSerials').addEventListener('click', () => {
-        const manual = document.querySelector('#manual');
-        if (!manual) return;
 
+<!-- 1) Rename-serials button -->
+<script>
+document.getElementById('renameSerials').addEventListener('click', () => {
+    const manual = document.querySelector('#manual');
+    if (!manual) return;
+
+    manual.innerHTML = manual.innerHTML
+        /* REFLEX0000 → ADJECTIVE-FRUIT */
+        .replace(/REFLEX0000/gi, 'ADJECTIVE-FRUIT')
+        /* replace 0000 → replace ADJECTIVE-FRUIT */
+        .replace(/replace\s+0000/gi, 'replace ADJECTIVE-FRUIT')
+        /* Turn the camera off → … */
+        .replace(/Turn the camera off/gi,
+                 '2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section')
+        /* Send a larger zip file... → send a larger zip file */
+        .replace(/send a larger zip file\. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments\./gi,
+                 'send a larger zip file.')
+        /* Format an SD card… → … */
+        .replace(/Format an SD card so that it can be used by the camera\./gi,
+                 '2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section.')
+        /* CHANGELOG LINK → 2024 version */
+        .replace(/https:\/\/docs\.google\.com\/document\/d\/1RrwahLq1giOLBvLCXRYnbYzcS-O2mhe-h3U20ZcZxuQ\/edit\?usp=sharing/gi,
+                 'https://docs.google.com/document/d/1O8vALjtTp_tJ1ko9rBU99deSmzL8WBE9ixsqPXADBkQ/edit?usp=sharing');
+});
+</script>
+
+
+<!-- 2) 2024 / 2025 model toggle -->
+<script>
+document.getElementById('toggleModels').addEventListener('change', (e) => {
+    const manual        = document.querySelector('#manual');
+    const modelYearText = document.getElementById('modelYearText');
+    if (!manual || !modelYearText) return;
+
+    /* ───────────────────────────────── 2024 MODELS (toggle ON) ───────────────────────────────── */
+    if (e.target.checked) {
+        modelYearText.textContent = '2024 Model';
         manual.innerHTML = manual.innerHTML
-            /* REFLEX0000  →  ADJECTIVE-FRUIT */
             .replace(/REFLEX0000/gi, 'ADJECTIVE-FRUIT')
-            /* replace 0000 → replace ADJECTIVE-FRUIT */
             .replace(/replace\s+0000/gi, 'replace ADJECTIVE-FRUIT')
-            /* Turn the camera off → 2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section */
-            .replace(/Turn the camera off/gi, '2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section')
-            /* Send a larger zip file... → send a larger zip file */
-            .replace(/send a larger zip file\. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments\./gi, 'send a larger zip file.')
-            /* Format an SD card so that it can be used by the camera → 2024 models do not have an external SD card */
-            .replace(/Format an SD card so that it can be used by the camera\./gi, '2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section.');
-    });
+            .replace(/Turn the camera off/gi,
+                     '2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section')
+            .replace(/send a larger zip file\. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments\./gi,
+                     'send a larger zip file.')
+            .replace(/Format an SD card so that it can be used by the camera\./gi,
+                     '2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section.')
+            /* CHANGELOG LINK → 2024 version */
+            .replace(/https:\/\/docs\.google\.com\/document\/d\/1RrwahLq1giOLBvLCXRYnbYzcS-O2mhe-h3U20ZcZxuQ\/edit\?usp=sharing/gi,
+                     'https://docs.google.com/document/d/1O8vALjtTp_tJ1ko9rBU99deSmzL8WBE9ixsqPXADBkQ/edit?usp=sharing');
+
+        /* swap the two images for 2024 */
+        const images = manual.querySelectorAll('img');
+        images.forEach(img => {
+            if (img.alt === "Small IR Indicator LED Location")  img.src = img.src.replace('IndicatorLEDStatus.png',   'IndicatorLEDStatus2024.png');
+            if (img.alt === "Large LED Location")               img.src = img.src.replace('LargeLEDStatus.png',        'LargeLEDStatus2024.png');
+        });
+
+    /* ───────────────────────────────── 2025 MODELS (toggle OFF) ───────────────────────────────── */
+    } else {
+        modelYearText.textContent = '2025 Model';
+        manual.innerHTML = manual.innerHTML
+            .replace(/ADJECTIVE-FRUIT/gi, 'REFLEX0000')
+            .replace(/replace\s+ADJECTIVE-FRUIT/gi, 'replace 0000')
+            .replace(/2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section/gi,
+                     'Turn the camera off')
+            .replace(/send a larger zip file/gi,
+                     'send a larger zip file. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments')
+            .replace(/2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section/gi,
+                     'Format an SD card so that it can be used by the camera')
+            /* CHANGELOG LINK ← revert to 2025 version */
+            .replace(/https:\/\/docs\.google\.com\/document\/d\/1O8vALjtTp_tJ1ko9rBU99deSmzL8WBE9ixsqPXADBkQ\/edit\?usp=sharing/gi,
+                     'https://docs.google.com/document/d/1RrwahLq1giOLBvLCXRYnbYzcS-O2mhe-h3U20ZcZxuQ/edit?usp=sharing');
+
+        /* restore the 2025 images */
+        const images = manual.querySelectorAll('img');
+        images.forEach(img => {
+            if (img.alt === "Small IR Indicator LED Location")  img.src = img.src.replace('IndicatorLEDStatus2024.png', 'IndicatorLEDStatus.png');
+            if (img.alt === "Large LED Location")               img.src = img.src.replace('LargeLEDStatus2024.png',     'LargeLEDStatus.png');
+        });
+    }
+});
 </script>
 
-<script>
-    document.getElementById('toggleModels').addEventListener('change', (e) => {
-        const manual = document.querySelector('#manual');
-        const modelYearText = document.getElementById('modelYearText'); // Get the model year text element
-        if (!manual || !modelYearText) return;
-
-        if (e.target.checked) {
-            // When the switch is ON (checked), show 2024 Models
-            modelYearText.textContent = '2024 Model'; // Update the text
-            manual.innerHTML = manual.innerHTML
-                .replace(/REFLEX0000/gi, 'ADJECTIVE-FRUIT')
-                .replace(/replace\s+0000/gi, 'replace ADJECTIVE-FRUIT')
-                /* Turn the camera off → 2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section */
-                .replace(/Turn the camera off/gi, '2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section')
-                /* Send a larger zip file... → send a larger zip file */
-                .replace(/send a larger zip file\. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments\./gi, 'send a larger zip file.')
-                /* Format an SD card so that it can be used by the camera → 2024 models do not have an external SD card */
-                .replace(/Format an SD card so that it can be used by the camera\./gi, '2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section.');
-                // Replace the image source for the 2024 model
-                const images = manual.querySelectorAll('img');
-                images.forEach(img => {
-                    if (img.alt === "Small IR Indicator LED Location") {
-                        img.src = img.src.replace('IndicatorLEDStatus.png', 'IndicatorLEDStatus2024.png');
-                    }
-                    if (img.alt === "Large LED Location") {
-                        img.src = img.src.replace('LargeLEDStatus.png', 'LargeLEDStatus2024.png');
-                    }
-                });
-        } else {
-            // When the switch is OFF (unchecked), revert to 2025 Models
-            modelYearText.textContent = '2025 Model'; // Update the text
-            manual.innerHTML = manual.innerHTML
-                .replace(/ADJECTIVE-FRUIT/gi, 'REFLEX0000')
-                .replace(/replace\s+ADJECTIVE-FRUIT/gi, 'replace 0000')
-                /* Revert back to "Turn the camera off" for 2025 models */
-                .replace(/2024 models do not have an external SD card, these were introduced in the 2025 model, ignore this section/gi, 'Turn the camera off')
-                /* Revert back to the longer version of the zip file message for 2025 models */
-                .replace(/send a larger zip file/gi, 'send a larger zip file. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments')
-                /* Revert back to "Format an SD card so that it can be used by the camera" for 2025 models */
-                .replace(/2024 models do not have an external SD card, these were introduced in the 2025 model. No SD card can be formatted, ignore this section/gi, 'Format an SD card so that it can be used by the camera');
-            // Replace the image source back for 2025 model
-            const images = manual.querySelectorAll('img');
-            images.forEach(img => {
-                if (img.alt === "Small IR Indicator LED Location") {
-                    img.src = img.src.replace('IndicatorLEDStatus2024.png', 'IndicatorLEDStatus.png');
-                }
-                if (img.alt === "Large LED Location") {
-                    img.src = img.src.replace('LargeLEDStatus2024.png', 'LargeLEDStatus.png');
-                }
-            });
-            // Remove any extra period after reverting
-            // manual.innerHTML = manual.innerHTML.replace(/send a larger zip file\.(?!\s)/gi, 'send a larger zip file');
-        }
-    });
-</script>
 
 
 <!-- <script>

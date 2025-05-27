@@ -18,7 +18,7 @@ Connect to the cameras Wi-Fi hotspot with your device (phone or computer)
 - SSID = `REFLEXCAMERA-REFLEX0000` - replace 0000 with the number printed inside the camera lid
 - Password = `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case, press `connect using a password instead` and enter `REFLEXREFLEX`
 
-On your device (phone or computer) open Chrome and head to [http://10.42.0.1:5000](http://10.42.0.1:5000) to see the camera's **Reflex settings webpage**
+On your device (phone or computer) open Chrome and head to [http://10.42.0.1:5000](http://10.42.0.1:5000) to see the camera's **Reflex settings webpage**.
 
 Use the camera's **Reflex settings webpage** to check:
 - that the roost entrance is visible and the image includes the area beneath the feature where the bats will drop out
@@ -67,7 +67,7 @@ If removing the micro SD card after it has been released tip the camera upside d
 
 ## Battery connections
 
-Details of different battery options are described in the [Compatible Kit](/kit/#kit) page on this website
+Details of different battery options are described in the [Compatible Kit](/kit/#kit) page on this website.
 
 Connect the relevant cable to your battery.
 
@@ -88,7 +88,7 @@ Waterproof the battery in a suitable bag or box. If using a roll top bag run the
 Be careful not to touch both battery posts at the same time.
 
 ### Large Talentcell
-If connecting to a talentcell battery push the `Reflex 12v Male Barrel Jack Connector` into the 12v output port on a suitably rated Talentcell
+If connecting to a talentcell battery push the `Reflex 12v Male Barrel Jack Connector` into the 12v output port on a suitably rated Talentcell.
 
 Make sure this connection won’t disconnect during deployment. Consider using an elastic band or electrical tape to secure the cable to the battery.
 
@@ -150,13 +150,13 @@ If the date on your camera's **Reflex settings webpage** is older than the lates
 The camera needs to be connected to the internet to receive updates. A method is described in the 'Advanced Users' section below. If you have followed this guide but still need help updating the camera contact us using the <a href="/index.html#contact">contact</a> form on our webpage.
 
 ### Automatic shutdown in the day
-The camera will shutdown after 15 minutes if turned on in the daytime
+The camera will shutdown after 15 minutes if turned on in the daytime.
 
-The camera will automatically schedule itself to turn back on 20 minutes before sunset
+The camera will automatically schedule itself to turn back on 20 minutes before sunset.
 
-If you are still setting up the camera when the camera shuts down, disconnect and reconnect power to turn the camera back on for another 15 minutes
+If you are still setting up the camera when the camera shuts down, disconnect and reconnect power to turn the camera back on for another 15 minutes.
 
-The shutdown can be delayed by three hours using the `Delay Shutdown` button on the Schedule page of the **Reflex settings webpage**
+The shutdown can be delayed by three hours using the `Delay Shutdown` button on the Schedule page of the **Reflex settings webpage**.
 
 <div style="page-break-after: always;"></div>
 
@@ -219,16 +219,16 @@ The best framerate will depend on your objective, see the table below.
 | To record the best possible images for species identification and see bat behaviour in detail | 120FPS                | Extreme (60) | 16 nights                      |
 
 `LED Low` `LED Medium` `LED High`
-Default settings for LED brightness
+Default settings for LED brightness.
 
 `Motion Boxes` `Motion Average`
-There are two different motion algorithms built into the camera, `motion boxes` and `motion average`. These can be selected using this dropdown. The algorithms only search for changes within the green box.
+There are two different motion algorithms built into the camera, `Motion boxes` and `Motion average`. These can be selected using this dropdown. The algorithms only search for changes within the green box.
 
-`Motion boxes` - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than ‘Motion average’
+`Motion boxes` - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than `Motion average`.
 
 `Motion average` - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than `Motion boxes` but works very effectively when surveying a bat from a short distance as the bat represents a larger area of the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
 
-To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure that noise in darker areas of the image is not triggering motion events. If the noise in darker areas of the image is triggering motion events during testing, consider increasing the LED brightness or decreasing the motion sensitivity with the `sensitivity` `motion area` and `motion frames` buttons.
+To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure that noise in darker areas of the image is not triggering motion events. If the noise in darker areas of the image is triggering motion events during testing, consider increasing the LED brightness or decreasing the motion sensitivity with the `Sensitivity` `Motion area` and `Motion frames` buttons.
 
 `Autofocus Box` `Autofocus Centre` Decide whether to autofocus based on the purple box in the video feed by selecting `Autofocus Box` or based on the centre of the image by selecting `Autofocus Centre`. `Autofocus Centre` is often more reliable at focusing the image than Autofocus Box. In low light conditions some manual fine-tuning using the focus slider is often needed after using autofocus.
 
@@ -253,7 +253,7 @@ If you have followed this guide but still need help updating the camera contact 
 `Shutdown` 
 To avoid data loss or damage to your camera, always shut it down properly before disconnecting the power.
 
-Before disconnecting the power source, follow these steps to shut the camera down safely if it is on:
+Before disconnecting the power source, follow these steps to shut the camera down safely:
 - Initiate the shutdown process by clicking `Shutdown`.
 - Wait for the shutdown process to complete, indicated by a confirmation message.
 - Once the confirmation message appears, it is safe to unplug the camera.
@@ -285,7 +285,7 @@ The cameras scheduling (sunset and sunrise times) are calculated based on the ca
 
 `Set custom cutoff` The camera will turn off automatically and stop its scheduled routine if it detects an input voltage below this cutoff value.
 
-Small lithium battery packs i.e. Talentcell batteries have their own BMS protection and run at a a constant voltage determined by an internal regulator. If using a battery with internal BMS protection disable the cutoff by setting the `Set custom cutoff` value to 0
+Small lithium battery packs i.e. Talentcell batteries have their own BMS protection and run at a a constant voltage determined by an internal regulator. If using a battery with internal BMS protection disable the cutoff by setting the `Set custom cutoff` value to 0.
 
 To determine the appropriate cutoff value, please consult the battery manufacturer's datasheet.
 For non-lithium batteries lower voltage cutoffs may extend run times but will likely reduce the overall lifespan of the battery. During testing an 11.3v cutoff was used with one 12v AGM battery which allowed for long run times with c.80% depletion but shortened the battery lifespan on each run. This is for informational purposes only it does not constitute a recommendation, check your battery datasheet and think about the lifespan of your battery.
@@ -302,7 +302,7 @@ Disclaimer: This feature is not designed to be a substitute for a dedicated batt
 
 ![Log Page](/img/usermanual/Log.png)
 
-An interactive chart showing power statistics, shutdown, and startup times. Depending on the number of logs this can take from 5 seconds to 1 minute load
+An interactive chart showing power statistics, shutdown, and startup times. Depending on the number of logs this can take from 5 seconds to 1 minute to load.
 
 `Clear logs` Clears the existing logs and restart the logging.
 
@@ -337,9 +337,9 @@ Media can be downloaded individually by clicking on the name of the file in the 
 
 ![WiFi Page](/img/usermanual/WiFi.png)
 
-`Switch between WiFi and hotspot` Change WiFi mode. For further details see 'Advanced Users'.
+`Switch between WiFi and hotspot` Change WiFi mode. For further details see the 'Advanced Users' section below.
 
-`SSID` `Passphrase` `Add` For further details see 'Advanced Users'. The dropdown `SSID` will list all WiFi connections in range of the camera that it is possible to connect to. The page may need refreshing if WiFi connections are not seen. The WiFi password associated with a WiFi connection should be entered in the `Passphrase` field. The camera can't check the new SSID or Passphrase so ensure these values are correct before pressing `Add`. The `Add` button will add the WiFi connection to the camera. When a new connection is added the camera will switch to WiFi receive mode, the camera will reboot automatically and connect to this WiFi connection and this can take up to one minute. 
+`SSID` `Passphrase` `Add` For further details see the 'Advanced Users' section below'. The dropdown `SSID` will list all WiFi connections in range of the camera that it is possible to connect to. The page may need refreshing if WiFi connections are not seen. The WiFi password associated with a WiFi connection should be entered in the `Passphrase` field. The camera can't check the new SSID or Passphrase so ensure these values are correct before submitting the values with the `Add` button. The `Add` button will then add the WiFi connection to the camera. When a new connection is added the camera will switch to WiFi receive mode, the camera will reboot automatically and connect to this WiFi connection and this can take up to one minute. 
 
 `Update WiFi Country Code` will change the WiFi settings so that the WiFi is compliant with a country other than GB (Great Britain).
 
@@ -349,7 +349,7 @@ Media can be downloaded individually by clicking on the name of the file in the 
 
 ## Field setup
 
-Familiarise yourself with setting up the camera in the field by deploying it on some non-roost trees. Practice will mean you can set the camera up quickly and quietly with minimal disturbance on roost trees.
+Familiarise yourself with setting up the camera in the field by deploying it on some non-roost trees. Practice will mean you can set the camera up quickly and quietly with around bat roosts.
 
 ### Positioning light stand on tree
 
@@ -378,9 +378,9 @@ Coil cables carefully when not in use. Avoid tight coiling. Instead, gently foll
 
 Once footage is downloaded from the camera it is quickest to scroll through the jpeg files saved alongside the videos in the media folder. These jpeg files are frames extracted from the video at the time when a motion event first triggered the video recording. Most of the time they will contain the wildlife that triggered the recording so provide a quick way to review lots of media. Due to other triggers, these images may not contain the wildlife so if 100% accuracy is needed a full review of videos may be required.
 
-On Mac use Preview
+On Mac use Preview.
 
-On Windows use FastPictureViewer or an equivalent
+On Windows use FastPictureViewer or an equivalent.
 
 <div style="page-break-after: always;"></div>
 
@@ -390,7 +390,7 @@ This section is for advanced users and contains methods to connect the cameras t
 
 ### Checking status
 
-There is a small indicator IR (infra-red) LED located at the top of the camera on the PCB. This can be used to monitor the  WiFi mode. This LED is infra-red so only visible with a phone torch.
+There is a small indicator IR (infra-red) LED located at the top of the camera on the PCB. This can be used to monitor the  WiFi mode. This LED is infra-red so only visible  using the camera on a phone.
 - If the REFLEX camera is producing an active WiFi hotspot the small IR indicator LED will flash rapidly
 - If the REFLEX camera is in wifi mode the small IR indicator LED will flash slowly (once every 2 seconds)
 
@@ -422,9 +422,9 @@ Open the lid of the camera, press the button to switch from hotspot mode to WiFi
 
 Your camera may need powering off and on at this point.
 
-Once re-powered go to the mobile hotspot settings on your Android. Scroll to bottom of this settings page and find ‘connected devices’
+Once re-powered go to the mobile hotspot settings on your Android. Scroll to bottom of this settings page and find ‘connected devices’.
 
-Hold down on REFLEX camera hostname i.e. `REFLEX0000` - replace 0000 with the number printed inside the camera lid. The IP address is shown on the next page i.e. 192.168.167.181
+Hold down on REFLEX camera hostname i.e. `REFLEX0000` - replace 0000 with the number printed inside the camera lid. The IP address is shown on the next page (it is likely to look something like 192.168.167.181).
 
 Open a webpage and type in this IP address, followed by :5000,  into the search bar web i.e. http://XX.XX.XX.XX:5000
 
@@ -435,24 +435,24 @@ You will be connected to the camera.
 ##### WiFi receive mode iOS hotspot
 On your iPhone create a hotspot.
 
-You will need to change the SSID to REFLEX and the password to REFLEXREFLEX
+You will need to change the  SSID to `REFLEX` and the password to `REFLEXREFLEX`
 
-To change the iPhone personal hotspot SSID you need to change the name of your phone, unfortunately, there is no other way to do this on iOS. In the iPhone settings menu go to -> `General` -> `About` -> `Name` -> and change the name to `REFLEX`
+To change the iPhone personal hotspot SSID you need to change the name of your phone - unfortunately there is no other way to do this on iOS. To do this head to the iPhone settings menu go to -> `Settings` -> `General` -> `About` -> `Name` -> and change the name to `REFLEX`
 To change the personal hotspot password go to `Personal Hotspot` -> `Wi-Fi Password` and change the hotspot password to `REFLEXREFLEX`
-Turn on `Allow others to join`
-Turn on `Maximise compatibility`
+Turn on `Settings` -> `Personal Hotspot` -> `Allow others to join`
+Turn on `Settings` -> `Personal Hotspot` -> `Maximise compatibility`
 
-Restart iPhone. If it is turned off in the setings turn back on `Allow others to join`
+Restart iPhone. The hotspot may have automatically turned off during the reboot, if so turn back on using `Settings` -> `Personal Hotspot` -> `Allow others to join`
 
-Power up the REFLEX camera, if in WiFi mode it should connect to the iPhone hotspot
+Power up the REFLEX camera, if in WiFi mode it will now connect to the iPhone hotspot.
 
-*Optionally connect your mac to this hotspot*
+*Optionally connect your mac to this hotspot*.
 
-Find the hostname of the REFLEX camera (printed in REFLEX lid)
+Find the hostname of the REFLEX camera (printed in REFLEX lid).
 
 Open a webpage on Chrome and type in this hostname followed by :5000, into the search bar web i.e. 'http://REFLEX0000.local:5000' - replace 0000 with the number printed inside the camera lid.
 
-You should now see the **Reflex settings webpage**
+You should now see the **Reflex settings webpage**.
 
 ![iOS Hotspot Settings](/img/usermanual/iOSHotspot.png)
 
@@ -483,7 +483,7 @@ Because the hotspot is local‑only, the feed is **not routable over the wider i
 
 Yes. REFLEX Cameras are designed to run from a **12 V leisure battery**, so pairing that battery with a solar panel and charge controller is an easy way to keep the system topped up and extend deployment time indefinitely.
 
-- **Compatible panels:** Any 12 V (nominal) panel - typically **20 W – 100 W** depending on how much sun you expect and how many cameras share the battery.  
+- **Compatible panels:** Any 12 V (nominal) panel - typically **20 W – 100 W** depending on how much sun you expect, how many cameras share the battery and whether you want the panel to fully charge the battery.
 - **Shade‑friendly:** Even under light tree canopy a modern panel will trickle‑charge; you can mount it in a small gap or on a pole that reaches full sun.  
 - **Extras you’ll need:**  
   - **PWM or MPPT charge controller** to protect the battery  
