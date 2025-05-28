@@ -101,3 +101,20 @@ window.addEventListener('load', function () {
     });
 });
 </script>
+
+<!-- <script>
+// Example to detect content blockers
+function detectContentBlocker() {
+    var testImage = new Image();
+    testImage.src = 'https://www.example.com/test.jpg'; // A URL that might be blocked by content blockers
+    testImage.onload = function() {
+        console.log('Content blocker not detected');
+    };
+    testImage.onerror = function() {
+        console.log('Content blocker detected');
+        alert('It seems like you are using a content blocker. Please disable it to use our site properly.');
+    };
+}
+detectContentBlocker();
+
+</script> -->
