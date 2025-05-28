@@ -18,3 +18,86 @@
 
    <!-- ReCaptcha JavaScript -->
    <script src="{{ "/js/recaptcha.js" | prepend: site.baseurl }}"></script>
+<!-- js.html -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
+<script>
+window.addEventListener('load', function () {
+    // Initialize the cookie consent
+    window.cc = window.cookieconsent.initialise({
+        type: 'opt-in',
+        revokable: true,
+        palette: {popup: {background:'#333'}, button: {background:'#f1d600', text:'#222'}},
+        content: {
+            message: 'We use cookies to improve your visit.',
+            dismiss: 'Accept all',
+            deny: 'Reject',
+            link: 'Learn more',
+            href: '{{ "/privacy/" | relative_url }}'
+        },
+        onInitialise: function() {
+            if (this.hasConsented()) {
+                // Load Google Analytics and reCAPTCHA if consent is given
+                loadGoogleAnalytics();
+                loadReCaptcha();
+            }
+        },
+        onStatusChange: function() {
+            // If consent is given, trigger Google Analytics and reCAPTCHA
+            if (this.hasConsented() && !window.gaLoaded) {
+                loadGoogleAnalytics();
+            }
+            if (this.hasConsented() && !window.reCaptchaLoaded) {
+                loadReCaptcha();
+            }
+        }
+    });
+
+    // Function to load Google Analytics
+    function loadGoogleAnalytics() {
+        window.gaLoaded = true;
+        var script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-K5380EE6TQ';
+        script.async = true;
+        document.head.appendChild(script);
+        script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-K5380EE6TQ');
+        };
+    }
+
+    // Function to load reCAPTCHA script and render the widget after consent
+    function loadReCaptcha() {
+        window.reCaptchaLoaded = true;
+        var script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js?render=explicit';
+        script.async = true;
+        script.defer = true;
+        script.onload = function() {
+            // Initialize reCAPTCHA when script is loaded
+            grecaptcha.render('recaptcha-container', {
+                'sitekey': '6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy',
+            });
+        };
+        document.head.appendChild(script);
+
+        // Show the reCAPTCHA container after consent
+        document.getElementById('recaptcha-container').style.display = 'inline-block';
+
+        // Enable the submit button once reCAPTCHA is visible
+        document.getElementById('submit-button').disabled = false;
+    }
+
+    // Reopen consent banner when the cog icon is clicked
+    document.getElementById('cookie-settings').addEventListener('click', function () {
+        // Directly trigger the cookie consent banner
+        if (window.cookieconsent) {
+            window.cookieconsent.initialise();  // Reinitialize or show the banner again
+        } else {
+            console.error('Cookie consent instance is not initialized yet.');
+        }
+    });
+});
+</script>

@@ -1,0 +1,21 @@
+/* Initially hide the popup */
+.cookie-warning-popup {
+    display: none;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 10;
+    font-size: 12px;
+    max-width: 250px;
+    text-align: center;
+    margin-top: 5px;
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+}
+
+/* Show the popup when the submit button is disabled */
+.submit-container:hover #submit-button:disabled + .cookie-warning-popup {
+    display: inline-block;
+}

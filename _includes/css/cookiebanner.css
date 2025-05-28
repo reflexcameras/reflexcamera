@@ -1,0 +1,9 @@
+/* Always visible cookie policy banner at the bottom-right */
+.cc-revoke {
+    width: 7.5rem; /* Ensure the width is auto and not 100% */
+    transform: translateX(5rem) !important; /* Cancel the translateY effect, ensuring it's always visible */
+
+    transform: translateY(0) !important; /* Cancel the translateY effect, ensuring it's always visible */
+}
+
+/* Optional: Add hover effect for better user interaction */
