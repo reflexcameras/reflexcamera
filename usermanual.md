@@ -314,7 +314,7 @@ An interactive chart showing power statistics, shutdown, and startup times. Depe
 
 A list containing all
 - recorded videos in mp4 format
-- images in jpeg format - each image is a visual summary of motion from the video with the same timestamp. To create this summary image motion detected in each frame is overlayed onto the background using red, green, and blue colours in sequence. In older software versions, the image simply shows the first frame where motion was detected.
+- images in jpeg format - each image is a visual summary of motion from the video with the same timestamp. Motion detected in each frame of the video is overlayed onto a black and white background using red, green, and blue colours in sequence. In older software versions, the image simply shows the first frame where motion was detected.
 - motionoutput.csv - a CSV file containing the motion statistics relating to each video
 
 The jpeg and videos can be sorted by their motion statistics with the arrows in the column headers in the table.
@@ -376,7 +376,7 @@ Coil cables carefully when not in use. Avoid tight coiling. Instead, gently foll
 
 ![Reviewing Images](/img/usermanual/Preview.png)
 
-Once footage is downloaded from the camera it is quickest to scroll through the jpeg files saved alongside the videos in the media folder. These jpeg files are a visual summary of motion in each video. Motion detected in each frame is overlayed onto the video background using red, green, and blue colours in sequence. In older versions of the software the jpegs simply represent the first frame where motion was detected contain the wildlife that triggered the recording most of the time. The jpegs provide a quick way to review lots of media.
+Once footage is downloaded from the camera it is quickest to scroll through the jpeg files saved alongside the videos in the media folder. These jpeg files are a visual summary of motion in each video. Motion detected in each frame of the video is overlayed onto a black and white background using red, green, and blue colours in sequence. In older versions of the software the jpegs simply represent the first frame where motion was detected contain the wildlife that triggered the recording most of the time. The jpegs provide a quick way to review lots of media.
 
 On Mac use Preview.
 
