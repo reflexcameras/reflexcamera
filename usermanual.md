@@ -314,7 +314,7 @@ An interactive chart showing power statistics, shutdown, and startup times. Depe
 
 A list containing all
 - recorded videos in mp4 format
-- images in jpeg format - a frame from the recorded video when the motion that triggered the recording was first detected
+- images in jpeg format - each image is a visual summary of motion from the video with the same timestamp. To create this summary image motion detected in each frame is overlayed onto the background using red, green, and blue colours in sequence. In older software versions, the image simply shows the first frame where motion was detected.
 - motionoutput.csv - a CSV file containing the motion statistics relating to each video
 
 The jpeg and videos can be sorted by their motion statistics with the arrows in the column headers in the table.
@@ -329,7 +329,7 @@ Media can be downloaded individually by clicking on the name of the file in the 
 
 `Delete all` Deletes all media saved on the camera. To avoid duplicate media, after the media has been copied from the camera it is good practice to delete the videos on the camera before the next deployment.
 
-`Format SD card` Format an SD card so that it can be used by the camera. **Warning** this will delete all media on the SD card. If this is the first time using the card you will need to turn the camera on and off for the card to be recognised. 
+`Format SD card` Format an SD card so that it can be used by the camera. **Warning** this will delete all media on the SD card. If this is the first time using the card you will need to turn the camera on and off for the card to be recognised. Use a reliable brand like Sandisk or Samsung.
 
 <div style="page-break-after: always;"></div>
 
@@ -376,7 +376,7 @@ Coil cables carefully when not in use. Avoid tight coiling. Instead, gently foll
 
 ![Reviewing Images](/img/usermanual/Preview.png)
 
-Once footage is downloaded from the camera it is quickest to scroll through the jpeg files saved alongside the videos in the media folder. These jpeg files are frames extracted from the video at the time when a motion event first triggered the video recording. Most of the time they will contain the wildlife that triggered the recording so provide a quick way to review lots of media. Due to other triggers, these images may not contain the wildlife so if 100% accuracy is needed a full review of videos may be required.
+Once footage is downloaded from the camera it is quickest to scroll through the jpeg files saved alongside the videos in the media folder. These jpeg files are a visual summary of motion in each video. Motion detected in each frame is overlayed onto the video background using red, green, and blue colours in sequence. In older versions of the software the jpegs simply represent the first frame where motion was detected contain the wildlife that triggered the recording most of the time. The jpegs provide a quick way to review lots of media.
 
 On Mac use Preview.
 
