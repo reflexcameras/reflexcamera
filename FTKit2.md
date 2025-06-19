@@ -9,6 +9,7 @@ The following bags have been used to quickly and effectively waterproof batterie
 
 | Waterproofing                                                                    | Application               | Installation                | Link                                                                                                       | 2024 Price   |
 |-------------------------------------------------------------------------------|--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------|-------------|
+| MAX400                                                           | Waterproofing a leisure battery | Upright waterproof case with handles | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/)                                       | £76.92     |
 | 40L Dry Bag Holdall                                                           | Waterproofing a leisure battery | Rollable motorcycle bag   | [Link](https://amzn.eu/d/d09KCeN) | £35.44     |
 | Alpkit Airlok 12L - Lightweight Roll-Top Dry Bag                               | Waterproofing a Talentcell Battery | Rollable small dry bag    | [Link](https://amzn.eu/d/9taumA1)                                               | £14.99  |
 
