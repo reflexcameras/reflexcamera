@@ -9,9 +9,9 @@ The following bags have been used to quickly and effectively waterproof batterie
 
 | Waterproofing                                                                    | Application               | Installation                | Link                                                                                                       | 2024 Price   |
 |-------------------------------------------------------------------------------|--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------|-------------|
-| MAX400                                                           | Waterproofing a leisure battery | Fit with waterproof glands and run the cable (6mm ⌀) through the gland  | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/)                                       | £76.92     |
-| 40L Dry Bag Holdall                                                           | Waterproofing a leisure battery | Rollable motorcycle bag   | [Link](https://amzn.eu/d/d09KCeN) | £35.44     |
-| Alpkit Airlok 12L - Lightweight Roll-Top Dry Bag                               | Waterproofing a Talentcell Battery | Rollable small dry bag    | [Link](https://amzn.eu/d/9taumA1)                                               | £14.99  |
+| MAX400 Upright Waterproof Case                                                           | Waterproofing a leisure battery | Fit with waterproof glands and run the REFLEX power cable (6mm⌀) through the gland  | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/)                                       | £76.92     |
+| 40L Dry Bag Holdall                                                           | Waterproofing a leisure battery | Run the cables along the roll whilst ensuring that the bag is sealed properly and will remain waterproof.   | [Link](https://amzn.eu/d/d09KCeN) | £35.44     |
+| Alpkit Airlok 12L - Lightweight Roll-Top Dry Bag                               | Waterproofing a Talentcell Battery | Run the cables along the roll whilst ensuring that the bag is sealed properly and will remain waterproof.    | [Link](https://amzn.eu/d/9taumA1)                                               | £14.99  |
 
 #### Transporting Batteries
 High-capacity batteries can be demanding to transport unaided over long distances. To protect your back, make sure you have suitable equipment for transport. Field-tested options for transport are included in the table below.
