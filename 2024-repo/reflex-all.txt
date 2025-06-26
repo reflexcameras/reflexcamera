@@ -1,0 +1,1216 @@
+Package: python3-picamera2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: rpicam-apps-lite
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-v4l2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-av
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-jsonschema
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-libarchive-c
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-numpy
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-pidng
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-piexif
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-pil
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-prctl
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-simplejpeg
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-tqdm
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3:any
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-kms++
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-libcamera
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libboost-program-options1.74.0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libc6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcamera0.5
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdrm2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libexif12
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgcc-s1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libjpeg62-turbo
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpng16-16
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libstdc++6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libtiff6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libavcodec59
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libavdevice59
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libavfilter8
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libavformat59
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libavutil57
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libswresample4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libswscale6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-attr
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-importlib-metadata
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-importlib-resources
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-pyrsistent
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-typing-extensions
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libarchive13
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-pkg-resources
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3.11:any
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libblas3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblapack3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: mime-support
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libfreetype6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libimagequant0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblcms2-2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libopenjp2-7
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libraqm0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libwebp7
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libwebpdemux2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libwebpmux3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: zlib1g
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcap2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-numpy-abi9
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libturbojpeg0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libkms++0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcamera-ipa
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdw1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgnutls30
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblttng-ust1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpisp1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libudev1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libunwind8
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libyaml-0-2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdrm-common
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: gcc-12-base
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdeflate0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libjbig0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblerc4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblzma5
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libzstd1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3.11
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpython3-stdlib
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libaom3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcairo2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcodec2-1.0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdav1d6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libglib2.0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgsm1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libjxl0.7
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libmp3lame0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libopus0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: librav1e0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: librsvg2-2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libshine3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsnappy1v5
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libspeex1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsvtav1enc1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libtheora0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libtwolame0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libva2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libvorbis0a
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libvorbisenc2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libvpx7
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libx264-164
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libx265-199
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxvidcore4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libzvbi0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libasound2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libavc1394-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcaca0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcdio-cdda2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcdio-paranoia2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdc1394-25
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libepoxy0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgl1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libiec61883-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libjack-jackd2-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libopenal1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpulse0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libraw1394-11
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsdl2-2.0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libx11-6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-shape0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-shm0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-xfixes0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxext6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxv1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libass9
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libbs2b0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libflite1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libfontconfig1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libfribidi0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblilv-0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libmysofa1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libplacebo208
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpocketsphinx3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpostproc56
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: librubberband2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsphinxbase3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libvidstab1.1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libzimg2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libzmq5
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: ocl-icd-libopencl1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libbluray2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libbz2-1.0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libchromaprint1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgme0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libopenmpt0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: librabbitmq4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: librist4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsrt1.5-gnutls
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libssh-gcrypt-4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxml2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libva-drm2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libva-x11-2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libvdpau1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsoxr0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-zipp
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libacl1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblz4-1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libnettle8
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgfortran5
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: mailcap
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: media-types
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libbrotli1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgomp1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libharfbuzz0b
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxau6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxdmcp6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libfmt9
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libelf1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgmp10
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libhogweed6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libidn2-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libp11-kit0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libtasn1-6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libunistring2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblttng-ust-common1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libnuma1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: liblttng-ust-ctl5
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libboost-log1.74.0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libboost-thread1.74.0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpisp-common
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3.11-minimal
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpython3.11-stdlib
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpixman-1-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-render0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxrender1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libffi8
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libmount1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpcre2-8-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libselinux1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libhwy1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcairo-gobject2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgdk-pixbuf-2.0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpango-1.0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpangocairo-1.0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libogg0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libzvbi-common
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libasound2-data
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libncursesw6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libslang2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libtinfo6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcdio19
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libusb-1.0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libglvnd0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libglx0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdb5.3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsamplerate0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libopenal-data
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsndio7.0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libasyncns0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdbus-1-3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsndfile1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsystemd0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libx11-xcb1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdecor-0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgbm1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libwayland-client0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libwayland-cursor0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libwayland-egl1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcursor1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxfixes3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxi6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxkbcommon0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxrandr2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxss1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libx11-data
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libexpat1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: fontconfig-config
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libserd-0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsord-0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsratom-0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libvulkan1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libbsd0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgssapi-krb5-2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libnorm1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpgm-5.3-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsodium23
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libudfread0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libmpg123-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libvorbisfile3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libssl3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcjson1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libmbedcrypto7
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgcrypt20
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgpg-error0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libicu72
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-dri3-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: python3-more-itertools
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: perl
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgraphite2-3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libboost-filesystem1.74.0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libboost-regex1.74.0-icu72
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpython3.11-minimal
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcrypt1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libnsl2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libreadline8
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsqlite3-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libtirpc3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libuuid1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libblkid1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgdk-pixbuf2.0-common
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: shared-mime-info
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: fontconfig
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libthai0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libpangoft2-1.0-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libglx-mesa0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libflac12
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libwayland-server0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-randr0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: mesa-libgallium
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: xkb-data
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: x11-common
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: debconf
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: fonts-dejavu-core
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libmd0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libcom-err2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libk5crypto3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libkrb5-3
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libkrb5support0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: perl-base
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: perl-modules-5.36
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libperl5.36
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: readline-common
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libtirpc-common
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libthai-data
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdatrie1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libglapi-mesa
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-dri2-0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-glx0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-present0
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxcb-sync1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxshmfence1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libxxf86vm1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgl1-mesa-dri
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdrm-amdgpu1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libdrm-radeon1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libllvm15
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsensors5
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: lsb-base
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libkeyutils1
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgdbm-compat4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libgdbm6
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: dpkg
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libedit2
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libz3-4
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: libsensors-config
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: sysvinit-utils
+Pin: origin ""
+Pin-Priority: 1001
+
+Package: tar
+Pin: origin ""
+Pin-Priority: 1001
+
