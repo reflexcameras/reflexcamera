@@ -1,0 +1,7 @@
+Origin: ReflexCameras
+Label: ReflexCameras
+Suite: stable
+Codename: bookworm
+Architectures: arm64
+Components: main
+Description: ReflexCameras APT Snapshot
