@@ -83,6 +83,7 @@ Be careful not to touch both battery posts at the same time.
 ![Leisure battery with post connectors](/img/usermanual/LeisureBattery.png)
 
 Waterproof the battery in a suitable bag or box. If using a roll top bag run the cables along the roll whilst ensuring that the bag is sealed properly and will remain waterproof.
+![Leisure battery in a waterproof case](/img/usermanual/BatteryBox.jpg)
 ![Leisure battery in a waterproof bag](/img/usermanual/LeisureBatteryInBag.png)
 
 Be careful not to touch both battery posts at the same time.
@@ -182,7 +183,7 @@ A live video feed is displayed at the top of the page. This feed can be used to 
 
 Motion will only be detected within the green boxes, exclude any areas you are not interested in. The boxes turn red when the camera detects motion and is recording.
 
-The purple box is used by the autofocus function. When set the autofocus will attempt to focus within the area highlighted by this purple box. 
+The purple box is used by the autofocus function. When the camera is set to `Autofocus Box` the autofocus will attempt to focus on the portion of the image within this purple box. 
 
 The live video feed is displayed at a lower resolution than the camera is recording this ensures the feed runs smoothly over WiFi. The videos recorded by the camera are of much higher quality.
 
