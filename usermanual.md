@@ -78,12 +78,14 @@ Black is negative, red is positive. The red and black indicators are located on 
 
 Be careful not to touch both battery posts at the same time.
 
-![Reflex Leisure Battery Terminal Connector
-](/img/usermanual/LeisureBatteryConnector.jpg)
+![Reflex Leisure Battery Terminal Connector](/img/usermanual/LeisureBatteryConnector.jpg)
+
 ![Leisure battery with post connectors](/img/usermanual/LeisureBattery.png)
 
 Waterproof the battery in a suitable bag or box. If using a roll top bag run the cables along the roll whilst ensuring that the bag is sealed properly and will remain waterproof.
+
 ![Leisure battery in a waterproof case](/img/usermanual/BatteryBox.jpg)
+
 ![Leisure battery in a waterproof bag](/img/usermanual/LeisureBatteryInBag.png)
 
 Be careful not to touch both battery posts at the same time.
@@ -96,6 +98,7 @@ Make sure this connection won’t disconnect during deployment. Consider using a
 Turn the Talentcell on.
 
 ![Reflex 12v Male Barrel Jack Connector](/img/usermanual/TalentcellConnector.jpg)
+
 ![Talentcell](/img/usermanual/Talentcell.png)
 
 ### Extension leads
