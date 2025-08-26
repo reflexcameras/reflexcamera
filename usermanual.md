@@ -35,7 +35,7 @@ It is good practice to `clear logs` (on the **Log Page**) and `delete all` media
 
 ***Leave it to run - the camera will now handle recording activity automatically.***
 
-In the daytime the camera is scheduled to turn itself off after 15 minutes and will turn itself back on half an hour before sunset. If the camera unexpectedly powers off during setup this is the most likely reason. If this happens just unplug the camera and plug it back in and it will power up for another 15 minutes. It will always power up automatically 15 minutes before sunset.
+In the daytime the camera is scheduled to turn itself off after 15 minutes and will turn itself back on 20 minutes before sunset. If the camera unexpectedly powers off during setup this is the most likely reason. If this happens just unplug the camera and plug it back in and it will power up for another 15 minutes. It will always power up automatically 20 minutes before sunset.
 
 <div style="page-break-after: always;"></div>
 
