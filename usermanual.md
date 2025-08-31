@@ -216,7 +216,7 @@ Frames per second (FPS) refers to the number of images recorded in each second o
 
 The best framerate will depend on your objective, see the table below.
 
-| Objective                                                                                     | Recommended framerate | LED for subject at 1m          | A 12v 50ah battery should last |
+| Objective                                                                                     | Recommended framerate | LED for subject < 1m away          | A 12v 50ah battery should last |
 |-----------------------------------------------------------------------------------------------|-----------------------|--------------|--------------------------------|
 | To record as many nights as possible                                                          | 30FPS                 | Low (20)     | 26 nights                      |
 | To record good quality bright images                                                          | 60FPS                 | Medium (40)  | 19 nights                      |
