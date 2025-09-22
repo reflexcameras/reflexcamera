@@ -16,7 +16,7 @@ Wait for the camera to start a Wi-Fi hotspot. This will take about 20 seconds.
 
 Connect to the cameras Wi-Fi hotspot with your device (phone or computer)
 - SSID = `REFLEXCAMERA-REFLEX0000` - replace 0000 with the number printed inside the camera lid
-- Password = `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case, press `connect using a password instead` and enter `REFLEXREFLEX`
+- Password = `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case, press `connect using a password instead` and enter `REFLEXREFLEX`.  On some Android phones you may receive a notification stating `WiFi has no Internet Access. Tap for Options`. To connect to the hotspot, tap this notification and select `This network has no Internet Access. Stay connected?` and check `Don't ask again for this network`.
 
 On your device (phone or computer) open Chrome and head to [http://10.42.0.1:5000](http://10.42.0.1:5000) to see the camera's **Reflex settings webpage**.
 
@@ -142,7 +142,7 @@ When the camera is fully running the large infra-red LED will be lit and visible
 ### Connecting to the settings page
 Connect to the camera's WiFi hotspot:
 - SSID: `REFLEXHOTSPOT-REFLEX0000` - replace 0000 with the number printed inside the camera lid
-- Password: `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case press connect using a password instead and enter REFLEXREFLEX
+- Password: `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case press connect using a password instead and enter `REFLEXREFLEX`.  On some Android phones you may receive a notification stating `WiFi has no Internet Access. Tap for Options`. To connect to the hotspot, tap this notification and select `This network has no Internet Access. Stay connected?` and check `Don't ask again for this network`.
 
 Open an internet browser on your phone or laptop and head to the web address [http://10.42.0.1:5000](http://10.42.0.1:5000)
 
@@ -345,7 +345,7 @@ Media can be downloaded individually by clicking on the name of the file in the 
 
 `SSID` `Passphrase` `Add` For further details see the 'Advanced Users' section below'. The dropdown `SSID` will list all WiFi connections in range of the camera that it is possible to connect to. The page may need refreshing if WiFi connections are not seen. The WiFi password associated with a WiFi connection should be entered in the `Passphrase` field. The camera can't check the new SSID or Passphrase so ensure these values are correct before submitting the values with the `Add` button. The `Add` button will then add the WiFi connection to the camera. When a new connection is added the camera will switch to WiFi receive mode, the camera will reboot automatically and connect to this WiFi connection and this can take up to one minute. 
 
-`Update WiFi Country Code` will change the WiFi settings so that the WiFi is compliant with a country other than GB (Great Britain).
+`Update WiFi Country Code` will change the WiFi settings so that the WiFi is compliant with a country other than GB (Great Britain). Your camera will need powering off and on for this WiFi setting to take effect.
 
 `Update Timezone` will change the timezone from the default Europe/London (GMT) to ensure that the camera scheduling is correct in countries other than the UK. 
 
@@ -406,7 +406,7 @@ There is a small indicator IR (infra-red) LED located at the top of the camera o
 In this mode, the camera broadcasts its own WiFi connection and hosts the **Reflex settings webpage** on 10.42.0.1:5000
 The website can be accessed by device (phone or computer) connected to the camera WiFi network:
 - SSID: `REFLEXHOTSPOT-REFLEX0000` - replace 0000 with the number printed inside the camera lid
-- Password: `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case press connect using a password instead and enter REFLEXREFLEX
+- Password: `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case press connect using a password instead and enter `REFLEXREFLEX`. On some Android phones you may receive a notification stating `WiFi has no Internet Access. Tap for Options`. To connect to the hotspot, tap this notification and select `This network has no Internet Access. Stay connected?` and check `Don't ask again for this network`.
 
 ![Hotspot Mode](/img/usermanual/HotspotMode.png)
 
