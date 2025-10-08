@@ -466,6 +466,18 @@ The camera can be connected to a normal WiFI connection at home or in an office.
 
 # Product FAQs
 
+## How do I update my camera?
+
+To update your camera’s software, you first need to provide it with an internet connection by switching it to `WiFi receive mode` (see [WiFi receive mode](#wifi-receive-mode)). Once the camera is in `WiFi receive mode` and connected to a device with an internet conection:
+
+1. Open the **Reflex settings webpage** in your browser.  
+2. On the **Home Page**, press the `Upgrade`  button.  
+3. Wait while the update downloads and installs — the loading indicator will work towards `100%`, and the page will refresh automatically when the update is complete. 
+
+If the page does not refresh automatically after at least 10 minutes, refresh the page manually on your browser and when the page is reloaded press the `Upgrade` button again. Wait until the loading indicator reaches `100%` and the page refreshes.
+
+After the update is finished, it’s recommended to switch the camera back to hotspot mode for normal use (see [Hotspot mode](#hotspot-mode)). This mode is better suited to field operation.
+
 ## How long does a REFLEX Camera last on a Talentcell 12V Lithium-ion Battery Pack, 11.1V/9000mAh 99.9Wh Portable Power Bank Li-ion Battery?
 
 In summer, you can expect approximately:
@@ -483,7 +495,7 @@ Not directly. Each REFLEX Camera broadcasts its own short‑range Wi‑Fi hotsp
 
 Because the hotspot is local‑only, the feed is **not routable over the wider internet** - you would need an external network solution (e.g., a router or cellular gateway) to make the stream accessible online.
 
-### Can I power a REFLEX Camera with a solar panel?
+## Can I power a REFLEX Camera with a solar panel?
 
 Yes. REFLEX Cameras are designed to run from a **12 V leisure battery**, so pairing that battery with a solar panel and charge controller is an easy way to keep the system topped up and extend deployment time indefinitely.
 
@@ -496,7 +508,7 @@ Yes. REFLEX Cameras are designed to run from a **12 V leisure battery**, so pa
 
 With the right‑sized panel, the camera can stay in the field far longer than with the battery alone - often all season.
 
-### How long will the camera last running on different batteries?
+## How long will the camera last running on different batteries?
 The number of nights a camera will record is dependent on the night length and camera settings. Higher camera frame rates require brighter lighting, which in turn consumes more power. A camera set to 30FPS will last roughly twice as long as one set to 120FPS.
 
 It is possible to extend runtimes using most standard 12v batteries (excluding talentcell batteries) by using solar panels or by linking multiple batteries together. Be sure to follow the battery manufacturer's guidance. For recommendations on solar panels or battery linking, consult with an off-grid battery supplier.
@@ -504,15 +516,3 @@ It is possible to extend runtimes using most standard 12v batteries (excluding t
 A battery weighing around 11kg can be carried fairly easily while navigating a woodland. This weight corresponds to a 75Ah lithium battery or a 40Ah lead-acid battery, both of which will provide several weeks of recording at 30FPS. Smaller, more portable 12V batteries, like the TalentCell models, can also be used but will deplete faster.
 
 If you'd like to estimate the system's runtime at 30FPS, enter a battery’s capacity in amp-hours below. This estimation assumes an average night length of 9 hours.
-
-### How do I update my camera?
-
-To update your camera’s software, you first need to provide it with an internet connection by switching it to `WiFi receive mode` (see [WiFi receive mode](#wifi-receive-mode)). Once the camera is in `WiFi receive mode` and connected to a device with an internet conection:
-
-1. Open the **Reflex settings webpage** in your browser.  
-2. On the **Home Page**, press the `Upgrade`  button.  
-3. Wait while the update downloads and installs — the loading indicator will work towards `100%`, and the page will refresh automatically when the update is complete. 
-
-If the page does not refresh automatically after at least 10 minutes, refresh the page manually on your browser and when the page is reloaded press the `Upgrade` button again. Wait until the loading indicator reaches `100%` and the page refreshes.
-
-After the update is finished, it’s recommended to switch the camera back to hotspot mode for normal use (see [Hotspot mode](#hotspot-mode)). This mode is better suited to field operation.
