@@ -507,7 +507,7 @@ If you'd like to estimate the system's runtime at 30FPS, enter a battery’s cap
 
 ### How do I update my camera?
 
-To update your camera’s software, you first need to provide it with an internet connection by switching it to `WiFi receive mode` (see [WiFi receive mode](#wi-fi-receive-mode)). Once the camera is in `WiFi receive mode` and connected to a device with an internet conection:
+To update your camera’s software, you first need to provide it with an internet connection by switching it to `WiFi receive mode` (see [WiFi receive mode](#wifi-receive-mode)). Once the camera is in `WiFi receive mode` and connected to a device with an internet conection:
 
 1. Open the **Reflex settings webpage** in your browser.  
 2. On the **Home Page**, press the `Upgrade`  button.  
