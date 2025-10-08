@@ -504,3 +504,15 @@ It is possible to extend runtimes using most standard 12v batteries (excluding t
 A battery weighing around 11kg can be carried fairly easily while navigating a woodland. This weight corresponds to a 75Ah lithium battery or a 40Ah lead-acid battery, both of which will provide several weeks of recording at 30FPS. Smaller, more portable 12V batteries, like the TalentCell models, can also be used but will deplete faster.
 
 If you'd like to estimate the system's runtime at 30FPS, enter a battery’s capacity in amp-hours below. This estimation assumes an average night length of 9 hours.
+
+### How do I update my camera?
+
+To update your camera’s software, you first need to provide it with an internet connection by switching it to `WiFi receive mode` (see [WiFi receive mode](#wi-fi-receive-mode)). Once the camera is in `WiFi receive mode` and connected to a device with an internet conection:
+
+1. Open the **Reflex settings webpage** in your browser.  
+2. On the **Home Page**, press the `Upgrade`  button.  
+3. Wait while the update downloads and installs — the loading indicator will work towards `100%`, and the page will refresh automatically when the update is complete. 
+
+If the page does not refresh automatically after at least 10 minutes, refresh the page manually on your browser and when the page is reloaded press the `Upgrade` button again. Wait until the loading indicator reaches `100%` and the page refreshes.
+
+After the update is finished, it’s recommended to switch the camera back to hotspot mode for normal use (see [Hotspot mode](#hotspot-mode)). This mode is better suited to field operation.
