@@ -64,7 +64,7 @@ The following examples illustrate the type of outputs produced by the Reflex Mot
 #### Example 1: Thermal Camera Detection
 
 Bat emergence recorded using a thermal imaging camera.  
-The processing highlights a trail of motion corresponding to a bat (heat signature) emerging from a building, enabling reliable identification of the emergence location. Movement in the clouds is also highlighted but can be easily distinguished from the bat activity.
+The processing highlights a trail of motion corresponding to a bat emerging from a building.The exact emergence location can be identified with ease. Movement in the clouds is also highlighted but can be easily distinguished from the bat activity.
 
 ![Thermal Bat Motion Summary](/img/rma/thermal.jpg)
 
