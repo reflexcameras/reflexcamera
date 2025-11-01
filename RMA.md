@@ -113,7 +113,8 @@ Identifying Species:
 
 * Moths often appear as smooth, continuous trails.  
 * Bats and birds typically show irregular trails due to wingbeats.  
-  With practice, you'll start to recognise these patterns more easily.
+
+With practice, you'll start to recognise these patterns more easily.
 
 ## Reviewing Video Clips
 
