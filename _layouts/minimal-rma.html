@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="/assets/css/usermanual.css">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  {% include nav.html %}
+
+    <!-- Markdown gets an id so we can target it -->
+    <div id="kit" class="col-lg-8 offset-lg-2 markdown-body">
+      {{ content }}
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  {% include js.html %}
+
+  {% include footer.html %}
