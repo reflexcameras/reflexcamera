@@ -75,9 +75,9 @@ The emergence event is distinctly highlighted, allowing rapid verification of ba
 
 ![Noctule Motion Summary](/img/MotionSummary.jpg)
 
-#### Example 3: Vegetation and Insect Movement
+#### Example 3: Infra-red Footage Vegetation and Insect Movement
 
-A tree branch moving on the edge of a building and a moth passing through the field of view.  
+A tree branch moving on the edge of a building and a moth passing through the field of view recorded on an infra-red camera.  
 This demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and potential bat activity.
 
 ![Moth Motion Summary](/img/rma/moth.png)
