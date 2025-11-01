@@ -84,7 +84,7 @@ This demonstrates the system’s high motion sensitivity and ability to distingu
 
 ## How the service works
 
-Contact us via the form on this webpage https://reflexcameras.co.uk/index.html#contact and provide an estimate of the total size of all video files (in GB). A rough estimate \- such as the total used space occupied by video files on your drive \- is sufficient.
+Contact us via the <a href="/index.html#contact">contact</a> form on our webpage and provide an estimate of the total size of all video files (in GB). A rough estimate \- such as the total used space occupied by video files on your drive \- is sufficient.
 
 **For small projects** \- Upload your files to **Google Drive** using the link we provide.
 
