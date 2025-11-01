@@ -61,12 +61,12 @@ For a real world review, do catch up with Tim Rickard or Caleb Fry as they have 
 
 The following examples illustrate the type of outputs produced by the Reflex Motion Analysis system. Each sequence of summary images highlights movement detected within the analysed video segments.
 
-#### Example 1: Vegetation and Insect Movement
+#### Example 1: Thermal Camera Detection
 
-A tree branch moving on the edge of a building and a moth passing through the field of view.  
-This demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and potential bat activity.
+Bat emergence recorded using a thermal imaging camera.  
+The processing highlights a trail of motion corresponding to a bat (heat signature) emerging from a building, enabling reliable identification of the emergence location. Movement in the clouds is also highlighted but can be easily distinguished from the bat activity.
 
-![Moth Motion Summary](/img/rma/moth.png)
+![Thermal Bat Motion Summary](/img/rma/thermal.jpg)
 
 #### Example 2: Bat Emergence and Flight
 
@@ -75,12 +75,12 @@ The emergence event is distinctly highlighted, allowing rapid verification of ba
 
 ![Noctule Motion Summary](/img/MotionSummary.jpg)
 
-#### Example 3: Thermal Camera Detection
+#### Example 3: Vegetation and Insect Movement
 
-Bat emergence recorded using a thermal imaging camera.  
-The processing highlights heat signature changes corresponding to flight movement, enabling reliable identification of emergence events.
+A tree branch moving on the edge of a building and a moth passing through the field of view.  
+This demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and potential bat activity.
 
-![Thermal Bat Motion Summary](/img/rma/thermal.jpg)
+![Moth Motion Summary](/img/rma/moth.png)
 
 ## How the service works
 
