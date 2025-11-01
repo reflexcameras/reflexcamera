@@ -4,7 +4,7 @@ title: "Video Motion Analysis Service"
 permalink: /video-motion-analysis-service/
 ---
 
-# Reflex Cameras \- Motion Analysis Service
+# Motion Analysis Service
 
 ## Smarter, Faster Bat Footage Analysis
 
@@ -34,7 +34,7 @@ Processed outputs are provided as a series of timestamped JPEG images, each summ
 
 This format enables rapid review and precise navigation to relevant video sections, substantially reducing analysis time.
 
-Add in Tim R’s analysis time.
+One user has reported that it was possible to review footage from 60 emergence surveys in 2 days. 
 
 ### Advantages over Cloud-Based Services
 
@@ -66,21 +66,21 @@ The following examples illustrate the type of outputs produced by the Reflex Mot
 A tree branch moving on the edge of a building and a moth passing through the field of view.  
 This demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and potential bat activity.
 
-(See image: image003.png)
+![Moth Motion Summary](/img/rma/moth.png)
 
 #### Example 2: Bat Emergence and Flight
 
 A Noctule bat exiting a tree cavity, captured clearly in the processed output.  
 The emergence event is distinctly highlighted, allowing rapid verification of bat activity without manual video scrubbing.
 
-(See image: image004.png)
+![Noctule Motion Summary](/img/MotionSummary.jpg)
 
 #### Example 3: Thermal Camera Detection
 
 Bat emergence recorded using a thermal imaging camera.  
 The processing highlights heat signature changes corresponding to flight movement, enabling reliable identification of emergence events.
 
-(Video section attached)
+![Thermal Bat Motion Summary](/img/rma/thermal.jpg)
 
 ## How the service works
 
