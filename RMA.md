@@ -53,9 +53,9 @@ Instead, we offer flexible, practical options:
 
 This method delivers a reliable, efficient, and verifiable approach to bat activity detection — supporting ecologists and consultants in achieving accurate, defensible results with reduced processing time.
 
-### Reviews
+<!-- ### Reviews
 
-For a real world review, do catch up with Tim Rickard or Caleb Fry as they have been using the outputs on Byfleet and SJM and have found several emergences.
+For a real world review, do catch up with Tim Rickard or Caleb Fry as they have been using the outputs on Byfleet and SJM and have found several emergences. -->
 
 ### Example Results
 
