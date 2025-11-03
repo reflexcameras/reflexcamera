@@ -16,7 +16,7 @@ Once we’ve received your videos, we’ll process them and create a series of t
 
 Our automated method eliminates the need to manually watch hours of footage. You can go straight to the moments that matter \- the exact sections where bats are recorded \- saving your hours of review time.
 
-User feedback indicates that the service enables reviewers to process footage from around 25 emergence surveys per day — more than four times the number achievable by watching videos manually at 1.5x speed.
+User feedback indicates that the service enables reviewers to process footage from around 25 emergence surveys per day - more than four times the number achievable by watching videos manually at 1.5x speed.
 
 ### Improved Detection Accuracy
 
@@ -47,7 +47,7 @@ Instead, we offer flexible, practical options:
 
 **£11 per hour of footage processed**
 
-This method delivers a reliable, efficient, and verifiable approach to bat activity detection — supporting ecologists and consultants in achieving accurate, defensible results with reduced processing time.
+This method delivers a reliable, efficient, and verifiable approach to bat activity detection - supporting ecologists and consultants in achieving accurate, defensible results with reduced processing time.
 
 <!-- ### Reviews
 
@@ -139,6 +139,6 @@ To ensure this, please save the videos for each project in clearly labelled sepa
 
 **What resolution should I record in?**
 
-Standard-resolution video is sufficient for accurate analysis — there is no requirement to record in high resolutions like 4K unless you specifically need that level of detail for your own review purposes.
+Standard-resolution video is sufficient for accurate analysis - there is no requirement to record in high resolutions like 4K unless you specifically need that level of detail for your own review purposes.
 
 Proper **lighting** and **camera positioning** are far more important factors, as they have a greater influence on the clarity and usefulness of the recorded footage.
