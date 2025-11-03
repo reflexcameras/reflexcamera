@@ -4,21 +4,25 @@ title: "Video Motion Analysis Service"
 permalink: /video-motion-analysis-service/
 ---
 
-# Motion Analysis Service
+# Reflex Cameras - Motion Analysis Service
 
 ## Smarter, Faster Bat Footage Analysis
 
-**Reflex Cameras \- Motion Analysis** provides a specialised video processing service designed to significantly reduce the time required to analyse bat infrared (IR) or thermal footage.
+**Reflex Cameras \- Motion Analysis** is a specialised video processing service designed to significantly reduce the time required to analyse bat infrared (IR) or thermal footage.
 
-Our software extracts a series of jpeg images which represent all movement within each 15 second segment of the processed video \- helping you quickly identify when and where bat activity occurs.
+Once we’ve received your videos, we’ll process them and create a series of timestamped JPEG images. Each image summarises all movement detected within a 15-second segment of video, helping you quickly identify when and where bat activity occurs.
 
-### Reduced workload
+### Serious timesaving
 
 Our automated method eliminates the need to manually watch hours of footage. You can go straight to the moments that matter \- the exact sections where bats are recorded \- saving your hours of review time.
 
+User feedback indicates that the service enables reviewers to process footage from around 25 emergence surveys per day — more than four times the number achievable by watching videos manually at 1.5x speed.
+
 ### Improved Detection Accuracy
 
-Manual analysis has two major limitations: fatigue and limited focus. As a result, bats emerging or re-entering can easily be missed.
+Manual analysis has two major limitations: fatigue and limited focus. As a result, bats emerging or re-entering with speed in multiple locations can easily be missed.
+
+Using our service even subtle or hard-to-detect bat movements become visible. The system is extremely sensitive to motion and highlights activity in clear red, green, and blue colours, making it far easier to spot bats than in typical footage where they can blend into grey backgrounds.
 
 Our processing method reliably identifies and highlights key events such as bat emergence/ re-entry points and flight paths, enabling more accurate assessments than traditional manual review alone.
 
@@ -26,15 +30,7 @@ Our processing method reliably identifies and highlights key events such as bat 
 
 You, the ecologist, remain in charge of interpreting the results.
 
-Even subtle or hard-to-detect bat movements become visible, while the system’s sensitivity ensures that small objects like moths and insects are also detected and can be filtered as needed.
-
-### Fast Review
-
-Processed outputs are provided as a series of timestamped JPEG images, each summarising detected movement over a 15-second interval.
-
-This format enables rapid review and precise navigation to relevant video sections, substantially reducing analysis time.
-
-One user has reported that it was possible to review footage from 60 emergence surveys in 2 days. 
+The timestamped JPEG images correspond directly to the original video, allowing you to quickly navigate to the relevant sections and verify motion events for yourself.
 
 ### Advantages over Cloud-Based Services
 
@@ -64,7 +60,7 @@ The following examples illustrate the type of outputs produced by the Reflex Mot
 #### Example 1: Thermal Camera Detection
 
 Bat emergence recorded using a thermal imaging camera.  
-The processing highlights a trail of motion corresponding to a bat emerging from a building.The exact emergence location can be identified with ease. Movement in the clouds is also highlighted but can be easily distinguished from the bat activity.
+The processing highlights a trail of motion corresponding to a bat emerging from a building. The exact emergence location can be identified with ease. Movement in the clouds is also highlighted, this can be easily be distinguished from the bat activity.
 
 ![Thermal Bat Motion Summary](/img/rma/thermal.jpg)
 
