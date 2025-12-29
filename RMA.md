@@ -12,7 +12,7 @@ permalink: /video-motion-analysis-service/
 
 Once we’ve received your videos, we’ll process them and create a series of timestamped JPEG images. Each image summarises all movement detected within a 15-second segment of video, helping you quickly identify when and where bat activity occurs.
 
-### Serious timesaving
+### Significant Time Savings
 
 Our automated method eliminates the need to manually watch hours of footage. You can go straight to the moments that matter \- the exact sections where bats are recorded \- saving your hours of review time.
 
@@ -20,9 +20,9 @@ User feedback indicates that the service enables reviewers to process footage fr
 
 ### Improved Detection Accuracy
 
-Manual analysis has two major limitations: fatigue and limited focus. As a result, bats emerging or re-entering with speed in multiple locations can easily be missed.
+Manual analysis has two major limitations: fatigue and limited focus. As a result, fast-moving bats - which are often visible for less than a second as they emerge or re-enter - can easily be missed during review of a two-hour video, particularly when they blend into grey backgrounds.
 
-Using our service even subtle or hard-to-detect bat movements become visible. The system is extremely sensitive to motion and highlights activity in clear red, green, and blue colours, making it far easier to spot bats than in typical footage where they can blend into grey backgrounds.
+Using our service even subtle or hard-to-detect bat movements become visible. The system is extremely sensitive to motion and highlights activity in clear red, green, and blue colours, making it simple to identify bat movements.
 
 Our processing method reliably identifies and highlights key events such as bat emergence/ re-entry points and flight paths, enabling more accurate assessments than traditional manual review alone.
 
