@@ -16,7 +16,8 @@ Reflex Cameras have a standard tripod thread so you can mount them in a multitud
 ### Power
 
 #### Remote power - Batteries
-Reflex Cameras can run on any 12V battery, and there are numerous 12V battery options available in various shapes, sizes, and chemistries. The system’s runtime depends on the battery's capacity (measured in amp-hours) and the camera settings, see the power section of this website for more details. Below is a list of some robust, field-tested batteries that are recommended.
+Reflex Cameras can run on any 12V battery, and there are numerous 12V battery options available in various shapes, sizes, and chemistries. This flexibility allows you to choose a solution that best suits your weight, runtime, and budget. The system’s runtime depends on the battery's capacity (measured in amp-hours) and the camera settings, some more details and a runtime calculator are provided here: [Link](https://reflexcameras.co.uk/user-manual/#how-long-will-the-camera-last-running-on-different-batteries)
+Below is a list of some robust, field-tested batteries that are recommended.
 
 | Battery                                                     | Application               | Estimated Runtime (120FPS - 30FPS) | Notes                                                                                          | Links                                                                                             | 2024 Price |
 |-------------------------------------------------------------|--------------------------|------------------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------|
@@ -28,15 +29,11 @@ Reflex Cameras can run on any 12V battery, and there are numerous 12V battery op
 
 <!-- Add a blank line below -->
 
-There are many compatible 12 V battery options available, giving you flexibility depending on weight, runtime, and budget.
-
 The models listed above are lithium batteries, as these are lightweight, operate reliably year-round, and have long service lives. Sealed Gel and AGM batteries can be less expensive, but they are heavier, more difficult to maintain, and lose performance in cold weather.
 
 We strongly recommend avoiding unsealed lead-acid batteries, as they can leak during transport.
 
 If you choose a small portable lithium battery other than the TalentCell model listed above, ensure it can supply at least 5 amps at 12 V to guarantee reliable camera operation.
-
-A runtime calculator is available in the user guide here: [Link](https://reflexcameras.co.uk/user-manual/#how-long-will-the-camera-last-running-on-different-batteries)
 
 <!-- Lithium-ion: Lithium-ion batteries are lighter, easier to maintain and retain good capacity for years. This chemistry can maintain charge even in cold temperatures. Lithium-ion batteries are more expensive than their (lead-acid AGM and gel) counterparts for the equivalent capacity (amp-hours). Make sure to use a battery which is safe to discharge and transport.
 
