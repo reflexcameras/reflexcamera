@@ -27,7 +27,7 @@ Below is a list of some robust, field-tested batteries that are recommended.
 | Victron Superpack Lithium 20Ah, 3 kg | Short deployments | 0.5 – 1 week | Compact lithium battery with built-in BMS and reliable cold-weather performance. A compatible case (e.g. MAX400 though it will fit smaller) and shoulder strap may assist with transport. | [Link](https://www.visionmarine.co.uk/victron-energy-lithium-superpack-128v-20ah-m5-bat512020705-bat512020705.html) | £130.66 |
 | TalentCell 12 V / 8300 mAh, 0.5 kg | Short deployments | 1 – 2 days | Lightweight portable lithium battery pack with built-in protection circuit. | [Link](https://www.amazon.co.uk/dp/B06Y5G3C8Z?psc=1&ref=ppx_yo2ov_dt_b_product_details) | £81.99 |
 
-Practical weather protection approaches are outlined in the Battery Weather Protection section below.
+Practical weather protection approaches are outlined in the [Battery Weather Protection](#battery-weather-protection) section below.
 
 <!-- Add a blank line below -->
 
