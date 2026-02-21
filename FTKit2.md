@@ -5,17 +5,14 @@ permalink: /field-tested-kit2/
 ---
 
 #### Battery Weather Protection
+Victron’s installation documentation specifies that their lithium batteries should be installed in a dry location with adequate ventilation and clearance around the unit (a minimum of 20 mm in their installation guidance). Additional ventilation may be required under heavy load or enclosed conditions. TalentCell’s documentation states that their lithium battery packs should not be used in high humidity environments or where they may be exposed to wet conditions.
 
-For protection from the weather, the following enclosure and dry bag options have been used in the field.
-
-The examples below reflect practical field setups and are provided for reference only.
+The examples below reflect practical field setups used to protect batteries from weather exposure and are provided for reference only. Users are responsible for reviewing the relevant manufacturer instructions before deploying batteries in outdoor environments.
 
 | Weather Protection | Application | Installation (Field Example) | Link | 2024 Price |
 |--------------------|------------|-----------------------------|------|------------|
 | MAX400 Upright Waterproof Case | Leisure battery protection | Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
-| Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | TalentCell battery protection | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
-
-Victron’s and Talentcell's documentation states that their lithium batteries are not waterproof and should not be exposed to moisture. Batteries should be installed in accordance with the manufacturer’s environmental and ventilation requirements. Users are responsible for reviewing the relevant battery instruction manuals before deploying batteries in outdoor environments.
+| Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | TalentCell battery protection | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. This method should only be used on short duration deployments in good weather. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
 
 <!-- 
 #### Transporting Batteries
@@ -28,9 +25,9 @@ High-capacity batteries can be demanding to transport unaided over long distance
 
 #### Solar Panels
 
-Reflex Cameras are designed to run from a 12 V leisure battery, so pairing the battery with a solar panel and charge controller provides a simple way to keep the system topped up and extend deployment time.
+Reflex Cameras are designed to run from a 12 V leisure battery, so pairing the battery with a solar panel and charge controller provides a simple way to extend deployment time.
 
-Any 12 V panel can be used. Typically a 20 W to 100 W sized panel is suitable depending on available sunlight and the settings used on the camera. Even under light tree canopy, a modern panel will provide a steady trickle charge. In the South West of England, a 285 W panel positioned beneath woodland canopy has successfully powered a Reflex camera year-round, including through the darkest months in the winter. A 285 W sized panel is much more than most installations require, a much smaller panel is usually sufficient, particularly in brighter seasons or locations.
+Any 12 V panel can be used. Typically a 20 W to 100 W sized panel is suitable depending on available sunlight and the settings used on the camera. Even under light tree canopy, a modern panel will provide a steady trickle charge. In the South West of England, a 285 W panel positioned beneath woodland canopy has successfully powered a Reflex camera year-round, including through the darkest winter months. A 285 W sized panel is much more than most installations require, a much smaller panel is usually sufficient, particularly in brighter seasons or locations.
 
 Extras you’ll need:
 - PWM or MPPT charge controller to protect the battery
