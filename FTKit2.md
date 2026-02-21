@@ -28,11 +28,10 @@ High-capacity batteries can be demanding to transport unaided over long distance
 
 #### Solar Panels
 
-Reflex Cameras are designed to run from a 12 V leisure battery, so pairing the battery with a solar panel and charge controller provides a simple way to keep the system topped up and extend deployment time indefinitely.
+Reflex Cameras are designed to run from a 12 V leisure battery, so pairing the battery with a solar panel and charge controller provides a simple way to keep the system topped up and extend deployment time.
 
-Compatible panels: Any 12 V panel can be used, typically a 20 W to 100 W sized panel will be suitable depending on available sunlight and the settings used on the camera.
+Any 12 V panel can be used. Typically a 20 W to 100 W sized panel is suitable depending on available sunlight and the settings used on the camera. Even under light tree canopy, a modern panel will provide a steady trickle charge. In the South West of England, a 285 W panel positioned beneath woodland canopy has successfully powered a Reflex camera year-round, including through the darkest months in the winter. A 285 W sized panel is much more than most installations require, a much smaller panel is usually sufficient, particularly in brighter seasons or locations.
 
-Shade-friendly: Even under light tree canopy, a modern panel will provide a steady trickle charge. In the South West of England, a 285 W panel positioned beneath woodland canopy has successfully powered a camera year-round, including through the darkest months in the winter. 285 W is much more than most installations require, a much smaller panel is usually sufficient, particularly in brighter seasons or locations.
 Extras you’ll need:
 - PWM or MPPT charge controller to protect the battery
 - Inline fuse for safety
