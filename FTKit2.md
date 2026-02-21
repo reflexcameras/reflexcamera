@@ -15,7 +15,7 @@ The examples below reflect practical field setups and are provided for reference
 | MAX400 Upright Waterproof Case | Leisure battery protection | Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
 | Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | TalentCell battery protection | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
 
-Note, Victron’s and Talentcell's documentation states that their lithium batteries are not waterproof and should not be exposed to moisture. Batteries should be installed in accordance with the manufacturer’s environmental requirements. Users are responsible for reviewing the relevant battery instruction manuals before deploying batteries in outdoor environments.
+Note, Victron’s and Talentcell's documentation states that their lithium batteries are not waterproof and should not be exposed to moisture. Batteries should be installed in accordance with the manufacturer’s environmental and ventilation requirements. Users are responsible for reviewing the relevant battery instruction manuals before deploying batteries in outdoor environments.
 
 <!-- 
 #### Transporting Batteries
