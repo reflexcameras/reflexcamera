@@ -5,7 +5,7 @@ permalink: /field-tested-kit/
 ---
 
 #### Mounting the camera
-Reflex Cameras have a standard tripod thread so you can mount them in a multitude of ways. Several field-tested mounting options are included in the table below.
+Reflex Cameras are built with a standard tripod thread so you can mount them in a multitude of ways. Several field-tested mounting options are included in the table below.
 
 | Mount                                                                   | Application                                                | Installation                                                                 | Link                                                                                                       | 2024 Price   |
 |---------------------------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------------|
