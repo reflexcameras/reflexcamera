@@ -5,13 +5,17 @@ permalink: /field-tested-kit2/
 ---
 
 #### Battery Weather Protection
-For protection from the weather, the following enclosure and dry bag options have been used in the field. These examples reflect practical setups and are not prescriptive installation guidance. Always ensure manufacturer ventilation requirements are maintained.
 
-| Waterproofing | Application | Installation | Link | 2024 Price |
-|---------------|------------|-------------|------|------------|
-| MAX400 Upright Waterproof Case | Waterproofing a leisure battery | Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
-| Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | Waterproofing a TalentCell battery | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
+For protection from the weather, the following enclosure and dry bag options have been used in the field.
 
+The examples below reflect practical field setups and are provided for reference only. They are not prescriptive installation guidance.
+
+| Weather Protection | Application | Installation (Field Example) | Link | 2024 Price |
+|--------------------|------------|-----------------------------|------|------------|
+| MAX400 Upright Waterproof Case | Leisure battery protection | Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
+| Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | TalentCell battery protection | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
+
+Note, Victron’s and Talentcell's documentation states that their lithium batteries are not waterproof and should not be exposed to moisture. Batteries should be installed in accordance with the manufacturer’s environmental and ventilation requirements. Users are responsible for reviewing the relevant Victron installation manual before deploying batteries in outdoor environments.
 
 <!-- 
 #### Transporting Batteries
