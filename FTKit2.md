@@ -4,14 +4,15 @@ title: "Field Tested Kit"
 permalink: /field-tested-kit2/
 ---
 
-#### Battery waterproofing
-The following bags have been used to quickly and effectively waterproof batteries in the field. While there are fully dedicated waterproof options available, they are not included here. It's important to choose a bag based on the specific conditions the battery will be exposed to.
+#### Battery Weather Protection
+For protection from the weather, the following enclosure and dry bag options have been used in the field. These examples reflect practical setups and are not prescriptive installation guidance. Always ensure manufacturer ventilation requirements are maintained.
 
-| Waterproofing                                                                    | Application               | Installation                | Link                                                                                                       | 2024 Price   |
-|-------------------------------------------------------------------------------|--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------|-------------|
-| MAX400 Upright Waterproof Case                                                           | Waterproofing a leisure battery | Fit with waterproof glands and run the REFLEX power cable (6mm⌀) through the gland  | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/)                                       | £76.92     |
-| 40L Dry Bag Holdall                                                           | Waterproofing a leisure battery | Run the Reflex power cable out through a corner of the bag, then roll the top tightly. When clipping the bag shut, ensure the cable exit point is covered by a fold to maintain a waterproof seal and keep the battery dry  | [Link](https://amzn.eu/d/d09KCeN) | £35.44     |
-| Alpkit Airlok 12L - Lightweight Roll-Top Dry Bag                               | Waterproofing a Talentcell Battery | Run the Reflex power cable out through a corner of the bag, then roll the top tightly. When clipping the bag shut, ensure the cable exit point is covered by a fold to maintain a waterproof seal and keep the battery dry  | [Link](https://amzn.eu/d/9taumA1)                                               | £14.99  |
+| Waterproofing | Application | Installation | Link | 2024 Price |
+|---------------|------------|-------------|------|------------|
+| MAX400 Upright Waterproof Case | Waterproofing a leisure battery | Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
+| Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | Waterproofing a TalentCell battery | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
+
+
 <!-- 
 #### Transporting Batteries
 High-capacity batteries can be demanding to transport unaided over long distances. To protect your back, make sure you have suitable equipment for transport. Field-tested options for transport are included in the table below.
