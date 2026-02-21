@@ -31,7 +31,7 @@ Practical weather protection approaches are outlined in the [Battery Weather Pro
 
 <!-- Add a blank line below -->
 
-The models listed above are lithium batteries, as these are lightweight, operate reliably year-round, and have long service lives. Sealed Gel and AGM batteries can be less expensive, but they are heavier, more difficult to maintain, and lose performance in cold weather.
+The models listed above are lithium batteries, as these are relatively lightweight, operate reliably year-round, and have long service lives. Sealed Gel and AGM batteries can be less expensive, but they are heavier, more difficult to maintain, and lose performance in cold weather.
 
 We strongly recommend avoiding unsealed lead-acid batteries, as they can leak during transport.
 
