@@ -16,7 +16,7 @@ Reflex Cameras are built with a standard tripod thread so you can mount them in 
 ### Power
 
 #### Remote power - Batteries
-Reflex Cameras can run on any 12V battery, and there are numerous 12V battery options available in various shapes, sizes, and chemistries. This flexibility allows you to choose a solution that best suits your weight, runtime, and budget requirements. The system’s runtime depends on the battery's capacity (measured in amp-hours) and the camera settings. More details on battery life and a runtime calculator are provided in this section of the user guide - [Battery Life](https://reflexcameras.co.uk/user-manual/#how-long-will-the-camera-last-running-on-different-batteries)
+Reflex Cameras can run on any 12 V battery, and there are numerous 12 V battery options available in various shapes, sizes, and chemistries. This flexibility allows you to choose a solution that best suits your budget, weight, and the length of time you need the camera to operate. The battery capacity (measured in amp-hours) is the main factor that determines how long the camera will run. A battery life calculator is provided in this section of the user guide to help estimate performance for different battery capacities [Battery Life](https://reflexcameras.co.uk/user-manual/#how-long-will-the-camera-last-running-on-different-batteries)
 
 Below is a list of some robust, field-tested batteries that are recommended.
 
