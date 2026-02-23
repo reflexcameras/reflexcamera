@@ -5,13 +5,13 @@ permalink: /field-tested-kit2/
 ---
 
 #### Battery Weather Protection
-Victron’s installation documentation specifies that their lithium batteries should be installed in a dry location with adequate ventilation and clearance around the unit (a minimum of 20 mm in their installation guidance). Additional ventilation may be required under heavy load or enclosed conditions. TalentCell’s documentation states that their lithium battery packs should not be used in high humidity environments or where they may be exposed to wet conditions.
+Victron’s installation documentation specifies that their lithium batteries should be installed in a dry location with adequate ventilation and clearance around the unit (a minimum of 20 mm in their installation guidance). It suggests additional ventilation may be required under heavy load or enclosed conditions. TalentCell’s documentation states that their lithium battery packs should not be used in high humidity environments or where they may be exposed to wet conditions.
 
-The examples below reflect practical field setups used to protect batteries from weather exposure and are provided for reference only. Users are responsible for reviewing the relevant manufacturer instructions before deploying batteries in outdoor environments.
+The examples below reflect practical field setups used to protect batteries from weather exposure and are provided for reference. Users are responsible for reviewing the manufacturer instructions before deploying batteries in specific outdoor environments.
 
 | Weather Protection | Application | Installation (Field Example) | Link | 2024 Price |
 |--------------------|------------|-----------------------------|------|------------|
-| MAX400 Upright Waterproof Case | Leisure battery protection | Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
+| MAX400 Upright Waterproof Case | Leisure battery protection | The case is IP67 rated and has a built in pressure relief valve. Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
 | Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | TalentCell battery protection | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. This method should only be used on short duration deployments in good weather. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
 
 <!-- 
