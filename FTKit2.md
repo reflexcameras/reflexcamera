@@ -7,7 +7,7 @@ permalink: /field-tested-kit2/
 #### Battery Weather Protection
 Victron’s installation documentation specifies that their lithium batteries should be installed in a dry location with adequate ventilation and clearance around the unit (a minimum of 20 mm in their installation guidance). It suggests additional ventilation may be required under heavy load or enclosed conditions. TalentCell’s documentation states that their lithium battery packs should not be used in high humidity environments or where they may be exposed to wet conditions.
 
-The examples below reflect practical field setups used to protect batteries from weather exposure. Users are responsible for reviewing the relevant manufacturer instructions to ensure any weather protection is suitable for the battery.
+The examples below reflect practical field setups used to protect batteries from weather exposure. Users are responsible for reviewing the relevant manufacturer instructions to ensure any weather protection they use is suitable for the battery.
 
 | Weather Protection | Application | Installation (Field Example) | Link | 2024 Price |
 |--------------------|------------|-----------------------------|------|------------|
