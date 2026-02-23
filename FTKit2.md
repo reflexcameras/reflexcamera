@@ -5,11 +5,11 @@ permalink: /field-tested-kit2/
 ---
 
 #### Battery Weather Protection
-Victron’s installation documentation specifies that their lithium batteries should be installed in a dry location with adequate ventilation and clearance around the unit (a minimum of 20 mm in their installation guidance, though additional ventilation may be required at high discharge rates). Victron describes its Lithium SuperPack batteries as intended for stand-alone and off-grid applications. In similar off-grid, marine, and remote power installations, batteries are typically installed within protective enclosures to shield them from environmental exposure.
+Victron’s installation documentation specifies that their lithium batteries should be installed in a dry location with adequate ventilation and clearance around the unit (a minimum of 20 mm in their installation guidance). Victron notes that additional ventilation may be required at higher discharge rates; however, Reflex cameras represent a very low-power load (approximately 2–4 W at 12 V). Victron describes its Lithium SuperPack batteries as intended for stand-alone and off-grid applications. In similar off-grid, marine, and remote power installations, batteries are typically installed within protective enclosures to shield them from environmental exposure.
 
-TalentCell’s documentation states that their lithium battery packs should not be used in high humidity environments or where they may be exposed to wet conditions.
+TalentCell’s documentation states that their lithium battery packs should not be used in high-humidity environments or where they may be exposed to wet conditions.
 
-The examples below reflect practical field setups used to protect batteries from weather exposure and are provided for reference only.  Users are responsible for reviewing and complying with the relevant manufacturer instructions to ensure that any weather protection measures are suitable for the battery in their specific deployment scenario.
+The examples below reflect practical field setups used to protect batteries from weather exposure and are provided for reference only. Users are responsible for reviewing and complying with the relevant manufacturer instructions to ensure that any weather protection measures are suitable for the battery in their specific deployment scenario.
 
 | Weather Protection | Application | Installation (Field Example) | Link | 2024 Price |
 |--------------------|------------|-----------------------------|------|------------|
