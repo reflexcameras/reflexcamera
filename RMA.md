@@ -62,20 +62,18 @@ The following examples illustrate the type of outputs produced by the Reflex Mot
 Bat emergence recorded using a thermal imaging camera.  
 The processing highlights a trail of motion corresponding to a bat emerging from a building. The exact emergence location can be identified with ease. Movement in the clouds is also highlighted, this can be easily be distinguished from the bat activity.
 
-<!-- ![Thermal Bat Motion Summary](/img/rma/thermal.jpg) -->
-
 <table>
   <tr>
     <th>Video</th>
     <th>Image</th>
   </tr>
   <tr>
-    <td width 50%>
+    <td width="50%">
       <video controls width="100%">
         <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
       </video>
     </td>
-    <td width 50%>
+    <td width="50%">
       <img src="/img/rma/thermal.jpg" alt="Thermal Bat Motion Summary" width="100%">
     </td>
   </tr>
@@ -86,36 +84,34 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 A pipistrelle bat emerging from a building which is difficult to see within the video, captured clearly in the processed output.  
 The emergence event is distinctly highlighted, allowing rapid verification of bat activity without manual video scrubbing.
 
-
 <table>
   <tr>
     <th>Video</th>
     <th>Image</th>
   </tr>
   <tr>
-    <td width 50%>
+    <td width="50%">
       <video controls width="100%">
         <source src="/img/rma/00001-00-04-15-noaudio.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
-    <td width 50%>
+    <td width="50%">
       <img src="/img/rma/00001-04-45.jpg" alt="Infra-red Bat Motion Summary" width="100%">
     </td>
   </tr>
   <tr>
-    <td width 50%>
+    <td width="50%">
       <video controls width="100%">
         <source src="/img/rma/00001-00-15-15-noaudio.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-    </td width 50%>
-    <td>
+    </td>
+    <td width="50%">
       <img src="/img/rma/00001-15-15.jpg" alt="Infra-red Bat Motion Summary" width="100%">
     </td>
   </tr>
 </table>
-
 
 <!-- #### Example 3: Infra-red Footage Vegetation and Insect Movement
 
