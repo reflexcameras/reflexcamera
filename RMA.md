@@ -72,18 +72,30 @@ The processing highlights a trail of motion corresponding to a bat emerging from
   <tr>
     <td>
       <video controls width="100%">
-        <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
+        <source src="/img/rma/00001-00-04-15-noaudio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
       </video>
     </td>
     <td>
-      <img src="/img/rma/thermal.jpg" alt="Thermal Bat Motion Summary" width="100%">
+      <img src="/img/rma/00001-04-45.jpg" alt="Infra-red Bat Motion Summary" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls width="100%">
+        <source src="/img/rma/00001-00-15-15-noaudio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <img src="/img/rma/00001-15-45.jpg" alt="Infra-red Bat Motion Summary" width="100%">
     </td>
   </tr>
 </table>
 
-#### Example 2: Bat Emergence and Flight
+#### Example 2: Infra-red Camera Detection
 
-A Noctule bat exiting a tree cavity, captured clearly in the processed output.  
+A pipistrelle bat emerging from a building which is difficult to see within the video, captured clearly in the processed output.  
 The emergence event is distinctly highlighted, allowing rapid verification of bat activity without manual video scrubbing.
 
 ![Noctule Motion Summary](/img/MotionSummary.jpg)
