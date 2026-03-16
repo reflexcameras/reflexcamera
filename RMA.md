@@ -70,12 +70,12 @@ The processing highlights a trail of motion corresponding to a bat emerging from
     <th>Image</th>
   </tr>
   <tr>
-    <td>
+    <td width 50%>
       <video controls width="100%">
         <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
       </video>
     </td>
-    <td>
+    <td width 50%>
       <img src="/img/rma/thermal.jpg" alt="Thermal Bat Motion Summary" width="100%">
     </td>
   </tr>
@@ -93,23 +93,23 @@ The emergence event is distinctly highlighted, allowing rapid verification of ba
     <th>Image</th>
   </tr>
   <tr>
-    <td>
+    <td width 50%>
       <video controls width="100%">
         <source src="/img/rma/00001-00-04-15-noaudio.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
-    <td>
+    <td width 50%>
       <img src="/img/rma/00001-04-45.jpg" alt="Infra-red Bat Motion Summary" width="100%">
     </td>
   </tr>
   <tr>
-    <td>
+    <td width 50%>
       <video controls width="100%">
         <source src="/img/rma/00001-00-15-15-noaudio.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-    </td>
+    </td width 50%>
     <td>
       <img src="/img/rma/00001-15-15.jpg" alt="Infra-red Bat Motion Summary" width="100%">
     </td>
