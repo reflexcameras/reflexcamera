@@ -64,8 +64,8 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 <table>
   <tr>
-    <th>Video</th>
-    <th>Image</th>
+    <th>15 Second Video<</th>
+    <th>Summary Image</th>
   </tr>
   <tr>
     <td width="50%">
@@ -81,13 +81,13 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 #### Example 2: Infra-red Camera Detection
 
-A pipistrelle bat emerging from a building which is difficult to see within the video, captured clearly in the processed output.  
-The emergence event is distinctly highlighted, allowing rapid verification of bat activity without manual video scrubbing.
+Pipistrelles bat emerging from a building, the first is difficult to see within the video but captured clearly in the processed output.  
+The emergence events are distinctly highlighted, allowing rapid verification of bat activity without manual video scrubbing.
 
 <table>
   <tr>
-    <th>Video</th>
-    <th>Image</th>
+    <th>15 Second Videos</th>
+    <th>Summary Images</th>
   </tr>
   <tr>
     <td width="50%">
