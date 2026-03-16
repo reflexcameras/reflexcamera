@@ -62,7 +62,24 @@ The following examples illustrate the type of outputs produced by the Reflex Mot
 Bat emergence recorded using a thermal imaging camera.  
 The processing highlights a trail of motion corresponding to a bat emerging from a building. The exact emergence location can be identified with ease. Movement in the clouds is also highlighted, this can be easily be distinguished from the bat activity.
 
-![Thermal Bat Motion Summary](/img/rma/thermal.jpg)
+<!-- ![Thermal Bat Motion Summary](/img/rma/thermal.jpg) -->
+
+<table>
+  <tr>
+    <th>Video</th>
+    <th>Image</th>
+  </tr>
+  <tr>
+    <td>
+      <video controls width="100%">
+        <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
+      </video>
+    </td>
+    <td>
+      <img src="/img/rma/thermal.jpg" alt="Thermal Bat Motion Summary" width="100%">
+    </td>
+  </tr>
+</table>
 
 #### Example 2: Bat Emergence and Flight
 
