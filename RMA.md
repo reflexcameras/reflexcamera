@@ -62,23 +62,6 @@ The following examples illustrate the type of outputs produced by the Reflex Mot
 Bat emergence recorded using a thermal imaging camera.  
 The processing highlights a trail of motion corresponding to a bat emerging from a building. The exact emergence location can be identified with ease. Movement in the clouds is also highlighted, this can be easily be distinguished from the bat activity.
 
-<!-- <table>
-  <tr>
-    <th>15 Second Video</th>
-    <th>Summary Image</th>
-  </tr>
-  <tr>
-    <td width="50%">
-      <video controls width="100%">
-        <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
-      </video>
-    </td>
-    <td width="50%">
-      <img src="/img/rma/thermal.jpg" alt="Thermal Bat Motion Summary" width="100%">
-    </td>
-  </tr>
-</table> -->
-
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
     <p><strong>15 Second Video</strong></p>
@@ -96,35 +79,6 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 #### Example 2: Infra-red Camera Detection
 
 Pipistrelles bats emerging from a building which are difficult to see within the video but displayed clearly in the processed output.  The emergence events are easy to see allowing rapid verification of bat activity without manual video scrubbing. Bushes and clouds are moving in the field of view on the images but the bat emergence events are clear, this demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and bat activity.
-<!-- 
-<table>
-  <tr>
-    <th>15 Second Videos</th>
-    <th>Summary Images</th>
-  </tr>
-  <tr>
-    <td width="50%">
-      <video controls width="100%">
-        <source src="/img/rma/00001-00-04-15-noaudio.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </td>
-    <td width="50%">
-      <img src="/img/rma/00001-04-45.jpg" alt="Infra-red Bat Motion Summary" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <video controls width="100%">
-        <source src="/img/rma/00001-00-15-15-noaudio.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </td>
-    <td width="50%">
-      <img src="/img/rma/00001-15-15.jpg" alt="Infra-red Bat Motion Summary" width="100%">
-    </td>
-  </tr>
-</table> -->
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
