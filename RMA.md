@@ -1,6 +1,6 @@
 ---
 layout: minimal-rma
-title: "Video Motion Analysis Service"
+title: "Footage Motion Analysis Service"
 permalink: /video-motion-analysis-service/
 ---
 
