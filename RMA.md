@@ -153,8 +153,8 @@ Each JPEG represents a 15-second segment from a video file. Any motion within th
 The name of each JPEG file includes the name of the original video file and the start time of the 15-second window it summarises. Note: this timestamp refers to the time within the video, not the actual time of recording.  
 Identifying Species:
 
-* Moths often appear as smooth, continuous trails.  
-* Bats and birds typically show irregular trails due to wingbeats.  
+* Moths appear as smooth, continuous trails.  
+* Bats and birds show irregular trails due to wingbeats.  
 
 With practice, you'll start to recognise these patterns more easily.
 
