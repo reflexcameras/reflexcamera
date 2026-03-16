@@ -64,7 +64,7 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 <table>
   <tr>
-    <th>15 Second Video<</th>
+    <th>15 Second Video</th>
     <th>Summary Image</th>
   </tr>
   <tr>
@@ -78,6 +78,20 @@ The processing highlights a trail of motion corresponding to a bat emerging from
     </td>
   </tr>
 </table>
+
+<div style="display:flex; flex-wrap:wrap; gap:1rem;">
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>15 Second Video</strong></p>
+    <video controls width="100%">
+      <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Summary Image</strong></p>
+    <img src="/img/rma/thermal.jpg" alt="Thermal Bat Motion Summary" width="100%">
+  </div>
+</div>
 
 #### Example 2: Infra-red Camera Detection
 
