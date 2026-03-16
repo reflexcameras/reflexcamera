@@ -4,11 +4,11 @@ title: "Footage Motion Analysis Service"
 permalink: /video-motion-analysis-service/
 ---
 
-# Reflex Cameras - Motion Analysis Service
+# Reflex Cameras - Footage Motion Analysis Service
 
 ## Smarter, Faster Bat Footage Analysis
 
-**Reflex Cameras \- Motion Analysis** is a specialised video processing service designed to significantly reduce the time required to analyse bat infrared (IR) or thermal footage.
+**Reflex Cameras \- Footage Motion Analysis Service** is a specialised video processing service designed to significantly reduce the time required to analyse any bat infrared (IR) or thermal footage.
 
 Once we’ve received your videos, we’ll process them and create a series of timestamped JPEG images. Each image summarises all movement detected within a 15-second segment of video, helping you quickly identify when and where bat activity occurs.
 
