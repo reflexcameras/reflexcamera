@@ -78,7 +78,7 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 #### Example 2: Infra-red Camera Detection
 
-Pipistrelles bats emerging from a building which are difficult to see within the video but displayed clearly in the processed output.  The emergence events are easy to see allowing rapid verification of bat activity without manual video scrubbing. Bushes and clouds are moving in the field of view on the images but the bat emergence events are clear, this demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and bat activity.
+Pipistrelles bats emerging from a building which are difficult to see within the video but clearly displayed in the summary images. Bushes and clouds are moving in the field of view on the images but the bat emergence events are clear, this demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and bat activity.
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
