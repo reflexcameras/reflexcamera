@@ -64,25 +64,39 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>15 Second Video</strong></p>
+    <p><strong>15 Second Video - Pixfra A613</strong></p>
     <video controls width="100%">
       <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
     </video>
   </div>
 
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Summary Image</strong></p>
-    <img src="/img/rma/thermal.jpg" alt="Thermal Bat Motion Summary" width="100%">
+    <p><strong>Summary Image - Pixfra A613</strong></p>
+    <img src="/img/rma/thermal-21-41-15-noaudio.jpg" alt="Thermal Bat Motion Summary" width="100%">
+  </div>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:1rem;">
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Video - Nightfox DV2</strong></p>
+    <video controls width="100%">
+      <source src="/img/rma/ANTThermalEmergence.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Summary Image - Nightfox DV2</strong></p>
+    <img src="/img/rma/ANTThermalEmergence.jpg" alt="Thermal Bat Motion Summary" width="100%">
   </div>
 </div>
 
 #### Example 2: Infra-red Camera Detection
 
-Pipistrelles bats emerging from a building which are difficult to see within the video but clearly displayed in the summary images. Bushes and clouds are moving in the field of view on the images but the bat emergence events are clear, this demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and bat activity.
+Bat emergence events from various buildings, several are difficult to see within the video but clearly displayed in the summary images. Bushes and clouds are moving in the field of view on several images but the bat emergence events are clear, this demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and bat activity.
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>15 Second Video 1</strong></p>
+    <p><strong>Video 1 - Canon XA30</strong></p>
     <video controls width="100%">
       <source src="/img/rma/00001-00-04-15-noaudio.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -90,14 +104,14 @@ Pipistrelles bats emerging from a building which are difficult to see within the
   </div>
 
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Summary Image 1</strong></p>
+    <p><strong>Summary Image 1 - Canon XA30</strong></p>
     <img src="/img/rma/00001-04-45.jpg" alt="Infra-red Bat Motion Summary 1" width="100%">
   </div>
 </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>15 Second Video 2</strong></p>
+    <p><strong>Video 2 - Sony AX53</strong></p>
     <video controls width="100%">
       <source src="/img/rma/00001-00-15-15-noaudio.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -105,8 +119,54 @@ Pipistrelles bats emerging from a building which are difficult to see within the
   </div>
 
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Summary Image 2</strong></p>
+    <p><strong>Summary Image 2 - Sony AX53</strong></p>
     <img src="/img/rma/00001-15-15.jpg" alt="Infra-red Bat Motion Summary 2" width="100%">
+  </div>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:1rem;">
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Video 3 - Canon XA30</strong></p>
+    <video controls width="100%">
+      <source src="/img/rma/2025-03-11-09-20-43.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Summary Image 2 - Sony AX53</strong></p>
+    <img src="/img/rma/2025-03-11-09-20-43.jpg" alt="Infra-red Bat Motion Summary 3" width="100%">
+  </div>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:1rem;">
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Video 3 - Sony AX53</strong></p>
+    <video controls width="100%">
+      <source src="/img/rma/Emergence-0918.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Summary Image 2 - Canon XA30</strong></p>
+    <img src="/img/rma/2/Emergence-0918.jpg" alt="Infra-red Bat Motion Summary 4" width="100%">
+  </div>
+</div>
+
+
+<div style="display:flex; flex-wrap:wrap; gap:1rem;">
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Video 3 - Sony AX53</strong></p>
+    <video controls width="100%">
+      <source src="/img/rma/Emergence-3547.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div style="flex:1 1 300px; min-width:280px;">
+    <p><strong>Summary Image 2 - Canon XA30</strong></p>
+    <img src="/img/rma/2/Emergence-3547.jpg" alt="Infra-red Bat Motion Summary 5" width="100%">
   </div>
 </div>
 
