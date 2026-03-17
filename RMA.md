@@ -64,7 +64,7 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>15 Second Video - Pixfra A613</strong></p>
+    <p><strong>Thermal Video 1 - Pixfra A613</strong></p>
     <video controls width="100%">
       <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
     </video>
@@ -78,7 +78,7 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Video - Nightfox DV2</strong></p>
+    <p><strong>Thermal Video 2 - Nightfox DV2</strong></p>
     <video controls width="100%">
       <source src="/img/rma/ANTThermalEmergence.mp4" type="video/mp4">
     </video>
@@ -96,7 +96,7 @@ Bat emergence events from various buildings, several are difficult to see within
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Video 1 - Canon XA30</strong></p>
+    <p><strong>IR Video 1 - Canon XA30</strong></p>
     <video controls width="100%">
       <source src="/img/rma/00001-00-04-15-noaudio.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -111,7 +111,7 @@ Bat emergence events from various buildings, several are difficult to see within
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Video 2 - Sony AX53</strong></p>
+    <p><strong>IR Video 2 - Sony AX53</strong></p>
     <video controls width="100%">
       <source src="/img/rma/00001-00-15-15-noaudio.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -126,7 +126,7 @@ Bat emergence events from various buildings, several are difficult to see within
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Video 3 - Canon XA30</strong></p>
+    <p><strong>IR Video 3 - Canon XA30</strong></p>
     <video controls width="100%">
       <source src="/img/rma/2025-03-11-09-20-43.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -134,14 +134,14 @@ Bat emergence events from various buildings, several are difficult to see within
   </div>
 
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Summary Image 2 - Sony AX53</strong></p>
+    <p><strong>Summary Image 3 - Sony AX53</strong></p>
     <img src="/img/rma/2025-03-11-09-20-43.jpg" alt="Infra-red Bat Motion Summary 3" width="100%">
   </div>
 </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Video 3 - Sony AX53</strong></p>
+    <p><strong>IR Video 4 - Sony AX53</strong></p>
     <video controls width="100%">
       <source src="/img/rma/Emergence-0918.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -149,15 +149,15 @@ Bat emergence events from various buildings, several are difficult to see within
   </div>
 
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Summary Image 2 - Canon XA30</strong></p>
-    <img src="/img/rma/2/Emergence-0918.jpg" alt="Infra-red Bat Motion Summary 4" width="100%">
+    <p><strong>Summary Image 4 - Canon XA30</strong></p>
+    <img src="/img/rma/Emergence-0918.jpg" alt="Infra-red Bat Motion Summary 4" width="100%">
   </div>
 </div>
 
 
 <div style="display:flex; flex-wrap:wrap; gap:1rem;">
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Video 3 - Sony AX53</strong></p>
+    <p><strong>Video 5 - Sony AX53</strong></p>
     <video controls width="100%">
       <source src="/img/rma/Emergence-3547.mp4" type="video/mp4">
       Your browser does not support the video tag.
@@ -165,8 +165,8 @@ Bat emergence events from various buildings, several are difficult to see within
   </div>
 
   <div style="flex:1 1 300px; min-width:280px;">
-    <p><strong>Summary Image 2 - Canon XA30</strong></p>
-    <img src="/img/rma/2/Emergence-3547.jpg" alt="Infra-red Bat Motion Summary 5" width="100%">
+    <p><strong>Summary Image 5 - Canon XA30</strong></p>
+    <img src="/img/rma/Emergence-3547.jpg" alt="Infra-red Bat Motion Summary 5" width="100%">
   </div>
 </div>
 
