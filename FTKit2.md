@@ -14,6 +14,7 @@ TalentCell’s documentation states that their lithium battery packs should not 
 | Weather Protection | Application | Installation (Field Example) | Link | 2024 Price |
 |--------------------|------------|-----------------------------|------|------------|
 | MAX400 Upright Waterproof Case | Leisure battery protection | The case is IP67 rated and has a built in pressure relief valve. Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/max-case-max400-top-loader-case_4280/) | £76.92 |
+| Nanuk T20 Upright Waterproof Case | Leisure battery protection | The case is IP67 rated and has a built in pressure relief valve. Typically fitted with waterproof cable glands, with the REFLEX power cable (6 mm Ø) routed through the gland. | [Link](https://www.thecaseshop.co.uk/nanuk-t20-top-loader-case_6920) | £126.58 |
 | Alpkit Airlok 12L Lightweight Roll-Top Dry Bag | TalentCell battery protection | In field use, the Reflex power cable has been routed through a corner of the bag before rolling the top tightly to maintain a water-resistant seal. This method should only be used on short duration deployments in good weather. | [Link](https://amzn.eu/d/9taumA1) | £14.99 |
 
 <!-- 
