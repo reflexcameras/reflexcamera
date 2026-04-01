@@ -1214,3 +1214,7 @@ Package: tar
 Pin: origin ""
 Pin-Priority: 1001
 
+Package: cloudflared
+Pin: origin ""
+Pin-Priority: 1001
+
