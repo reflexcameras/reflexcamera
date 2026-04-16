@@ -223,8 +223,8 @@ The best framerate will depend on your objective, see the table below.
 | To record as many nights as possible                                                          | 30FPS                 | Low (20)     | 26 nights                      |
 | To record good quality bright images                                                          | 60FPS                 | Medium (40)  | 19 nights                      |
 | To record the best possible images for species identification and see bat behaviour in detail | 120FPS                | Extreme (60) | 16 nights                      |
-<br>
 
+<br>
 `LED Low` / `LED Medium` / `LED High`<br>
 Default settings for LED brightness.
 
@@ -289,8 +289,8 @@ The values in the table on this page detail the power statistics and scheduling 
 |  <br>Next Shutdown     |  <br>Tue, 21 Jan 2025<br> <br>08:23:00 GMT  |
 |  <br>Next Startup      |  <br>Tue, 21 Jan 2025<br> <br>16:20:58 GMT  |
 | Low Voltage Threshold  | n/a                                         |
-<br>
 
+<br>
 `Latitude` / `Longitude` / `Set custom lat long`<br>
 The cameras scheduling (sunset and sunrise times) are calculated based on the camera’s `Latitude` and `Longitude` values. Using its default night time schedule the camera will turn on 20 minutes before sunset and turn off 20 minutes after sunrise `Set custom lat long`, the camera will automatically calculate the correct times and update the scheduled values for shutdown and startup, new values are displayed in the table on this page.
 
