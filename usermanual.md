@@ -194,32 +194,26 @@ The live video feed stops after three minutes (a countdown timer indicates how l
 
 #### Settings
 
-`Select Motion Box`
-
+`Select Motion Box`<br>
 Select a box to move its edges, it will become bold when selected.
 
-`-` `Motion Boxes` `+`
-
+`-` `Motion Boxes` `+`<br>
 Add or remove additional green motion boxes.
 
 `↑` `Upper` `↓` / 
 `→` `Left` `←` / 
 `←` `Right` `→` /
-`↓` `Down` `↑`
-
+`↓` `Down` `↑`<br>
 Arrows to move box edges. Move the boxes to exclude cobwebs/ leaves and other objects that might move and trigger unwanted recordings.
 
-`Default settings`
-
+`Default settings`<br>
 Use this button to apply the camera's default settings.
 These settings are optimised for long deployments and provide relatively low but acceptable lighting to minimise the camera's power consumption. For clearer images increase the LED brightness to improve the image quality.
 
-`Focus 0.0` to `Focus 10.0`
-
+`Focus 0.0` to `Focus 10.0`<br>
 Slider for fine-tuning the camera's focus. Right = close focus. Left = infinity. Watch the video feed and adjust the slider until the image is in focus. It can be helpful to zoom into the image to triple check it is in focus. Fine tuning this slider tends to be more reliable than using Autofocus when there is not much light (i.e. under a tree canopy).
 
-`30FPS`/ `60FPS` / `120FPS`
-
+`30FPS`/ `60FPS` / `120FPS`<br>
 Frames per second (FPS) refers to the number of images recorded in each second of video. Higher frame rates provide clearer images with less blur. There is a tradeoff however as each frame needs more light to compensate for the short exposure time. Higher frame rates are therefore associated with better quality videos but also higher power consumption due to the LED brightness and CPU processing demands.
 
 The best framerate will depend on your objective, see the table below.
@@ -230,13 +224,12 @@ The best framerate will depend on your objective, see the table below.
 | To record good quality bright images                                                          | 60FPS                 | Medium (40)  | 19 nights                      |
 | To record the best possible images for species identification and see bat behaviour in detail | 120FPS                | Extreme (60) | 16 nights                      |
 
+<br>
 
-`LED Low` / `LED Medium` / `LED High`
-
+`LED Low` / `LED Medium` / `LED High`<br>
 Default settings for LED brightness.
 
-`Motion Boxes` / `Motion Average`
-
+`Motion Boxes` / `Motion Average`<br>
 There are two different motion algorithms built into the camera, `Motion boxes` and `Motion average`. These can be selected using this dropdown. The algorithms only search for changes within the green box.
 
 `Motion boxes` - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than `Motion average`.
@@ -245,28 +238,22 @@ There are two different motion algorithms built into the camera, `Motion boxes` 
 
 To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure that noise in darker areas of the image is not triggering motion events. If the noise in darker areas of the image is triggering motion events during testing, consider increasing the LED brightness or decreasing the motion sensitivity with the `Sensitivity` `Motion area` and `Motion frames` buttons.
 
-`Autofocus Box` / `Autofocus Centre`
-
+`Autofocus Box` / `Autofocus Centre`<br>
 Choose whether autofocus uses a selected part of the image or the centre of the image. Select `Autofocus Box` to use a portion of the image for autofocus operations, defined by the selected green box in the video feed, or by the purple box in older firmware versions. Select `Autofocus Centre` to use the centre of the image for autofocus operations. This setting only determines the area used when autofocus is triggered. `Autofocus Centre` is often more reliable than `Autofocus Box`. In low-light conditions, manual fine-tuning with the focus slider is often needed after autofocus.
 
-`Autofocus x1`
-
+`Autofocus x1`<br>
 Initiate autofocus of the camera.
 
-`Autofocus ∞ ON` / `Autofocus ∞ OFF`
-
+`Autofocus ∞ ON` / `Autofocus ∞ OFF`<br>
 Autofocus on boot. The camera will attempt to refocus every time it starts up. As the autofocus is not always reliable it is recommend that this setting is set to `Off`.
 
-`LED 0.0` to `LED 60.0`
-
+`LED 0.0` to `LED 60.0`<br>
 Fine-tuning slider for LED brightness.
 
-`Circular On` / `Circular Off`
-
+`Circular On` / `Circular Off`<br>
 Circular On - Pre-record for 2 seconds before motion. Circular Off - Do not pre-record.
 
-`Upgrade`
-
+`Upgrade`<br>
 Software updates may have been issued for the camera, see here: [REFLEX Camera Software Changelog](https://docs.google.com/document/d/1RrwahLq1giOLBvLCXRYnbYzcS-O2mhe-h3U20ZcZxuQ/edit?usp=sharing)
 
 To download an update the camera must be in WiFi mode with an internet connection.
@@ -274,8 +261,7 @@ Some updates can take some time. Wait for the progress tracker to reach 100% bef
 
 If you have followed this guide but still need help updating the camera contact us using the <a href="/index.html#contact">contact</a> form on our webpage.
 
-`Shutdown`
-
+`Shutdown`<br>
 To avoid data loss or damage to your camera, always shut it down properly before disconnecting the power.
 
 Before disconnecting the power source, follow these steps to shut the camera down safely:
@@ -303,22 +289,18 @@ The values in the table on this page detail the power statistics and scheduling 
 |  <br>Next Startup      |  <br>Tue, 21 Jan 2025<br> <br>16:20:58 GMT  |
 | Low Voltage Threshold  | n/a                                         |
 
-`Latitude` / `Longitude` / `Set custom lat long`
-
+`Latitude` / `Longitude` / `Set custom lat long`<br>
 The cameras scheduling (sunset and sunrise times) are calculated based on the camera’s `Latitude` and `Longitude` values. Using its default night time schedule the camera will turn on 20 minutes before sunset and turn off 20 minutes after sunrise `Set custom lat long`, the camera will automatically calculate the correct times and update the scheduled values for shutdown and startup, new values are displayed in the table on this page.
 
-`Delay Shutdown`
-
+`Delay Shutdown`<br>
 Delay camera shutdown by three hours. Useful when downloading media over WiFi or extending the time you have for setting up a camera in the daytime.
 
-`Schedule - Night` / `Schedule - Day` / `Schedule - AO`
-
+`Schedule - Night` / `Schedule - Day` / `Schedule - AO`<br>
 Choose when the camera will automatically turn on and off in the day or night.
 
 `Schedule - Night` The camera powers on at night, it turn on 20 minutes before sunset and turn off 20 minutes after sunrise. `Schedule - Day` The camera stays on during the day, it turns on 20 minutes before sunrise and turn off 20 minutes after sunset. `Schedule - AO` Always On, the camera stays on while it is powered. 
 
-`Set custom cutoff`
-
+`Set custom cutoff`<br>
 The camera will turn off automatically and stop its scheduled routine if it detects an input voltage below this cutoff value.
 
 Small lithium battery packs i.e. Talentcell batteries have their own BMS protection and run at a a constant voltage determined by an internal regulator. If using a battery with internal BMS protection disable the cutoff by setting the `Set custom cutoff` value to 0.
@@ -328,11 +310,10 @@ For non-lithium batteries lower voltage cutoffs may extend run times but will li
 
 Disclaimer: This feature is not designed to be a substitute for a dedicated battery management system. Reflex Cameras Limited accept no liability for any damage to the battery or other equipment resulting from an unsuccessful voltage cutoff. If battery health is critical to your application, you must use a dedicated system such as an undervoltage protection device or a solar controller. These devices are specifically designed to monitor battery voltage accurately and implement safe cutoffs reliably.
 
-`Internet time sync`
-
+`Internet time sync`<br>
 When connected to the internet (WiFi receive mode) - update the time and schedule on the camera by retrieving the current time and date from the internet.
 
-`Custom date` / `Custom time` / `Set custom time`
+`Custom date` / `Custom time` / `Set custom time`<br>
 
 The fields `Set custom date` and `Set custom time` are populated with the current time and date on the device (phone or computer) connected to the camera. These values can be submitted without amendment so that the camera date and time match the time and date on the device (phone or computer). Alternatively, these values can be manually changed to any other time and date. The `Set custom time` button will use the entries in the `Custom date` and `Custom time` fields and update the camera date and time based on these values. The camera will update its schedule based on the new time.
 
@@ -344,8 +325,7 @@ The fields `Set custom date` and `Set custom time` are populated with the curren
 
 An interactive chart showing power statistics, shutdown, and startup times. Depending on the number of logs this can take from 5 seconds to 1 minute to load.
 
-`Clear logs`
-
+`Clear logs`<br>
 Clears the existing logs and restart the logging.
 
 <div style="page-break-after: always;"></div>
@@ -367,16 +347,13 @@ The camera takes a few seconds to create jpeg and mp4 files from raw video after
 
 Media can be downloaded individually by clicking on the name of the file in the first column.
 
-`Download all`
-
+`Download all`<br>
 Downloads videos and images from the camera onto the connected device (phone or computer) over WiFi. Use Chrome on the connected device (phone or computer) as this handles large downloads well. The camera will zip up all saved media and transfer this zip file over WiFi. Once downloaded the file can be unzipped on the connected device (phone or computer) to view the video and images. If the storage on the camera is over half full the camera will zip and send 1gb folders at a time and delete the 1gb of media which was transferred from the camera when the download is complete. In this instance, you will need to press `Download all` multiple times until the system has over half of its space free and can send a larger zip file. If this is taking a long time consider extracting the media directly from the micro SD card and use a larger micro SD card on future deployments.
 
-`Delete all`
-
+`Delete all`<br>
 Deletes all media saved on the camera. To avoid duplicate media, after the media has been copied from the camera it is good practice to delete the videos on the camera before the next deployment.
 
-`Format SD card`
-
+`Format SD card`<br>
 Format an SD card so that it can be used by the camera. **Warning** this will delete all media on the SD card. If your camera has not been updated in 2026 you will need to turn the camera on and off after formatting the card for it to be recognised. Use a reliable brand like Sandisk or Samsung.
 
 <div style="page-break-after: always;"></div>
@@ -385,20 +362,16 @@ Format an SD card so that it can be used by the camera. **Warning** this will de
 
 ![WiFi Page](/img/usermanual/WiFi.png)
 
-`Switch between WiFi and hotspot`
-
+`Switch between WiFi and hotspot`<br>
 Change WiFi mode. For further details see the 'Advanced Users' section below.
 
-`SSID` / `Passphrase` / `Add`
-
+`SSID` / `Passphrase` / `Add`<br>
 For further details see the 'Advanced Users' section below'. The dropdown `SSID` will list all WiFi connections in range of the camera that it is possible to connect to. The page may need refreshing if WiFi connections are not seen. The WiFi password associated with a WiFi connection should be entered in the `Passphrase` field. The camera can't check the new SSID or Passphrase so ensure these values are correct before submitting the values with the `Add` button. The `Add` button will then add the WiFi connection to the camera. When a new connection is added the camera will switch to WiFi receive mode, the camera will reboot automatically and connect to this WiFi connection and this can take up to one minute. 
 
-`Update WiFi Country Code`
-
+`Update WiFi Country Code`<br>
 will change the WiFi settings so that the WiFi is compliant with a country other than GB (Great Britain). Your camera will need powering off and on for this WiFi setting to take effect.
 
-`Update Timezone`
-
+`Update Timezone`<br>
 will change the timezone from the default Europe/London (GMT) to ensure that the camera scheduling is correct in countries other than the UK. 
 
 <div style="page-break-after: always;"></div>
