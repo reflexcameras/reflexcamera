@@ -314,7 +314,6 @@ Disclaimer: This feature is not designed to be a substitute for a dedicated batt
 When connected to the internet (WiFi receive mode) - update the time and schedule on the camera by retrieving the current time and date from the internet.
 
 `Custom date` / `Custom time` / `Set custom time`<br>
-
 The fields `Set custom date` and `Set custom time` are populated with the current time and date on the device (phone or computer) connected to the camera. These values can be submitted without amendment so that the camera date and time match the time and date on the device (phone or computer). Alternatively, these values can be manually changed to any other time and date. The `Set custom time` button will use the entries in the `Custom date` and `Custom time` fields and update the camera date and time based on these values. The camera will update its schedule based on the new time.
 
 <div style="page-break-after: always;"></div>
