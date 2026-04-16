@@ -287,7 +287,7 @@ The cameras scheduling (sunset and sunrise times) are calculated based on the ca
 
 `Delay Shutdown` Delay camera shutdown by three hours. Useful when downloading media over WiFi or extending the time you have for setting up a camera in the daytime.
 
-`Schedule - Night` / `Schedule - Day` / `Schedule - AO` Choose when the camera will automatically turn on and off in the day or night. `Schedule - Night` The camera powers on at night. It turn on 20 minutes before sunset and turn off 20 minutes after sunrise. `Schedule - Day` The camera stays on during the day. It turns on 20 minutes before sunrise and turn off 20 minutes after sunset. `Schedule - AO` Always On. The camera stays on while it is powered. 
+`Schedule - Night` / `Schedule - Day` / `Schedule - AO` Choose when the camera will automatically turn on and off in the day or night. `Schedule - Night` The camera powers on at night, it turn on 20 minutes before sunset and turn off 20 minutes after sunrise. `Schedule - Day` The camera stays on during the day, it turns on 20 minutes before sunrise and turn off 20 minutes after sunset. `Schedule - AO` Always On, the camera stays on while it is powered. 
 
 `Set custom cutoff` The camera will turn off automatically and stop its scheduled routine if it detects an input voltage below this cutoff value.
 
