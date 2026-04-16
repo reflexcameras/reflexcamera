@@ -154,7 +154,7 @@ If the date on your camera's **Reflex settings webpage** is older than the lates
 The camera needs to be connected to the internet to receive updates. A method is described in the 'Advanced Users' section below. If you have followed this guide but still need help updating the camera contact us using the <a href="/index.html#contact">contact</a> form on our webpage.
 
 ### Automatic shutdown in the day
-The camera will shutdown after 15 minutes if turned on in the daytime.
+In it's default night mode the camera will shutdown after 15 minutes if turned on in the daytime.
 
 The camera will automatically schedule itself to turn back on 20 minutes before sunset.
 
