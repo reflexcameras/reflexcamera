@@ -195,7 +195,7 @@ The live video feed stops after three minutes (a countdown timer indicates how l
 #### Settings
 
 `Select Motion Box`<br>
-Select a box to move its edges, it will become bold when selected.
+Select a green box to move its edges, it will become bold when selected.
 
 `-` `Motion Boxes` `+`<br>
 Add or remove additional green motion boxes.
