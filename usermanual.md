@@ -335,7 +335,7 @@ Media can be downloaded individually by clicking on the name of the file in the 
 
 `Delete all` Deletes all media saved on the camera. To avoid duplicate media, after the media has been copied from the camera it is good practice to delete the videos on the camera before the next deployment.
 
-`Format SD card` Format an SD card so that it can be used by the camera. **Warning** this will delete all media on the SD card. If this is the first time using the card you will need to turn the camera on and off for the card to be recognised. Use a reliable brand like Sandisk or Samsung.
+`Format SD card` Format an SD card so that it can be used by the camera. **Warning** this will delete all media on the SD card. If your camera has not been updated in 2026 you will need to turn the camera on and off after formatting the card for it to be recognised. Use a reliable brand like Sandisk or Samsung.
 
 <div style="page-break-after: always;"></div>
 
