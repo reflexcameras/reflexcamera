@@ -283,9 +283,11 @@ The values in the table on this page detail the power statistics and scheduling 
 | Low Voltage Threshold  | n/a                                         |
 
 `Latitude` `Longitude` `Set custom lat long`
-The cameras scheduling (sunset and sunrise times) are calculated based on the camera’s `Latitude` and `Longitude` values. The camera turns on 20 minutes before sunrise and turns off 20 minutes after sunset `Set custom lat long`, the camera will automatically calculate the correct times and update the scheduled values for shutdown and startup, new values are displayed in the table on this page.
+The cameras scheduling (sunset and sunrise times) are calculated based on the camera’s `Latitude` and `Longitude` values. Using its default night time schedule the camera will turn on 20 minutes before sunset and turn off 20 minutes after sunrise `Set custom lat long`, the camera will automatically calculate the correct times and update the scheduled values for shutdown and startup, new values are displayed in the table on this page.
 
 `Delay Shutdown` Delay camera shutdown by three hours. Useful when downloading media over WiFi or extending the time you have for setting up a camera in the daytime.
+
+`Schedule - Night` `Schedule - Day` `Schedule - AO` Choose when the camera will automatically turn on and off in the day or night. `Schedule - Night` The camera powers on at night. It turn on 20 minutes before sunset and turn off 20 minutes after sunrise. `Schedule - Day` The camera stays on during the day. It turns on 20 minutes before sunrise and turn off 20 minutes after sunset. `Schedule - AO` Always On. The camera stays on while it is powered. 
 
 `Set custom cutoff` The camera will turn off automatically and stop its scheduled routine if it detects an input voltage below this cutoff value.
 
