@@ -232,11 +232,13 @@ Default settings for LED brightness.
 `Motion Boxes` / `Motion Average`<br>
 There are two different motion algorithms built into the camera, `Motion boxes` and `Motion average`. These can be selected using this dropdown. The algorithms only search for changes within the green box.
 
-`Motion boxes` - The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than `Motion average`.
-
-`Motion average` - This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than `Motion boxes` but works very effectively when surveying a bat from a short distance as the bat represents a larger area of the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
-
 To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure that noise in darker areas of the image is not triggering motion events. If the noise in darker areas of the image is triggering motion events during testing, consider increasing the LED brightness or decreasing the motion sensitivity with the `Sensitivity` `Motion area` and `Motion frames` buttons.
+
+`Motion boxes`<br>
+The default setting. This algorithm looks for pixel differences and draws boxes (blue on the live video feed) around changed pixels. If the blue box size is larger than the threshold value then a recording will start. This setting uses marginally more power than `Motion average`.
+
+`Motion average`<br>
+This algorithm looks for changes in the light, medium, and dark light bands within the image. If any of these bands gets darker or lighter a recording will start. This mode is less sensitive to small movements than `Motion boxes` but works very effectively when surveying a bat from a short distance as the bat represents a larger area of the total frame. The algorithm is less sensitive to small changes so it can reduce the number of recordings of small insects.
 
 `Autofocus Box` / `Autofocus Centre`<br>
 Choose whether autofocus uses a selected part of the image or the centre of the image. Select `Autofocus Box` to use a portion of the image for autofocus operations, defined by the selected green box in the video feed, or by the purple box in older firmware versions. Select `Autofocus Centre` to use the centre of the image for autofocus operations. This setting only determines the area used when autofocus is triggered. `Autofocus Centre` is often more reliable than `Autofocus Box`. In low-light conditions, manual fine-tuning with the focus slider is often needed after autofocus.
@@ -298,7 +300,14 @@ Delay camera shutdown by three hours. Useful when downloading media over WiFi or
 `Schedule - Night` / `Schedule - Day` / `Schedule - AO`<br>
 Choose when the camera will automatically turn on and off in the day or night.
 
-`Schedule - Night` The camera powers on at night, it turn on 20 minutes before sunset and turn off 20 minutes after sunrise. `Schedule - Day` The camera stays on during the day, it turns on 20 minutes before sunrise and turn off 20 minutes after sunset. `Schedule - AO` Always On, the camera stays on while it is powered. 
+`Schedule - Night`<br>
+The camera powers on at night, it turn on 20 minutes before sunset and turn off 20 minutes after sunrise.
+
+`Schedule - Day`<br>
+The camera stays on during the day, it turns on 20 minutes before sunrise and turn off 20 minutes after sunset.
+
+`Schedule - AO`<br>
+Always On, the camera stays on while it is powered. 
 
 `Set custom cutoff`<br>
 The camera will turn off automatically and stop its scheduled routine if it detects an input voltage below this cutoff value.
@@ -368,10 +377,10 @@ Change WiFi mode. For further details see the 'Advanced Users' section below.
 For further details see the 'Advanced Users' section below'. The dropdown `SSID` will list all WiFi connections in range of the camera that it is possible to connect to. The page may need refreshing if WiFi connections are not seen. The WiFi password associated with a WiFi connection should be entered in the `Passphrase` field. The camera can't check the new SSID or Passphrase so ensure these values are correct before submitting the values with the `Add` button. The `Add` button will then add the WiFi connection to the camera. When a new connection is added the camera will switch to WiFi receive mode, the camera will reboot automatically and connect to this WiFi connection and this can take up to one minute. 
 
 `Update WiFi Country Code`<br>
-will change the WiFi settings so that the WiFi is compliant with a country other than GB (Great Britain). Your camera will need powering off and on for this WiFi setting to take effect.
+Change the WiFi settings so that the WiFi is compliant with a country other than GB (Great Britain). Your camera will need powering off and on for this WiFi setting to take effect.
 
 `Update Timezone`<br>
-will change the timezone from the default Europe/London (GMT) to ensure that the camera scheduling is correct in countries other than the UK. 
+Change the timezone from the default Europe/London (GMT) to ensure that the camera scheduling is correct in countries other than the UK. 
 
 <div style="page-break-after: always;"></div>
 
