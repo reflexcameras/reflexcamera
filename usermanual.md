@@ -186,7 +186,7 @@ A live video feed is displayed at the top of the page. This feed can be used to 
 
 Motion will only be detected within the green boxes, exclude any areas you are not interested in. The boxes turn red when the camera detects motion and is recording.
 
-The purple box is used by the autofocus function. When the camera is set to `Autofocus Box` the autofocus will attempt to focus on the portion of the image within this purple box. 
+In addition, the currently selected green box is used for autofocus when the camera is set to `Autofocus Box`. The camera will attempt to focus on the area within the selected thick green box. In older firmware versions, a purple box was used for autofocus instead of the selected green box when `Autofocus Box` was enabled.
 
 The live video feed is displayed at a lower resolution than the camera is recording this ensures the feed runs smoothly over WiFi. The videos recorded by the camera are of much higher quality.
 
@@ -234,7 +234,7 @@ There are two different motion algorithms built into the camera, `Motion boxes` 
 
 To test the motion settings, set the camera up in a dark room. Load the webpage to watch the video stream and make some movement with your hand or another object. Test out different sensitivity settings to understand how they trigger. If the LED is on a low setting make sure that noise in darker areas of the image is not triggering motion events. If the noise in darker areas of the image is triggering motion events during testing, consider increasing the LED brightness or decreasing the motion sensitivity with the `Sensitivity` `Motion area` and `Motion frames` buttons.
 
-`Autofocus Box` `Autofocus Centre` Decide whether to autofocus based on the purple box in the video feed by selecting `Autofocus Box` or based on the centre of the image by selecting `Autofocus Centre`. `Autofocus Centre` is often more reliable at focusing the image than Autofocus Box. In low light conditions some manual fine-tuning using the focus slider is often needed after using autofocus.
+`Autofocus Box` `Autofocus Centre` - Choose whether autofocus uses a selected part of the image or the centre of the image. Select `Autofocus Box` to use a portion of the image for autofocus operations, defined by the selected green box in the video feed, or by the purple box in older firmware versions. Select `Autofocus Centre` to use the centre of the image for autofocus operations. This setting only determines the area used when autofocus is triggered. `Autofocus Centre` is often more reliable than `Autofocus Box`. In low-light conditions, manual fine-tuning with the focus slider is often needed after autofocus.
 
 `Autofocus x1` Initiate autofocus of the camera.
 
