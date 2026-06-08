@@ -225,7 +225,7 @@ The best framerate will depend on your objective, see the table below.
 | To record the best possible images for species identification and see bat behaviour in detail | 120FPS                | Extreme (60) | 16 nights                      |
 
 <br>
-`LED Low` / `LED Medium` / `LED High`<br>
+`LED Low` / `LED Medium` / `LED High` / `LED Extreme`<br>
 Default settings for LED brightness.
 
 `Motion Boxes` / `Motion Average`<br>
