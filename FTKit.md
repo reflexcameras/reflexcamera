@@ -28,6 +28,8 @@ Below is a list of some robust, field-tested batteries that are recommended.
 | Tracer 22Ah 12 V, 1.25 kg | Short deployments | 1.25 weeks | 5 nights | Lightweight portable LiPo lithium battery pack with built-in protection circuit. | [Link](https://tracerpower.com/products/batteries/tracer-12v-22ah-lithium-polymer-battery-pack/?srsltid=AfmBOorso37S4cS6q78Ct0fB5LOwi8UbIVErzDN65BO-3MxRC64wn_-V$0) | £310.00 |
 | TalentCell YB1208300 12 V / 8300 mAh, 0.5 kg | Short deployments | 2 nights | 1 night | Lightweight portable Li-ion lithium battery pack with built-in protection circuit. | [Link](https://amzn.eu/d/0dxEUC2h) | £77.50 |
 
+The estimated runtimes shown above are based on a camera being powered for 9 hours per night.
+
 Practical methods to provide weather protection are outlined in the [Battery Weather Protection](#battery-weather-protection) section below.
 
 <!-- Add a blank line below -->
