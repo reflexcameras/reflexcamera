@@ -168,6 +168,40 @@ Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 
+Package: gunicorn
+Version: 20.1.0-6+deb12u1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 29
+Depends: python3-gunicorn (= 20.1.0-6+deb12u1), python3:any
+Suggests: python3-pastedeploy, python3-setproctitle, python3-tornado
+Conflicts: gunicorn3
+Replaces: gunicorn3
+Provides: gunicorn3, httpd-wsgi3
+Filename: pool/main/g/gunicorn/gunicorn_20.1.0-6+deb12u1_all.deb
+Size: 13820
+MD5sum: e71f3872740b97fdb6d2c2e618fa6748
+SHA1: 3efe7445f4141fa890c1e475872b893fc8085a9c
+SHA256: 86429184e5da6e4e7925f7097558cce1902d831608a6338d5ba7b8b0c922994b
+Section: httpd
+Priority: optional
+Homepage: https://gunicorn.org/
+Description: Event-based HTTP/WSGI server
+ Green Unicorn (gunicorn) is an HTTP/WSGI server designed to serve fast clients
+ or sleepy applications. That is to say; behind a buffering front-end server
+ such as nginx or lighttpd.
+ .
+  * Optional support for Eventlet, Tornado and Gevent to provide asynchronous
+    long-polling ("Comet") connections.
+  * Process management: Gunicorn reaps and restarts workers that die.
+  * Easy integration with Django and Paster compatible applications (Pylons,
+    TurboGears 2, etc.
+  * Load balancing via pre-fork and a shared socket
+  * Graceful worker process restarts
+  * Upgrading without losing connections
+  * Decode chunked transfers on-the-fly, allowing upload progress notifications
+    or stream-based protocols over HTTP
+
 Package: libacl1
 Source: acl
 Version: 2.3.1-3
