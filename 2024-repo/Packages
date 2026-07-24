@@ -168,40 +168,6 @@ Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 
-Package: gunicorn
-Version: 20.1.0-6+deb12u1
-Architecture: all
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 29
-Depends: python3-gunicorn (= 20.1.0-6+deb12u1), python3:any
-Suggests: python3-pastedeploy, python3-setproctitle, python3-tornado
-Conflicts: gunicorn3
-Replaces: gunicorn3
-Provides: gunicorn3, httpd-wsgi3
-Filename: pool/main/g/gunicorn/gunicorn_20.1.0-6+deb12u1_all.deb
-Size: 13820
-MD5sum: e71f3872740b97fdb6d2c2e618fa6748
-SHA1: 3efe7445f4141fa890c1e475872b893fc8085a9c
-SHA256: 86429184e5da6e4e7925f7097558cce1902d831608a6338d5ba7b8b0c922994b
-Section: httpd
-Priority: optional
-Homepage: https://gunicorn.org/
-Description: Event-based HTTP/WSGI server
- Green Unicorn (gunicorn) is an HTTP/WSGI server designed to serve fast clients
- or sleepy applications. That is to say; behind a buffering front-end server
- such as nginx or lighttpd.
- .
-  * Optional support for Eventlet, Tornado and Gevent to provide asynchronous
-    long-polling ("Comet") connections.
-  * Process management: Gunicorn reaps and restarts workers that die.
-  * Easy integration with Django and Paster compatible applications (Pylons,
-    TurboGears 2, etc.
-  * Load balancing via pre-fork and a shared socket
-  * Graceful worker process restarts
-  * Upgrading without losing connections
-  * Decode chunked transfers on-the-fly, allowing upload progress notifications
-    or stream-based protocols over HTTP
-
 Package: libacl1
 Source: acl
 Version: 2.3.1-3
@@ -6997,6 +6963,28 @@ Description: transitional package
  This is a transitional package. It will be possible to remove it
  safely once its dependency chain has adjusted to depend on mailcap
  or media-types directly.
+
+Package: nginx
+Version: 1.22.1-9+deb12u9
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 1343
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libpcre2-8-0 (>= 10.22), libssl3 (>= 3.0.0), zlib1g (>= 1:1.1.4), iproute2, nginx-common (<< 1.22.1-9+deb12u9.1~), nginx-common (>= 1.22.1-9+deb12u9)
+Breaks: nginx-core (<< 1.22.1-6~), nginx-extras (<< 1.22.1-6~), nginx-light (<< 1.22.1-6~)
+Replaces: nginx-core (<< 1.22.1-6~), nginx-extras (<< 1.22.1-6~), nginx-light (<< 1.22.1-6~)
+Provides: httpd, httpd-cgi, nginx-abi-1.22.1-7
+Filename: pool/main/n/nginx/nginx_1.22.1-9+deb12u9_arm64.deb
+Size: 496284
+MD5sum: 4f1e0902c33d7696dfbeeac296a38864
+SHA1: ba0758836ffd8af769c2f8a2952090f6b606571e
+SHA256: c50ba73501e353702a748a57aab4817bfe7d1e8d6cc7a2e24c97248bd91462de
+Section: httpd
+Priority: optional
+Homepage: https://nginx.org
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
 
 Package: ocl-icd-libopencl1
 Source: ocl-icd
