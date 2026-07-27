@@ -6986,6 +6986,33 @@ Description: small, powerful, scalable web/proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
  and as a proxy to reduce the load on back-end HTTP or mail servers.
 
+Package: nginx-common
+Source: nginx
+Version: 1.22.1-9+deb12u9
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 332
+Depends: debconf (>= 0.5) | debconf-2.0
+Suggests: fcgiwrap, nginx-doc, ssl-cert
+Breaks: nginx (<< 1.22.1-8)
+Replaces: nginx (<< 1.22.1-8)
+Filename: pool/main/n/nginx/nginx-common_1.22.1-9+deb12u9_all.deb
+Size: 114812
+MD5sum: 95e01d78ca8d9fd1962a47bce9e36d40
+SHA1: dc585db714ab608d01b74c68d0f11a3632e4d5fb
+SHA256: 12b7b98e914da6d233c9e35cec0f59f06bceb727e4d1f1ce039215b074a7267d
+Section: httpd
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://nginx.org
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+
 Package: ocl-icd-libopencl1
 Source: ocl-icd
 Version: 2.3.1-1
