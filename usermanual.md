@@ -1,6 +1,6 @@
 ---
 layout: minimal-usermanual
-title: "manual"
+title: "User Manual"
 permalink: /user-manual/
 ---
 
