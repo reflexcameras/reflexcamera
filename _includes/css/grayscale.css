@@ -221,6 +221,7 @@ a:focus {
 
 @media (max-width: 800px) {
     .intro {
+        background-image: url(/img/NoctuleAug25Vert.png);
         background-position: 150% center;
         background-size: 150% auto;
     }
@@ -385,7 +386,8 @@ div.buttons-container a.btn {
 
 @media (max-width: 800px) {
     .video-section {
-        background-position: 75% -175%;
+        background-image: url(/img/ghost-bat1-vert2.png);
+        background-position: 75% bottom;
     }
 }
 
