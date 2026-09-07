@@ -212,20 +212,17 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    /* background: url(/img/DaubEmergence2023.png) no-repeat bottom center scroll; */
-    background: url(/img/SmithWellsBechReentry.png) no-repeat right center scroll;
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url(/img/NoctuleAug25.png);
+    background-position: 500% center;
+    background-repeat: no-repeat;
+    background-size: 110% auto;
 }
 
-/* Styles for smaller screens (e.g., phones) */
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .intro {
-        background: url(/img/SmithWellsBechReentrymob.png) no-repeat bottom center scroll;
-        background-size: cover; /* Adjust as needed */
+        background-position: 150% center;
+        background-size: 150% auto;
     }
 }
 
@@ -242,7 +239,7 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:767px) {
+@media (min-width: 801px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -379,13 +376,17 @@ div.buttons-container a.btn {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/BechinvestBW.png) no-repeat bottom center scroll;
-    background-position: 20% 90% !important;
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url(/img/ghost-bat1.png);
+    background-position: 75% 72%;
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+}
+
+@media (max-width: 800px) {
+    .video-section {
+        background-position: 75% -175%;
+    }
 }
 
 #map {

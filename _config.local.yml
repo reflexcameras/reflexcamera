@@ -1,0 +1,11 @@
+# Local preview settings. Use this after _config.yml so production settings stay intact.
+url: "http://127.0.0.1:4000"
+baseurl: ""
+
+# These package repositories are published as static downloads, but scanning them
+# makes local Jekyll startup unnecessarily slow (especially from iCloud Drive).
+include: []
+exclude:
+  - 2024-repo
+  - 2025-repo
+  - vendor
