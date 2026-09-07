@@ -1,7 +1,8 @@
 # Site settings
 title: REFLEX
 email: your-email@domain.com
-url: https://tennisparty.github.io/reflexcamera/
+# url: https://tennisparty.github.io/reflexcamera/
+url: "https://reflexcameras.co.uk"
 #added below
 baseurl: /
 description: "High-performance camera traps for long term monitoring of bat roosts."
