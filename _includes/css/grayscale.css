@@ -213,7 +213,13 @@ a:focus {
     text-align: center;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
-    background-image: url(/img/NoctuleAug25.png);
+    background-image:
+        linear-gradient(
+            to right,
+            transparent 90%,
+            black 100%
+        ),
+        url(/img/NoctuleAug25.png);
     background-position: 500% center;
     background-repeat: no-repeat;
     background-size: 110% auto;
@@ -221,7 +227,13 @@ a:focus {
 
 @media (max-width: 800px) {
     .intro {
-        background-image: url(/img/NoctuleAug25Vert.png);
+        background-image:
+        linear-gradient(
+            to right,
+            transparent 90%,
+            black 100%
+        ),
+        url(/img/NoctuleAug25Vert.png);
         background-position: 150% center;
         background-size: 150% auto;
     }
