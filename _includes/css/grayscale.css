@@ -230,12 +230,13 @@ a:focus {
         background-image:
         linear-gradient(
             to right,
-            transparent 90%,
+            transparent 60%,
+            black 74%,
             black 100%
         ),
         url(/img/NoctuleAug25Vert.png);
-        background-position: 150% center;
-        background-size: 150% auto;
+        background-position: center, 150% center;
+        background-size: 100% 100%, 150% auto;
     }
 }
 
