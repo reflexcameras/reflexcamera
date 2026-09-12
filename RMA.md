@@ -45,7 +45,7 @@ Instead, we offer flexible, practical options:
 
 ### Pricing
 
-**£11 per hour of footage processed**
+**£8 per hour of footage processed**
 
 This method delivers a reliable, efficient, and verifiable approach to bat activity detection - supporting ecologists and consultants in achieving accurate, defensible results with reduced processing time.
 
