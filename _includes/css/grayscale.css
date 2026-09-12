@@ -506,11 +506,11 @@ div.buttons-container a.btn {
 .future-cameras-image-content picture {
     position: static;
     display: flex;
-    flex: 0 0 50%;
+    flex: 0 0 75%;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 75%;
 }
 
 .future-cameras-image-content img {
