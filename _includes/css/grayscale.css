@@ -386,12 +386,12 @@ div.buttons-container a.btn {
     overflow: hidden;
     padding: 80px 0;
     background:
-        radial-gradient(circle at 12% 18%, rgba(33, 154, 179, 0.22), transparent 34%),
-        radial-gradient(circle at 88% 78%, rgba(224, 76, 44, 0.16), transparent 30%),
+        radial-gradient(circle at 12% 18%, rgba(33, 154, 179, 0.22), transparent 40%),
+        radial-gradient(circle at 88% 78%, rgba(224, 76, 44, 0.16), transparent 35%),
         #07090a;
 }
 
-.future-cameras-section::before {
+/* .future-cameras-section::before {
     position: absolute;
     inset: 0;
     background-image: linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
@@ -399,7 +399,7 @@ div.buttons-container a.btn {
     background-size: 42px 42px;
     content: "";
     pointer-events: none;
-}
+} */
 
 .future-cameras-section .container {
     position: relative;
