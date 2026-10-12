@@ -37,7 +37,7 @@ Extras you’ll need:
 - Inline fuse for safety
 
 #### Mains power - AC
-Using a 'Reflex 12V male barrel jack connector' and an AC-to-12V DC plug rated for 5 watts, you can power the system from mains electricity. The 'Reflex 12V male barrel jack connector' plugs directly into a female 2.1mm x 5.5mm barrel AC power supply. Since female 2.1mm x 5.5mm barrel AC power supplies are relatively uncommon, you can alternatively use a male 2.1mm x 5.5mm barrel power supply with a female-to-female adapter. Suitable power supplies are listed in the table below.
+Using a 'Reflex 12 V male barrel jack connector' and an AC-to-12 V DC plug rated for 5 watts, you can power the system from mains electricity. The 'Reflex 12 V male barrel jack connector' plugs directly into a female 2.1mm x 5.5mm barrel AC power supply. Since female 2.1mm x 5.5mm barrel AC power supplies are relatively uncommon, you can alternatively use a male 2.1mm x 5.5mm barrel power supply with a female-to-female adapter. Suitable power supplies are listed in the table below.
 
 | Power Supply                                   | Description                                     | Links                                                                                                     | 2024 Price   |
 |------------------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------|

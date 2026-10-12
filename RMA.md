@@ -1,12 +1,15 @@
 ---
 layout: minimal-rma
 title: "Footage Motion Analysis Service"
+description: "Motion analysis for infrared and thermal bat footage, with timestamped summary images that make important activity faster to find and verify."
+body_class: "concept-three concept-four concept-five concept-six analysis-page"
+concept: 6
+stylesheet: "/assets/css/concept-three.css"
+additional_stylesheet: "/assets/css/concept-five.css"
+page_stylesheet: "/assets/css/analysis-service.css"
+theme_color: "#071013"
 permalink: /video-motion-analysis-service/
 ---
-
-# Reflex Cameras - Footage Motion Analysis Service
-
-## Smarter, Faster Bat Footage Analysis
 
 **Reflex Cameras \- Footage Motion Analysis Service** is a specialised video processing service designed to significantly reduce the time required to analyse any bat infrared (IR) or thermal footage.
 
@@ -62,31 +65,31 @@ The following examples illustrate the type of outputs produced by the Reflex Mot
 Bat emergence recorded using thermal imaging cameras.  
 The processing highlights a trail of motion corresponding to a bat emerging from different locations on a building. The exact emergence location can be identified with ease. Movement in the clouds and bushes is also highlighted but this can be easily be distinguished from the bat activity.
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem;">
-  <div style="flex:1 1 300px; min-width:280px;">
+<div class="analysis-media-grid">
+  <div class="analysis-media-card">
     <p><strong>Thermal Video 1 - Pixfra A613</strong></p>
-    <video controls width="100%">
-      <source src="/img/rma/thermal-21-41-15-noaudio.mp4" type="video/mp4">
+    <video controls preload="none" poster="/assets/images/rma/thermal-21-41-15-noaudio-poster.png" width="640" height="512" playsinline>
+      <source src="/assets/images/rma/thermal-21-41-15-noaudio.mp4?v=20261009-first-video-fix" type="video/mp4">
     </video>
   </div>
 
-  <div style="flex:1 1 300px; min-width:280px;">
+  <div class="analysis-media-card">
     <p><strong>Summary Image - Pixfra A613</strong></p>
-    <img src="/img/rma/thermal-21-41-15-noaudio.jpg" alt="Thermal Bat Motion Summary" width="100%">
+    <img src="/assets/images/rma/thermal-21-41-15-noaudio.jpg" alt="Thermal Bat Motion Summary" width="100%">
   </div>
 </div>
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem;">
-  <div style="flex:1 1 300px; min-width:280px;">
+<div class="analysis-media-grid">
+  <div class="analysis-media-card">
     <p><strong>Thermal Video 2 - Nightfox DV2</strong></p>
-    <video controls width="100%">
-      <source src="/img/rma/ANTThermalEmergence.mp4" type="video/mp4">
+    <video controls preload="none" poster="/assets/images/rma/ANTThermalEmergence-poster.png" width="1280" height="720" playsinline>
+      <source src="/assets/images/rma/ANTThermalEmergence.mp4?v=20261009-faststart-2" type="video/mp4">
     </video>
   </div>
 
-  <div style="flex:1 1 300px; min-width:280px;">
+  <div class="analysis-media-card">
     <p><strong>Summary Image - Nightfox DV2</strong></p>
-    <img src="/img/rma/ANTThermalEmergence.jpg" alt="Thermal Bat Motion Summary" width="100%">
+    <img src="/assets/images/rma/ANTThermalEmergence.jpg" alt="Thermal Bat Motion Summary" width="100%">
   </div>
 </div>
 
@@ -94,79 +97,79 @@ The processing highlights a trail of motion corresponding to a bat emerging from
 
 Bat emergence events from various buildings, several are difficult to see within the video but clearly displayed in the summary images. Bushes and clouds are moving in the field of view on several images but the bat emergence events are clear, this demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and bat activity.
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
-  <div style="flex:1 1 300px; min-width:280px;">
+<div class="analysis-media-grid">
+  <div class="analysis-media-card">
     <p><strong>IR Video 1 - Sony AX53</strong></p>
-    <video controls width="100%">
-      <source src="/img/rma/00001-00-04-15-noaudio.mp4" type="video/mp4">
+    <video controls preload="none" poster="/assets/images/rma/00001-00-04-15-noaudio-poster.png" width="1920" height="1080" playsinline>
+      <source src="/assets/images/rma/00001-00-04-15-noaudio.mp4?v=20261009-faststart-2" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
-  <div style="flex:1 1 300px; min-width:280px;">
+  <div class="analysis-media-card">
     <p><strong>Summary Image 1 - Sony AX53</strong></p>
-    <img src="/img/rma/00001-04-45.jpg" alt="Infra-red Bat Motion Summary 1" width="100%">
+    <img src="/assets/images/rma/00001-04-45.jpg" alt="Infra-red Bat Motion Summary 1" width="100%">
   </div>
 </div>
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem;">
-  <div style="flex:1 1 300px; min-width:280px;">
+<div class="analysis-media-grid">
+  <div class="analysis-media-card">
     <p><strong>IR Video 2 - Sony AX53</strong></p>
-    <video controls width="100%">
-      <source src="/img/rma/00001-00-15-15-noaudio.mp4" type="video/mp4">
+    <video controls preload="none" poster="/assets/images/rma/00001-00-15-15-noaudio-poster.png" width="1920" height="1080" playsinline>
+      <source src="/assets/images/rma/00001-00-15-15-noaudio.mp4?v=20261009-faststart-2" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
-  <div style="flex:1 1 300px; min-width:280px;">
+  <div class="analysis-media-card">
     <p><strong>Summary Image 2 - Sony AX53</strong></p>
-    <img src="/img/rma/00001-15-15.jpg" alt="Infra-red Bat Motion Summary 2" width="100%">
+    <img src="/assets/images/rma/00001-15-15.jpg" alt="Infra-red Bat Motion Summary 2" width="100%">
   </div>
 </div>
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem;">
-  <div style="flex:1 1 300px; min-width:280px;">
+<div class="analysis-media-grid">
+  <div class="analysis-media-card">
     <p><strong>IR Video 3 - Canon XA30</strong></p>
-    <video controls width="100%">
-      <source src="/img/rma/2025-03-11-09-20-43.mp4" type="video/mp4">
+    <video controls preload="none" poster="/assets/images/rma/2025-03-11-09-20-43-poster.png" width="1880" height="1004" playsinline>
+      <source src="/assets/images/rma/2025-03-11-09-20-43.mp4?v=20261009-faststart-2" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
-  <div style="flex:1 1 300px; min-width:280px;">
+  <div class="analysis-media-card">
     <p><strong>Summary Image 3 - Canon XA30</strong></p>
-    <img src="/img/rma/2025-03-11-09-20-43.jpg" alt="Infra-red Bat Motion Summary 3" width="100%">
+    <img src="/assets/images/rma/2025-03-11-09-20-43.jpg" alt="Infra-red Bat Motion Summary 3" width="100%">
   </div>
 </div>
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem;">
-  <div style="flex:1 1 300px; min-width:280px;">
+<div class="analysis-media-grid">
+  <div class="analysis-media-card">
     <p><strong>IR Video 4 - Sony AX53</strong></p>
-    <video controls width="100%">
-      <source src="/img/rma/Emergence-0918.mp4" type="video/mp4">
+    <video controls preload="none" poster="/assets/images/rma/Emergence-0918-poster.png" width="1920" height="1080" playsinline>
+      <source src="/assets/images/rma/Emergence-0918.mp4?v=20261009-faststart-2" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
-  <div style="flex:1 1 300px; min-width:280px;">
+  <div class="analysis-media-card">
     <p><strong>Summary Image 4 - Sony AX53</strong></p>
-    <img src="/img/rma/Emergence-0918.jpg" alt="Infra-red Bat Motion Summary 4" width="100%">
+    <img src="/assets/images/rma/Emergence-0918.jpg" alt="Infra-red Bat Motion Summary 4" width="100%">
   </div>
 </div>
 
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem;">
-  <div style="flex:1 1 300px; min-width:280px;">
+<div class="analysis-media-grid">
+  <div class="analysis-media-card">
     <p><strong>Video 5 - Sony AX53</strong></p>
-    <video controls width="100%">
-      <source src="/img/rma/Emergence-3547.mp4" type="video/mp4">
+    <video controls preload="none" poster="/assets/images/rma/Emergence-3547-poster.png" width="3840" height="2160" playsinline>
+      <source src="/assets/images/rma/Emergence-3547.mp4?v=20261009-faststart-2" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
 
-  <div style="flex:1 1 300px; min-width:280px;">
+  <div class="analysis-media-card">
     <p><strong>Summary Image 5 - Sony AX53</strong></p>
-    <img src="/img/rma/Emergence-3547.jpg" alt="Infra-red Bat Motion Summary 5" width="100%">
+    <img src="/assets/images/rma/Emergence-3547.jpg" alt="Infra-red Bat Motion Summary 5" width="100%">
   </div>
 </div>
 
@@ -175,11 +178,11 @@ Bat emergence events from various buildings, several are difficult to see within
 A tree branch moving on the edge of a building and a moth passing through the field of view recorded on an infra-red camera.  
 This demonstrates the system’s high motion sensitivity and ability to distinguish between environmental movement and potential bat activity.
 
-![Moth Motion Summary](/img/rma/moth.png) -->
+![Moth Motion Summary](/assets/images/rma/moth.png) -->
 
 ## How the service works
 
-Contact us via the <a href="/index.html#contact">contact</a> form on our webpage and provide an estimate of the total size of all video files (in GB). A rough estimate \- such as the total used space occupied by video files on your drive \- is sufficient.
+Contact us via the <a href="/#contact">contact</a> form on our webpage and provide an estimate of the total size of all video files (in GB). A rough estimate \- such as the total used space occupied by video files on your drive \- is sufficient.
 
 **For small projects** \- Upload your files to **Google Drive** using the link we provide.
 
@@ -197,27 +200,30 @@ Payment can be made securely via a **Stripe payment link**, which supports **App
 
 ## Instructions
 
-## Image Overview
+### Image Overview
 
 Each JPEG represents a 15-second segment from a video file. Any motion within that window is overlaid as coloured trails on a black-and-white background. The colours follow a rotation pattern: Red → Green → Blue → Red → Green → Blue, and so on. This helps indicate the direction of movement.
 
-## File Naming
+### File Naming
 
-The name of each JPEG file includes the name of the original video file and the start time of the 15-second window it summarises. Note: this timestamp refers to the time within the video, not the actual time of recording.  
-Identifying Species:
+The name of each JPEG file includes the name of the original video file and the start time of the 15-second window it summarises. Note: this timestamp refers to the time within the video, not the actual time of recording.
+
+### Identifying Species
 
 * Moths appear as smooth, continuous trails.  
 * Bats and birds show irregular trails due to wingbeats.  
 
 With practice, you'll start to recognise these patterns more easily.
 
-## Reviewing Video Clips
+### Reviewing Video Clips
 
-When you spot a bat-like trail, it's best to review the corresponding 15 seconds of video using VLC Player:  
-Enabling motion detection can help but its not always reliable:  
-Go to Tools → Effects and Filters → Video Effects, then tick Motion Detect. This will highlight motion with white boxes.  
-Use the ‘E’ key to step through frames one by one for detailed inspection.  
-Speeding Up Your Workflow:
+When you spot a bat-like trail, it's best to review the corresponding 15 seconds of video using VLC Player.
+
+Enabling motion detection can help but its not always reliable. Go to Tools → Effects and Filters → Video Effects, then tick Motion Detect. This will highlight motion with white boxes.
+
+Use the ‘E’ key to step through frames one by one for detailed inspection.
+
+#### Speeding Up Your Workflow
 
 * Download files locally: Reviewing directly from the server can be slow. Downloading the images and videos to your computer will make loading much faster.  
 * Use FastPictureViewer: This program pre-loads images, allowing you to scroll through JPEGs quickly. Just hold down the arrow key to fly through them at speed.

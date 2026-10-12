@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-GB"{% if page.concept == 6 %} class="concept-six-document"{% endif %}>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="theme-color" content="{{ page.theme_color | default: '#050708' }}">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {% if page.concept == 6 %}
+      <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    {% else %}
+      <link rel="icon" href="{{ '/assets/images/reflex-mark.webp' | relative_url }}" type="image/webp">
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
+    {% if page.stylesheet %}
+      <link rel="stylesheet" href="{{ page.stylesheet | relative_url }}">
+    {% endif %}
+    {% if page.additional_stylesheet %}
+      <link rel="stylesheet" href="{{ page.additional_stylesheet | relative_url }}">
+    {% endif %}
+    {% if page.page_stylesheet %}
+      <link rel="stylesheet" href="{{ page.page_stylesheet | relative_url }}">
+    {% endif %}
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/cookie-consent.css' | relative_url }}">
+  </head>
+  <body class="{{ page.body_class }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {{ content }}
+    {% include cookie-consent.html %}
+  </body>
+</html>

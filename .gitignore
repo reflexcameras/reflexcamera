@@ -1,4 +1,5 @@
 _site
+.preview-site
 .bundle
 .jekyll-cache
 .jekyll-metadata

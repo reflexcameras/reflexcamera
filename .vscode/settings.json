@@ -1,0 +1,11 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "search.exclude": {
+        "**/_site/**": true,
+        "**/.preview-site/**": true,
+        "**/.jekyll-cache/**": true,
+        "**/vendor/**": true,
+        "**/.venv/**": true,
+        "**/2024-repo/**": true
+    }
+}

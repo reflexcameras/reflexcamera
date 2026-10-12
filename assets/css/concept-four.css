@@ -1,0 +1,460 @@
+.concept-four .field-hero--lineup {
+  display: block;
+  min-height: calc(100vh - 128px);
+  padding: clamp(52px, 7vw, 92px) clamp(18px, 4vw, 58px) clamp(72px, 8vw, 110px);
+}
+
+.concept-four .field-hero--lineup::after {
+  top: -220px;
+  right: -90px;
+  bottom: auto;
+}
+
+.concept-four .field-hero__copy--lineup {
+  display: grid;
+  width: min(1500px, 100%);
+  grid-template-columns: minmax(0, 1.3fr) minmax(320px, 0.7fr);
+  align-items: end;
+  gap: clamp(40px, 8vw, 140px);
+  margin: 0 auto;
+}
+
+.concept-four .field-hero__copy--lineup h1 {
+  max-width: 900px;
+  margin-bottom: 0;
+  font-size: clamp(3.6rem, 7.7vw, 8.4rem);
+}
+
+.concept-four .field-hero__support {
+  padding-bottom: 5px;
+}
+
+.concept-four .field-hero__support .field-button {
+  margin-top: 26px;
+}
+
+.concept-four .spectrum-stage--lineup {
+  display: grid;
+  width: min(1500px, 100%);
+  min-height: 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(10px, 1.4vw, 20px);
+  margin: clamp(42px, 6vw, 76px) auto 0;
+}
+
+.concept-four .spectrum-stage--lineup .spectrum-card {
+  display: grid;
+  height: auto;
+  min-height: 0;
+  grid-template-rows: minmax(350px, 46vh) auto;
+  transform: none;
+  border-color: rgba(255, 255, 255, 0.25);
+  clip-path: none;
+}
+
+.concept-four .spectrum-stage--lineup .spectrum-card:hover {
+  transform: translateY(-5px);
+}
+
+.concept-four .spectrum-card__image-wrap {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.concept-four .spectrum-stage--lineup .spectrum-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  filter: saturate(0.72) contrast(1.12) brightness(0.84);
+  transition: transform 500ms ease;
+}
+
+.concept-four .spectrum-stage--lineup .spectrum-card:hover img {
+  transform: scale(1.025);
+}
+
+.concept-four .spectrum-stage--lineup .spectrum-card__scan {
+  background:
+    linear-gradient(180deg, transparent 48%, rgba(3, 7, 8, 0.78) 100%),
+    repeating-linear-gradient(180deg, transparent 0, transparent 5px, rgba(255, 255, 255, 0.018) 6px);
+}
+
+.concept-four .spectrum-card__status,
+.concept-four .spectrum-card__number {
+  position: absolute;
+  z-index: 3;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.concept-four .spectrum-card__status {
+  top: 20px;
+  left: 20px;
+  padding: 10px 13px;
+  background: var(--camera-accent);
+  color: #071013;
+  font: 850 0.72rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.08em;
+}
+
+.concept-four .spectrum-card__number {
+  right: 18px;
+  bottom: -12px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: clamp(5.7rem, 9vw, 9.4rem);
+  line-height: 1;
+  letter-spacing: -0.07em;
+}
+
+.concept-four .spectrum-card__headline {
+  display: grid;
+  align-content: start;
+  gap: 13px;
+  min-height: 160px;
+  padding: clamp(24px, 3vw, 38px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background: #081114;
+}
+
+.concept-four .spectrum-card__headline span {
+  color: var(--camera-accent);
+  font: 850 0.72rem/1.25 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.concept-four .spectrum-card__headline strong {
+  max-width: 420px;
+  font-size: clamp(1.55rem, 2.7vw, 3rem);
+  line-height: 0.94;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+.concept-four .spectrum-stage--lineup .spectrum-card__meta,
+.concept-four .spectrum-stage--lineup .spectrum-card__name {
+  display: none;
+}
+
+.concept-four .method-section {
+  background: #071013;
+}
+
+.concept-four .method-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(10px, 1.2vw, 18px);
+  background: transparent;
+}
+
+.concept-four .method-grid li {
+  min-height: 350px;
+  padding: clamp(24px, 2.8vw, 38px);
+  background: #0b181c;
+}
+
+.concept-four .method-grid span {
+  font-size: 0.75rem;
+}
+
+.concept-four .method-grid h3 {
+  margin-top: clamp(58px, 6vw, 90px);
+}
+
+.concept-four .method-grid p {
+  font-size: 1rem;
+}
+
+.concept-four .method-section__capabilities {
+  display: flex;
+  width: min(1320px, 100%);
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 26px auto 0;
+}
+
+.concept-four .method-section__capabilities span {
+  padding: 11px 14px;
+  background: #0b181c;
+  color: var(--cyan);
+  font: 800 0.75rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.concept-four .method-section__footer {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.35fr) minmax(0, 1.65fr);
+  align-items: start;
+  gap: clamp(24px, 5vw, 70px);
+  margin-top: 34px;
+  padding: clamp(24px, 3vw, 38px);
+  border-top: 0;
+  background: rgba(240, 90, 166, 0.08);
+}
+
+.concept-four .method-section__footer p:first-child {
+  color: var(--acid);
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
+.concept-four .method-section__footer p:last-child {
+  color: #c1ccca;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.concept-four .evidence-section {
+  display: grid;
+  min-height: 620px;
+  grid-template-columns: minmax(0, 1.2fr) minmax(360px, 0.8fr);
+  overflow: hidden;
+  background: #030708;
+}
+
+.concept-four .evidence-section img {
+  width: 100%;
+  height: 100%;
+  min-height: 620px;
+  object-fit: cover;
+  filter: saturate(0.72) contrast(1.12) brightness(0.88);
+}
+
+.concept-four .evidence-section__copy {
+  align-self: center;
+  padding: clamp(48px, 7vw, 96px);
+}
+
+.concept-four .evidence-section .eyebrow {
+  margin: 0 0 24px;
+  color: var(--cyan);
+  font: 850 0.72rem/1.3 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.concept-four .evidence-section h2 {
+  max-width: 690px;
+  margin: 0 0 26px;
+  font-size: clamp(2.7rem, 5.2vw, 6.2rem);
+  line-height: 0.88;
+  letter-spacing: -0.06em;
+  text-transform: uppercase;
+}
+
+.concept-four .evidence-section__copy > p:last-child {
+  max-width: 570px;
+  margin: 0;
+  color: var(--dim);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.concept-four .comparison-section {
+  padding: clamp(80px, 10vw, 140px) clamp(18px, 5vw, 76px);
+  background: #cbd6d2;
+  color: #071013;
+}
+
+.concept-four .comparison-section__header {
+  display: grid;
+  width: min(1320px, 100%);
+  grid-template-columns: 0.55fr 1.45fr;
+  gap: 32px;
+  margin: 0 auto 58px;
+}
+
+.concept-four .comparison-section__header .field-code {
+  color: #556466;
+}
+
+.concept-four .comparison-section h2 {
+  margin: 0;
+  font-size: clamp(2.7rem, 6.2vw, 7.5rem);
+  line-height: 0.86;
+  letter-spacing: -0.065em;
+  text-transform: uppercase;
+}
+
+.concept-four .comparison-table-wrap {
+  width: min(1320px, 100%);
+  margin: 0 auto;
+  overflow-x: auto;
+  outline-offset: 6px;
+}
+
+.concept-four .comparison-table-wrap:focus-visible {
+  outline: 2px solid #071013;
+}
+
+.concept-four .comparison-table-wrap table {
+  width: 100%;
+  min-width: 820px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #dfe6e2;
+}
+
+.concept-four .comparison-table-wrap th,
+.concept-four .comparison-table-wrap td {
+  padding: 20px clamp(16px, 2.4vw, 30px);
+  border-bottom: 1px solid rgba(7, 16, 19, 0.18);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.concept-four .comparison-table-wrap thead th {
+  height: 116px;
+  background: #071013;
+  color: #f4f7f4;
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.concept-four .comparison-table-wrap thead th:first-child {
+  width: 19%;
+  color: var(--dim);
+  font: 800 0.72rem/1.3 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.concept-four .comparison-table-wrap thead th:nth-child(2) {
+  box-shadow: inset 0 6px 0 var(--cyan);
+}
+
+.concept-four .comparison-table-wrap thead th:nth-child(3) {
+  box-shadow: inset 0 6px 0 var(--lynx);
+}
+
+.concept-four .comparison-table-wrap thead th:nth-child(4) {
+  box-shadow: inset 0 6px 0 var(--heat);
+}
+
+.concept-four .comparison-table-wrap tbody th {
+  color: #536163;
+  font: 800 0.76rem/1.35 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.concept-four .comparison-table-wrap tbody td {
+  color: #071013;
+  font-size: 1rem;
+  font-weight: 720;
+}
+
+.concept-four .comparison-table-wrap tbody tr:last-child th,
+.concept-four .comparison-table-wrap tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+@media (max-width: 1040px) {
+  .concept-four .field-hero__copy--lineup {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .concept-four .field-hero__support {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 28px;
+  }
+
+  .concept-four .field-hero__support .field-button {
+    margin-top: 0;
+  }
+
+  .concept-four .spectrum-stage--lineup .spectrum-card {
+    grid-template-rows: 390px auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .concept-four .field-hero__support {
+    display: block;
+  }
+
+  .concept-four .field-hero__support .field-button {
+    margin-top: 25px;
+  }
+
+  .concept-four .spectrum-stage--lineup {
+    grid-template-columns: 1fr;
+  }
+
+  .concept-four .spectrum-stage--lineup .spectrum-card {
+    grid-template-columns: minmax(260px, 1.2fr) minmax(220px, 0.8fr);
+    grid-template-rows: 360px;
+  }
+
+  .concept-four .spectrum-card__headline {
+    align-content: end;
+    min-height: 0;
+    border-top: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .concept-four .method-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .concept-four .method-grid li:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .concept-four .method-section__footer {
+    grid-template-columns: 1fr;
+  }
+
+  .concept-four .evidence-section {
+    min-height: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .concept-four .evidence-section img {
+    height: min(62vw, 520px);
+    min-height: 390px;
+  }
+
+  .concept-four .comparison-section__header {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .concept-four .spectrum-stage--lineup .spectrum-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 340px auto;
+  }
+
+  .concept-four .spectrum-card__headline {
+    min-height: 145px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 0;
+  }
+
+  .concept-four .method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .concept-four .method-grid li,
+  .concept-four .method-grid li:last-child {
+    min-height: 0;
+    grid-column: auto;
+  }
+
+  .concept-four .evidence-section img {
+    height: 360px;
+    min-height: 0;
+  }
+}

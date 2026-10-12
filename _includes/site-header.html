@@ -1,0 +1,60 @@
+<header class="field-header">
+  <a class="field-brand" href="{{ '/' | relative_url }}" aria-label="Reflex Cameras home">
+    <img src="{{ '/assets/images/reflex-logo-white.webp' | relative_url }}" alt="Reflex Cameras">
+  </a>
+  <p class="field-header__descriptor">Specialist bat-monitoring cameras<br>Bristol / UK</p>
+  <nav class="field-nav" aria-label="Primary navigation">
+    <details class="field-nav__menu" name="primary-nav">
+      <summary>Why Reflex</summary>
+      <div class="field-nav__panel">
+        <a href="{{ '/#recording' | relative_url }}">System features</a>
+        <a href="{{ '/#coverage' | relative_url }}">Survey applications</a>
+        <a href="{{ '/#method' | relative_url }}">How it works</a>
+        <a href="{{ '/#videos' | relative_url }}">Example footage</a>
+        <a href="{{ '/#about' | relative_url }}">About Reflex</a>
+        <a href="{{ '/#contact' | relative_url }}">Contact</a>
+      </div>
+    </details>
+    <details class="field-nav__menu" name="primary-nav">
+      <summary>Cameras</summary>
+      <div class="field-nav__panel">
+        <a href="{{ '/#camera-range' | relative_url }}">All cameras</a>
+        <a href="{{ '/#system-standard' | relative_url }}">Reflex Standard</a>
+        <a href="{{ '/#system-lynx' | relative_url }}">Reflex Lynx</a>
+        <a href="{{ '/#system-pit-viper' | relative_url }}">Reflex Pit Viper</a>
+        <a href="{{ '/#comparison' | relative_url }}">Compare specifications</a>
+      </div>
+    </details>
+    <details class="field-nav__menu" name="primary-nav">
+      <summary>Guides</summary>
+      <div class="field-nav__panel">
+        <a href="{{ '/#guides' | relative_url }}">All guides</a>
+        <a href="{{ '/guides/choosing-a-bat-camera-trap/' | relative_url }}">Bat roosts in trees</a>
+        <a href="{{ '/guides/choosing-a-building-survey-camera/' | relative_url }}">Bat Building Surveys</a>
+        <a href="{{ '/#examples' | relative_url }}">Example uses</a>
+        <a href="{{ '/guides/user-manual/' | relative_url }}">User manual</a>
+        <a href="{{ '/guides/compatible-kit/' | relative_url }}">Compatible kit</a>
+      </div>
+    </details>
+    <a class="field-nav__buy" href="{{ '/#purchase' | relative_url }}">Buy</a>
+    <a class="field-nav__analysis" href="{{ '/video-motion-analysis-service/' | relative_url }}">Analysis Service ↗</a>
+  </nav>
+</header>
+
+<script>
+  const fieldHeader = document.querySelector('.field-header');
+  new ResizeObserver(() => {
+    document.documentElement.style.setProperty('--field-header-offset', `${fieldHeader.offsetHeight + 20}px`);
+  }).observe(fieldHeader);
+  document.querySelectorAll('.field-nav__menu').forEach((menu) => {
+    menu.addEventListener('click', (event) => {
+      if (event.target.closest('a')) menu.open = false;
+    });
+    menu.addEventListener('toggle', () => {
+      if (!menu.open) return;
+      document.querySelectorAll('.field-nav__menu').forEach((other) => {
+        if (other !== menu) other.open = false;
+      });
+    });
+  });
+</script>

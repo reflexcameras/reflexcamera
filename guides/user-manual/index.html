@@ -1,0 +1,62 @@
+---
+layout: site
+title: "User manual"
+description: "The complete Reflex camera quick guide, operating manual, field setup instructions and product FAQs."
+body_class: "concept-three concept-four concept-five concept-six guide-page-five source-guide-page structured-guide-page"
+concept: 6
+stylesheet: "/assets/css/concept-three.css"
+additional_stylesheet: "/assets/css/concept-five.css"
+theme_color: "#071013"
+permalink: /guides/user-manual/
+---
+{% include site-header.html %}
+
+<main id="main-content" class="field-guide">
+  <section class="guide-page-hero guide-page-hero--structured" aria-labelledby="guide-title">
+    <p class="field-code">REF / FIELD SUPPORT / GUIDE 01</p>
+    <h1 id="guide-title">User<br>manual.</h1>
+    <div>
+      <p>The complete Reflex manual, arranged into numbered steps, chapter panels, setting rows and expandable FAQs.</p>
+      <p><a href="{{ '/#guides' | relative_url }}">Back to Guides and field advice ↗</a></p>
+      <a href="#reflex---quick-guide">Start with the quick guide <span aria-hidden="true">↓</span></a>
+    </div>
+  </section>
+
+  <div class="guide-layout">
+    <aside class="guide-toc" aria-label="On this page">
+      <p>On this page</p>
+      <nav>
+        <a href="#reflex---quick-guide"><span>01</span> Quick guide</a>
+        <a href="#reflex---full-guide"><span>02</span> Full guide</a>
+        <a href="#before-use-in-the-field"><span>03</span> Before field use</a>
+        <a href="#operating-the-camera"><span>04</span> Operation</a>
+        <a href="#reflex-settings-webpage"><span>05</span> Settings</a>
+        <a href="#field-setup"><span>06</span> Field setup</a>
+        <a href="#advanced-users"><span>07</span> Advanced users</a>
+        <a href="#product-faqs"><span>08</span> Product FAQs</a>
+      </nav>
+      <a class="guide-toc__related" href="{{ '/guides/compatible-kit/' | relative_url }}">Compatible kit ↗</a>
+    </aside>
+
+    <article class="guide-article source-guide source-guide--manual source-guide--structured">
+      {% capture manual_source %}{% include content/usermanual.md %}{% endcapture %}
+      {{ manual_source | markdownify }}
+
+      <aside class="guide-contact-strip">
+        <div><p class="field-code">NEED FIELD SUPPORT?</p><h2>Talk to Reflex.</h2></div>
+        <a href="{{ '/#contact' | relative_url }}">Send an enquiry <span aria-hidden="true">↗</span></a>
+      </aside>
+    </article>
+  </div>
+</main>
+
+<footer class="field-footer">
+  <img src="{{ '/assets/images/reflex-logo-white.webp' | relative_url }}" alt="Reflex Cameras">
+  <p>Field guide / User manual</p>
+  <div class="field-footer__links">
+    <a href="{{ '/guides/compatible-kit/' | relative_url }}">Compatible kit ↗</a>
+    <a href="{{ '/' | relative_url }}">Back to website ↗</a>
+  </div>
+</footer>
+
+<script src="{{ '/assets/js/manual-structured.js' | relative_url }}" defer></script>

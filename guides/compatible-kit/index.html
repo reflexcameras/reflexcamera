@@ -1,0 +1,61 @@
+---
+layout: site
+title: "Compatible kit"
+description: "The complete field-tested mounting, battery, weather protection, solar and mains power guide for Reflex cameras."
+body_class: "concept-three concept-four concept-five concept-six guide-page-five source-guide-page"
+concept: 6
+stylesheet: "/assets/css/concept-three.css"
+additional_stylesheet: "/assets/css/concept-five.css"
+theme_color: "#071013"
+permalink: /guides/compatible-kit/
+---
+{% include site-header.html %}
+
+<main id="main-content" class="field-guide">
+  <section class="guide-page-hero guide-page-hero--kit" aria-labelledby="guide-title">
+    <p class="field-code">REF / FIELD SUPPORT / GUIDE 02</p>
+    <h1 id="guide-title">Compatible<br>kit.</h1>
+    <div>
+      <p>The complete field-tested guide to mounting, batteries, weather protection, solar charging and mains power.</p>
+      <p><a href="{{ '/#guides' | relative_url }}">Back to Guides and field advice ↗</a></p>
+      <a href="#mounting-the-camera">Build a deployment <span aria-hidden="true">↓</span></a>
+    </div>
+  </section>
+
+  <div class="guide-layout">
+    <aside class="guide-toc" aria-label="On this page">
+      <p>On this page</p>
+      <nav>
+        <a href="#mounting-the-camera"><span>01</span> Mounting</a>
+        <a href="#power"><span>02</span> Power</a>
+        <a href="#remote-power---batteries"><span>03</span> Batteries</a>
+        <a href="#battery-weather-protection"><span>04</span> Protection</a>
+        <a href="#solar-panels"><span>05</span> Solar panels</a>
+        <a href="#mains-power---ac"><span>06</span> Mains power</a>
+      </nav>
+      <a class="guide-toc__related" href="{{ '/guides/user-manual/' | relative_url }}">User manual ↗</a>
+    </aside>
+
+    <article class="guide-article source-guide source-guide--kit">
+      {% capture kit_source_one %}{% include content/FTKit.md %}{% endcapture %}
+      {{ kit_source_one | markdownify }}
+
+      {% capture kit_source_two %}{% include content/FTKit2.md %}{% endcapture %}
+      {{ kit_source_two | markdownify }}
+
+      <aside class="guide-contact-strip">
+        <div><p class="field-code">CHECK A DEPLOYMENT</p><h2>Talk to Reflex.</h2></div>
+        <a href="{{ '/#contact' | relative_url }}">Ask about compatibility <span aria-hidden="true">↗</span></a>
+      </aside>
+    </article>
+  </div>
+</main>
+
+<footer class="field-footer">
+  <img src="{{ '/assets/images/reflex-logo-white.webp' | relative_url }}" alt="Reflex Cameras">
+  <p>Field guide / Compatible kit</p>
+  <div class="field-footer__links">
+    <a href="{{ '/guides/user-manual/' | relative_url }}">User manual ↗</a>
+    <a href="{{ '/' | relative_url }}">Back to website ↗</a>
+  </div>
+</footer>

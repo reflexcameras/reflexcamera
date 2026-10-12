@@ -1,0 +1,19 @@
+# Page-only validation when local media reads are unavailable.
+# Never use this configuration for publishing.
+include: []
+keep_files:
+  - assets
+  - css
+exclude:
+  - camera-site-concepts
+  - scripts
+  - vendor
+  - .venv
+  - .vscode
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - 2024-repo
+  - 2025-repo
+  - assets
+  - css

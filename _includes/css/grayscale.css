@@ -219,7 +219,7 @@ a:focus {
             transparent 90%,
             black 100%
         ),
-        url(/img/NoctuleAug25.png);
+        url(/assets/images/NoctuleAug25.webp);
     background-position: 500% center;
     background-repeat: no-repeat;
     background-size: 110% auto;
@@ -234,7 +234,7 @@ a:focus {
             black 74%,
             black 100%
         ),
-        url(/img/NoctuleAug25Vert.png);
+        url(/assets/images/NoctuleAug25Vert.webp);
         background-position: center, 150% center;
         background-size: 100% 100%, 150% auto;
     }
@@ -684,7 +684,7 @@ div.buttons-container a.btn {
     padding: 50px 0;
     color: #fff;
     background-color: {{ site.color.primary-dark }};
-    background-image: url(/img/ghost-bat1.png);
+    background-image: url(/assets/images/ghost-bat1.webp);
     background-position: 75% 72%;
     background-repeat: no-repeat;
     background-size: 150% auto;
@@ -692,7 +692,7 @@ div.buttons-container a.btn {
 
 @media (max-width: 800px) {
     .video-section {
-        background-image: url(/img/ghost-bat1-vert2.png);
+        background-image: url(/assets/images/ghost-bat1-vert2.webp);
         background-position: 75% bottom;
     }
 }

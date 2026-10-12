@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Preview production website",
+			"type": "shell",
+			"command": "sh",
+			"args": [
+				"scripts/preview.sh",
+				"4001"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

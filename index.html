@@ -1,3 +1,838 @@
 ---
-layout: default
+layout: site
+title: "Camera traps for bat surveys"
+description: "Specialist infrared camera traps for bat roost monitoring and building surveys, with motion detection and visual summaries for efficient review."
+body_class: "concept-three concept-four concept-five concept-six"
+concept: 6
+stylesheet: "/assets/css/concept-three.css"
+additional_stylesheet: "/assets/css/concept-five.css"
+theme_color: "#071013"
+permalink: /
 ---
+
+<style>
+  .concept-six .concept-six-feature-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+  .concept-six .concept-six-feature-grid article { border-top: 1px solid currentColor; padding-top: 1.5rem; min-width: 0; }
+  .concept-six .concept-six-feature-grid h3 { font-size: clamp(1.4rem, 2.2vw, 2rem); line-height: 1.15; margin: 1rem 0; }
+  .concept-six .concept-six-feature-grid p { line-height: 1.65; }
+  .concept-six .concept-six-section-note { max-width: 75ch; line-height: 1.7; margin: 2rem 0; }
+  .concept-six .concept-six-guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .concept-six .concept-six-guide-grid h3 { font-size: clamp(1.35rem, 2.2vw, 2.1rem); line-height: 1.15; overflow-wrap: break-word; }
+  .concept-six .concept-six-guide-link { margin: 1.25rem 0; line-height: 1.5; }
+  .concept-six .concept-six-guide-link a, .concept-six .concept-six-section-note a { text-decoration: underline; text-underline-offset: .2em; }
+  @media (max-width: 900px) { .concept-six .concept-six-feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 640px) { .concept-six .concept-six-feature-grid, .concept-six .concept-six-guide-grid { grid-template-columns: 1fr; } }
+
+  .concept-six .evidence-section h2 { font-size:clamp(2.5rem,3.6vw,4.2rem); }
+  .concept-six .evidence-section__copy { padding:clamp(32px,4.4vw,64px); }
+  .concept-six .six-context { padding:clamp(64px,8vw,115px) clamp(18px,5vw,76px); background:#dfe6e2; color:#071013; }
+  .concept-six .six-context__inner { max-width:1320px; margin:auto; }
+  .concept-six .six-context h2 { font-size:clamp(2.3rem,4.7vw,4.8rem); line-height:.98; letter-spacing:-.045em; text-transform:uppercase; margin:20px 0 32px; }
+  .concept-six .six-context p { font-size:1.05rem; line-height:1.7; max-width:72ch; }
+  .concept-six .six-context__grid { display:grid; grid-template-columns:1fr 1fr; gap:36px; }
+  .concept-six .six-context__grid h3 { font-size:1.6rem; line-height:1.2; }
+  .concept-six .six-context__grid article { border-top:1px solid #819492; padding-top:16px; }
+  .concept-six .six-context__grid img { width:100%; aspect-ratio:16/10; object-fit:cover; }
+  .concept-six .six-context__grid figcaption { font-size:.85rem; line-height:1.6; padding-top:14px; }
+  .concept-six .six-context--dark { background:#071013; color:#f4f7f4; }
+  .concept-six .six-context--pink { background:#efdee7; }
+  .concept-six .six-context a { text-underline-offset:.2em; }
+  .concept-six .six-context figure { margin:0; }
+  @media(max-width:760px){.concept-six .six-context__grid {grid-template-columns:1fr;} }
+.concept-six .six-shared{margin-top:44px;border-top:1px solid #aab7b2;padding-top:28px}.concept-six .six-shared>h3{font-size:clamp(1.7rem,3vw,2.7rem);margin:0 0 20px}.concept-six .six-shared p{line-height:1.65}
+
+.concept-six #coverage{background:#cbd6d2}.concept-six #coverage .survey-case__subsection{margin-top:0;padding-top:0;border-top:0}.concept-six #coverage .survey-case__grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.concept-six #coverage .survey-case__uses--feature{grid-column:1 / -1}
+.concept-six #coverage .survey-case__uses--feature .use-card{grid-template-columns:minmax(0,.82fr) minmax(320px,.55fr);gap:clamp(24px,4vw,54px);align-items:start}
+.concept-six #coverage .survey-case__uses--feature .use-card>*{min-width:0}
+.concept-six #coverage .survey-case__uses--feature .use-card__media{margin-top:0;aspect-ratio:608/376}
+.concept-six #coverage .survey-case__uses--feature .use-card__media video{display:block;width:100%;height:100%;object-fit:cover}
+.concept-six #coverage .survey-case__uses--feature .use-card__tags{grid-column:1 / -1}
+.concept-six #coverage .survey-case__uses--wide{grid-column:1 / -1}
+.concept-six .feature-group{margin-top:32px;border-top:1px solid #82928d;padding-top:22px}
+.concept-six .feature-group>h3{font-size:1.55rem;margin:0 0 16px}
+.concept-six .feature-group .concept-six-feature-grid{grid-template-columns:1fr 1fr;gap:32px}
+.concept-six .feature-group article{border:0;padding:0}
+.concept-six .feature-group h4{font-size:1.2rem;margin:0 0 10px}.concept-six .feature-group p{margin:0}
+@media(max-width:640px){.concept-six .feature-group .concept-six-feature-grid{grid-template-columns:1fr}}
+
+/* Capability reference: light editorial bands, distinct from the dark five-step workflow below. */
+.concept-six #recording.concept-six-features{background:#dfe8e3;color:#0a1919;padding-top:clamp(56px,7vw,92px);padding-bottom:clamp(56px,7vw,92px)}
+.concept-six #recording .guide-section__header{display:block;margin-bottom:20px}
+.concept-six #recording .guide-section__header .field-code{color:#ac145f;margin-bottom:14px}
+.concept-six #recording .guide-section__header h2{font-size:clamp(2.5rem,4vw,4.6rem);line-height:1.02;letter-spacing:-.045em;text-transform:uppercase;max-width:1000px}
+.concept-six #recording .capability-layout,.concept-six #recording>.concept-six-section-note{width:min(1320px,100%);margin-left:auto;margin-right:auto}
+.concept-six #recording .capability-layout{display:grid;grid-template-columns:minmax(0,.82fr) minmax(430px,1fr);gap:clamp(28px,5vw,70px);align-items:start}
+.concept-six #recording .capability-intro{margin:0}
+.concept-six #recording .capability-intro p{margin:0;color:#38504b;font-size:clamp(1rem,1.4vw,1.16rem);line-height:1.65}
+.concept-six #recording .capability-intro p+p{margin-top:14px}
+.concept-six #recording .capability-intro__note{margin-top:22px;padding-top:18px;border-top:1px solid #aab7b2;color:#173a41;font-weight:750;line-height:1.55}
+.concept-six #recording .capability-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.concept-six #recording .capability-card{min-width:0;padding:22px 18px;background:#f7f9f6;border:1px solid #b5c4bc}
+.concept-six #recording .capability-card:nth-child(2n){background:#eaf1ec}
+.concept-six #recording .capability-icons{position:absolute;width:0;height:0;overflow:hidden}
+.concept-six #recording .capability-card__icon{display:block;width:46px;height:46px;margin-bottom:18px;color:#071013}
+.concept-six #recording .capability-card__icon svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.concept-six #recording .capability-card h3{margin:0 0 9px;font-size:1.02rem;line-height:1.2;letter-spacing:-.02em;text-transform:uppercase}
+.concept-six #recording .capability-card p{margin:0;color:#38504b;font-size:.9rem;line-height:1.45}
+.concept-six #recording>.concept-six-section-note{max-width:1320px;margin-top:25px;margin-bottom:0;color:#38504b}
+.concept-six #recording a{color:#0b454f;text-underline-offset:.2em}
+@media(max-width:1120px){.concept-six #recording .capability-layout{grid-template-columns:1fr}.concept-six #recording .capability-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:820px){.concept-six #recording .capability-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.concept-six #recording .capability-grid{grid-template-columns:1fr}.concept-six #recording .capability-card{padding:20px}}
+@media(max-width:1040px){.concept-six #coverage .survey-case__uses--feature .use-card{grid-template-columns:1fr}.concept-six #coverage .survey-case__uses--feature .use-card__media{margin-top:28px}}
+@media(max-width:820px){.concept-six #coverage .survey-case__grid{grid-template-columns:1fr}.concept-six #coverage .survey-case__uses--feature,.concept-six #coverage .survey-case__uses--wide{grid-column:auto}}
+
+.concept-six .concept-six-guide-grid>a,
+.concept-six .concept-six-guide-grid>a:first-child,
+.concept-six .concept-six-guide-grid>a:last-child{box-shadow:inset 0 6px 0 #84908b}
+.concept-six #purchase .purchase-section-five__header{display:block}
+.concept-six #purchase .purchase-section-five__header h2{margin-top:18px;max-width:1000px}
+.concept-six .purchase-kit{max-width:850px;line-height:1.7;margin:0 0 32px}
+.concept-six .purchase-grid article{position:relative}
+.concept-six .purchase-grid .camera-select{position:absolute;inset:0;width:100%;height:100%;box-sizing:border-box;margin:0;padding:0;border:0;z-index:1;align-self:stretch;justify-self:stretch}
+.concept-six .camera-select:focus-visible{outline:4px solid #b61866;outline-offset:4px}
+.concept-six .purchase-action{font-weight:700;text-decoration:underline;text-underline-offset:5px}
+.concept-six .checkout-unit{width:min(1320px,100%);min-width:0;margin:35px auto 0}
+
+.concept-six .preorder-notice{width:min(1320px,100%);box-sizing:border-box;margin:32px auto 0;padding:clamp(24px,4vw,44px);border-top:4px solid #58bed2;background:#dfe6e2;color:#071013}
+.concept-six .preorder-notice h3{margin:12px 0 20px;font-size:clamp(1.7rem,3vw,2.6rem);line-height:1.05;letter-spacing:-.035em;text-transform:uppercase}
+.concept-six .preorder-notice p{max-width:80ch;line-height:1.65}
+.concept-six .preorder-notice .field-code{margin:0}
+.concept-six .preorder-notice__existing{margin:20px 0 0;padding-top:18px;border-top:1px solid #a5b1ae}
+
+.concept-six .checkout-scroll{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain}
+.concept-six .checkout-panel{flex:0 0 100%;box-sizing:border-box;width:100%;min-width:0;margin:0;scroll-snap-align:start;scroll-margin-top:100px}
+.concept-six .purchase-checkout__button>p{color:#071013}
+.concept-six .purchase-checkout__link{display:inline-flex;align-items:center;justify-content:space-between;gap:24px;width:min(100%,320px);box-sizing:border-box;padding:18px 22px;background:#071013;color:#f4f7f4;font:850 .75rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.07em;text-decoration:none;text-transform:uppercase}
+.concept-six .purchase-checkout__link:hover{background:#173a41}
+.concept-six .purchase-checkout__link:focus-visible{outline:3px solid #b61866;outline-offset:4px}
+.concept-six .purchase-checkout__link span{font-size:1.05rem}
+.concept-six .purchase-grid article{grid-template-rows:auto minmax(5.4em,auto) auto 1fr auto}
+@media(min-width:821px) and (max-width:1100px){.concept-six .purchase-grid article{grid-template-rows:1.35em minmax(8rem,auto) clamp(2.4rem,4vw,4.6rem) 1fr auto}}
+.concept-six .purchase-grid p{color:var(--camera-accent)}
+.concept-six .purchase-grid h3{margin-bottom:12px}
+.concept-six .purchase-grid strong{align-self:start;color:var(--camera-accent)!important}
+.concept-six .checkout-camera-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 28px;margin:20px auto 0}
+.concept-six .checkout-camera-nav a{display:inline-flex;align-items:center;padding:2px 0 2px 10px;border-left:3px solid var(--camera-accent);color:#34413f;font:850 .72rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.07em;text-transform:uppercase;text-decoration:none}
+.concept-six .checkout-camera-nav a:hover{color:#071013;text-decoration:underline;text-decoration-color:var(--camera-accent);text-underline-offset:4px}
+.concept-six .checkout-camera-nav a:focus-visible{outline:2px solid var(--camera-accent);outline-offset:4px}
+.concept-six #analysis>.concept-six-section-note,
+.concept-six #analysis>.field-link,
+.concept-six #purchase>.purchase-kit{box-sizing:border-box;width:min(1320px,100%);max-width:none;margin-left:auto;margin-right:auto}
+.concept-six #analysis>.concept-six-section-note,
+.concept-six #purchase>.purchase-kit{max-width:1320px}
+.concept-six #analysis>.field-link{display:block;text-align:left}
+@media(max-width:820px){.concept-six .checkout-camera-nav{width:auto;justify-content:flex-start;margin-left:0;margin-right:0;text-align:left}.concept-six #analysis>.concept-six-section-note,.concept-six #analysis>.field-link,.concept-six #purchase>.purchase-kit{width:auto;max-width:min(850px,100%);margin-left:0;margin-right:0}}
+
+.concept-six .method-grid .workflow-image{display:block;width:100%;height:170px;object-fit:contain;margin:20px 0;background:#152426;border-radius:4px}.concept-six .method-grid .workflow-placeholder{display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;box-sizing:border-box;color:#b9c9c8;font-size:.85rem;border:1px dashed #708783}.concept-six .six-context__grid figure{margin-bottom:32px}.concept-six .six-context__grid figure+h3{margin-top:32px}
+
+.concept-six .method-grid h3{min-height:2.4em}
+.concept-six .method-section{padding:clamp(56px,7vw,96px) clamp(18px,5vw,76px)}
+.concept-six .method-grid{margin-top:clamp(38px,4vw,56px)}
+.concept-six .method-grid li{min-height:0;padding:clamp(20px,2.2vw,30px)}
+.concept-six .method-grid h3{margin-top:clamp(32px,3.5vw,52px)}
+.concept-six .method-grid .workflow-image{height:140px;margin:14px 0}
+@media(max-width:820px){.concept-six .method-section{padding-top:52px;padding-bottom:52px}.concept-six .method-grid{margin-top:36px}.concept-six .method-grid li{padding:22px}.concept-six .method-grid h3{margin-top:30px}.concept-six .method-grid .workflow-image{height:140px}}
+@media(max-width:560px){.concept-six .method-section{padding-top:44px;padding-bottom:44px}.concept-six .method-grid{margin-top:30px}.concept-six .method-grid li{padding:20px}.concept-six .method-grid h3{margin-top:26px}.concept-six .method-grid .workflow-image{height:125px;margin:12px 0}}
+
+/* Field examples: compact by default, with the full deployment notes available on demand. */
+.concept-six .examples-section{padding:clamp(60px,8vw,108px) clamp(18px,5vw,76px);background:#dfe8e3;color:#101c1b}
+.concept-six .examples-section__header{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.7fr);gap:clamp(28px,6vw,84px);align-items:end;width:min(1320px,100%);margin:0 auto clamp(36px,5vw,62px)}
+.concept-six .examples-section__header .field-code{margin:0 0 18px;color:#ac145f}
+.concept-six .examples-section__header h2{max-width:800px;margin:0;font-size:clamp(2.7rem,5vw,5.3rem);line-height:.96;letter-spacing:-.045em;text-transform:uppercase}
+.concept-six .examples-section__intro{max-width:510px;margin:0;font-size:clamp(1.05rem,1.5vw,1.2rem);line-height:1.65}
+.concept-six .examples-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;width:min(1320px,100%);margin:0 auto;align-items:stretch}
+.concept-six .example-card{min-width:0;border:1px solid #aebdb5;background:#f7f9f6}
+.concept-six .example-card__summary{display:block;position:relative;min-height:230px;padding:clamp(24px,3vw,34px);padding-bottom:84px;cursor:pointer;list-style:none;transition:background-color 160ms ease}
+.concept-six .example-card__summary::-webkit-details-marker{display:none}
+.concept-six .example-card__summary::marker{content:""}
+.concept-six .example-card__summary:hover{background:#edf3ef}
+.concept-six .example-card__summary:focus-visible{outline:3px solid #b61866;outline-offset:-3px}
+.concept-six .example-card__eyebrow{display:flex;align-items:center;gap:15px;margin:0 0 18px;font:750 .72rem/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.09em;text-transform:uppercase}
+.concept-six .example-card__number{color:#b61866;font-size:1.35rem;letter-spacing:-.03em}
+.concept-six .example-card h3{max-width:520px;margin:0;font-size:clamp(1.45rem,2.25vw,2.25rem);line-height:1.12;letter-spacing:-.025em}
+.concept-six .example-card__toggle{position:absolute;right:clamp(22px,3vw,34px);bottom:clamp(24px,3vw,34px);display:inline-flex;align-items:center;gap:9px;color:#38504b;font:800 .68rem/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.07em;text-transform:uppercase}
+.concept-six .example-card__toggle::after{display:grid;width:28px;height:28px;place-items:center;border:1px solid #81948a;border-radius:50%;color:#071013;font:500 1.25rem/1 system-ui,sans-serif;content:"+"}
+.concept-six .example-card__toggle--open{display:none}
+.concept-six .example-card[open] .example-card__summary{background:#edf3ef;border-bottom:1px solid #c2cec7}
+.concept-six .example-card[open] .example-card__toggle--closed{display:none}
+.concept-six .example-card[open] .example-card__toggle--open{display:inline}
+.concept-six .example-card[open] .example-card__toggle::after{content:"−"}
+.concept-six .example-card__body{padding:clamp(24px,3vw,34px)}
+.concept-six .example-card__body>p{margin:0 0 17px;font-size:1rem;line-height:1.68}
+.concept-six .example-card__body .example-card__note{margin-bottom:26px;color:#455750;font-size:.88rem;line-height:1.6}
+.concept-six .example-card__note a{color:inherit;text-underline-offset:4px}
+.concept-six .example-card__footer{margin-top:28px;padding-top:22px;border-top:1px solid #c7d2cc}
+.concept-six .camera-tag-group>span{display:block;margin-bottom:12px;color:#455750;font:750 .68rem/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.11em;text-transform:uppercase}
+.concept-six .camera-tag-group+.camera-tag-group{margin-top:18px}
+.concept-six .camera-tag-group small{display:block;margin-top:8px;line-height:1.5}
+.concept-six .camera-tags{display:flex;flex-wrap:wrap;gap:8px}
+.concept-six .camera-tag{display:inline-flex;align-items:center;max-width:100%;padding:9px 13px;border:1px solid #b6c4bd;border-radius:4px;background:#e6eae7;color:#162b24;font-size:.88rem;font-weight:750;line-height:1.5;text-decoration:none}
+.concept-six .camera-tag--ir{border-color:#92c8c8;background:#d4f0ef}
+.concept-six .camera-tag--lynx{border-color:#bdabda;background:#e6dff4}
+.concept-six .camera-tag--thermal{border-color:#e6a9c7;background:#f9dfec}
+.concept-six .camera-tag:hover{filter:brightness(.94)}
+@media(max-width:840px){.concept-six .examples-section__header{grid-template-columns:1fr}.concept-six .examples-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.concept-six .examples-section{padding-top:50px;padding-bottom:50px}.concept-six .example-card__summary{min-height:0;padding-right:24px;padding-bottom:24px}.concept-six .example-card__toggle{position:static;margin-top:22px}}
+.concept-six .field-nav{align-items:center;gap:clamp(10px,1.8vw,24px)}
+.concept-six .field-nav__menu{position:relative}
+.concept-six .field-nav__menu summary{display:inline-flex;align-items:center;gap:7px;cursor:pointer;list-style:none}
+.concept-six .field-nav__menu summary::-webkit-details-marker{display:none}
+.concept-six .field-nav__menu summary::after{content:'→';font-size:.8rem;transition:transform 180ms ease}
+.concept-six .field-nav__menu[open] summary::after{transform:rotate(90deg)}
+.concept-six .field-nav__panel{position:absolute;z-index:70;top:calc(100% + 22px);right:-18px;display:grid;min-width:260px;padding:10px;border:1px solid rgba(203,226,231,.25);background:rgba(7,16,19,.98);box-shadow:0 20px 55px rgba(0,0,0,.38)}
+.concept-six .field-nav__panel a{display:block;padding:12px 13px;color:var(--text);font-size:.64rem;line-height:1.35;letter-spacing:.07em}
+.concept-six .field-nav__panel a:hover,.concept-six .field-nav__panel a:focus-visible{background:rgba(240,90,166,.12);color:var(--acid)}
+.concept-six .field-nav__buy{padding:10px 13px;border:1px solid var(--acid);color:var(--acid)}
+.concept-six .field-nav__buy:hover,.concept-six .field-nav__buy:focus-visible{background:rgba(240,90,166,.12)}
+.concept-six .field-nav__analysis{margin-left:2px;padding-left:clamp(12px,1.5vw,22px);border-left:1px solid rgba(203,226,231,.28);color:var(--dim);font-size:.62rem;white-space:nowrap}
+.concept-six .field-nav__analysis:hover,.concept-six .field-nav__analysis:focus-visible{color:var(--acid)}
+.concept-six .field-footer__links{display:flex;justify-content:flex-end;gap:24px}
+@media(max-width:680px){.concept-six .field-nav{display:grid;grid-template-columns:1.35fr 1fr .85fr .6fr;gap:6px}.concept-six .field-nav__menu summary,.concept-six .field-nav__analysis,.concept-six .field-nav__buy{justify-content:center;width:100%;box-sizing:border-box;padding:11px 4px;font-size:.56rem}.concept-six .field-nav__analysis{grid-column:1/-1;margin:2px 0 0;padding-top:12px;border-top:1px solid rgba(203,226,231,.2);border-left:0;color:var(--dim)}.concept-six .field-nav__panel{position:absolute;top:calc(100% + 8px);right:0;left:0;min-width:0}.concept-six .field-nav__panel a{padding:14px 13px}.concept-six .field-footer__links{justify-content:flex-start;flex-wrap:wrap}}
+@media(max-width:680px){.concept-six .field-nav__menu{position:static}}
+.concept-six .spectrum-card__image-wrap{position:relative;display:block}
+.concept-six .spectrum-stage--lineup .spectrum-card{grid-template-rows:minmax(350px,46vh) auto}
+.concept-six .spectrum-stage--lineup .spectrum-card__headline{min-height:0}
+@media(max-width:800px){.concept-six .spectrum-stage--lineup .spectrum-card{grid-template-rows:360px auto}}
+@media(max-width:560px){.concept-six .spectrum-stage--lineup .spectrum-card{grid-template-rows:340px auto}}
+.concept-six .winter-watermark{position:absolute;z-index:5;right:16px;bottom:16px;display:inline-flex;max-width:calc(100% - 32px);align-items:center;gap:9px;box-sizing:border-box;padding:8px 11px 8px 9px;border:1px solid rgba(244,247,244,.24);background:rgba(7,16,19,.76);box-shadow:0 12px 34px rgba(0,0,0,.28);color:#f4f7f4;font:850 .68rem/1.15 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.075em;text-transform:uppercase;backdrop-filter:blur(12px);pointer-events:none}
+.concept-six .winter-watermark::before{display:block;width:7px;height:22px;background:var(--camera-accent);content:""}
+.concept-six .system__visual .winter-watermark{top:20px;right:20px;left:auto;bottom:auto;padding:9px 12px 9px 10px;font-size:.72rem}
+.concept-six .spectrum-stage--lineup .spectrum-card__headline{row-gap:13px}
+.concept-six .spectrum-stage--lineup .spectrum-card__headline strong{display:block}
+.concept-six .spectrum-stage--lineup .spectrum-card__headline .spectrum-card__availability{display:block;justify-self:start;box-sizing:border-box;max-width:100%;margin:0;padding:0 0 0 10px;border-left:3px solid var(--camera-accent);color:#b9c9c8;font:850 .66rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase}
+.concept-six .spectrum-stage--lineup .spectrum-card{grid-template-rows:minmax(350px,46vh) auto}
+.concept-six .spectrum-stage--lineup .spectrum-card__headline{min-height:0}
+@media(min-width:821px){.concept-six .spectrum-stage--lineup .spectrum-card--standard .spectrum-card__headline strong{white-space:nowrap}}
+
+</style>
+
+{% include site-header.html %}
+
+<main id="main-content">
+  <span id="page-top" aria-hidden="true"></span>
+  <section id="top" class="field-hero field-hero--lineup" aria-labelledby="field-heading">
+    <div class="field-hero__copy field-hero__copy--lineup">
+      <div>
+        <p class="field-code">CAMERA TRAPS FOR BAT SURVEYS</p>
+        <h1 id="field-heading">Reveal life in the dark.</h1>
+        </div>
+      <div class="field-hero__support">
+        <p class="field-hero__lead">Reflex Cameras designs and builds specialist infrared and thermal camera trapping systems for bat surveys and long-term monitoring of roosts. Choose between close-range infrared, ultra-sensitive infrared or wide-angle thermal.</p>
+        <a class="field-button" href="#systems">Compare the cameras <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+
+    <div id="camera-range" class="spectrum-stage spectrum-stage--lineup" aria-label="The three-camera Reflex range">
+      {% for camera in site.data.cameras %}
+        <a class="spectrum-card spectrum-card--{{ camera.slug }}" href="#system-{{ camera.slug }}" style="--camera-accent: {{ camera.accent }}">
+          <div class="spectrum-card__image-wrap">
+            <img src="{{ camera.image | relative_url }}" alt="{{ camera.image_alt }}">
+            <span class="spectrum-card__scan" aria-hidden="true"></span>
+            <span class="spectrum-card__status">{% if camera.slug == "standard" %}Lightning fast{% else %}{{ camera.marketing_tag }}{% endif %}</span>
+            <span class="spectrum-card__number" aria-hidden="true">0{{ forloop.index }}</span>
+          </div>
+          <div class="spectrum-card__headline">
+            <span>{% if camera.slug == "standard" %}Close-range infrared{% elsif camera.slug == "lynx" %}Ultra-sensitive infrared{% else %}{{ camera.type }}{% endif %}</span>
+            <strong>{{ camera.name }}</strong>
+            <small class="spectrum-card__availability">Pre-order now</small>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="signal-strip" aria-label="Camera range summary">
+    <p><span>Three Cameras</span><strong>Infrared</strong></p>
+    <div class="signal-strip__bar" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+    <p><span>Thermal</span><strong>See in the dark</strong></p>
+  </section>
+
+<section id="recording" class="guide-section concept-six-features" aria-labelledby="recording-heading">
+<header class="guide-section__header"><p class="field-code">CAMERA CAPABILITIES / REFLEX SYSTEM</p><h2 id="recording-heading">Key system features.</h2></header>
+<div class="capability-layout">
+<div class="capability-intro">
+    <p>
+      Purpose-built for recording fast-moving wildlife in complete darkness, Reflex cameras combine ultra-sensitive imaging, advanced motion detection and simple field setup in a powerful camera-trapping system for wildlife enthusiasts, researchers and ecological consultants. Position a camera near a roost or feature, power it up, and it will automatically record all of the action night after night.
+    </p>
+
+    <p>
+      Designed to detect brief, rapid movements that conventional camera traps miss, Reflex cameras capture high-quality footage of animals moving through the scene. They can operate over extended deployments, providing reliable video data across weeks or entire seasons rather than relying on a small number of individual survey visits.
+    </p>
+
+    <p>
+      Built-in live streaming makes positioning and setup quick and precise. Motion-triggered recording captures or tags key footage without filling storage with hours of empty video, while summary images provide an easy way to identify the moments that matter. Original high-quality video remains available for closer examination.
+    </p>
+
+    <p>
+      This combination makes Reflex cameras highly versatile for bat and wildlife surveys. They can be used to establish bat activity across a range of environments, including trees, hibernation sites, roof voids, buildings and caves. The cameras also excel at monitoring disturbance and exclusion activities during mitigation work.
+    </p>
+  <p class="capability-intro__note">Shared software across the range means the setup remains familiar whether you choose close-range infrared, ultra-sensitive infrared or wide-angle thermal.</p>
+</div>
+<div class="capability-grid" aria-label="Reflex camera capabilities">
+  <svg class="capability-icons" aria-hidden="true" focusable="false">
+    <symbol id="cap-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></symbol>
+    <symbol id="cap-film" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 5v14M16 5v14M4 9h4M4 15h4M16 9h4M16 15h4"/></symbol>
+    <symbol id="cap-cloud" viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .6-8 6 6 0 0 0-11.2-1.8A5 5 0 0 0 7 18ZM8 21l1-1.5M13 21l1-1.5M18 21l1-1.5"/></symbol>
+    <symbol id="cap-focus" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M4 9V5h4M16 5h4v4M20 15v4h-4M8 19H4v-4"/></symbol>
+    <symbol id="cap-light" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M8 10a4 4 0 1 1 8 0c0 1.8-1 2.7-1.8 3.7-.5.6-.8 1.2-.8 2.3h-2.8c0-1.1-.3-1.7-.8-2.3C9 12.7 8 11.8 8 10ZM4 10H2M22 10h-2M5 4l1.4 1.4M19 4l-1.4 1.4"/></symbol>
+    <symbol id="cap-setup" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 10h8M8 14h4M17 14h-1"/></symbol>
+    <symbol id="cap-motion" viewBox="0 0 24 24"><path d="M4 12h4l2-5 4 10 2-5h4"/><path d="M5 5h14v14H5z"/></symbol>
+    <symbol id="cap-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></symbol>
+    <symbol id="cap-wifi" viewBox="0 0 24 24"><path d="M4 9a13 13 0 0 1 16 0M7 12.5a8 8 0 0 1 10 0M10 16a3 3 0 0 1 4 0"/><circle cx="12" cy="19" r=".6"/></symbol>
+    <symbol id="cap-save" viewBox="0 0 24 24"><path d="M5 4h12l2 2v14H5z"/><path d="M8 4v6h8V4M8 20v-6h8v6"/></symbol>
+    <symbol id="cap-battery" viewBox="0 0 24 24"><rect x="3" y="8" width="16" height="8" rx="2"/><path d="M21 11v2M7 11v2M11 11v2M15 11v2"/></symbol>
+    <symbol id="cap-moon" viewBox="0 0 24 24"><path d="M18 15.5A7 7 0 0 1 8.5 6 7 7 0 1 0 18 15.5Z"/><path d="M18 4v3M16.5 5.5h3"/></symbol>
+  </svg>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-bolt"></use></svg></span><h3>Impossibly fast recording</h3><p>Pre-records footage before a trigger so no action is missed.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-film"></use></svg></span><h3>120 FPS</h3><p>Records up to 120 frames per second on IR models to capture wingbeats in detail.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-cloud"></use></svg></span><h3>Weatherproof</h3><p>Waterproof housings and IP68 rated components to ensure the toughest field deployments.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-focus"></use></svg></span><h3>Auto-focus</h3><p>The Reflex Standard automatically focuses for sharp close-range footage and fast setup.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-light"></use></svg></span><h3>Adjustable light</h3><p>IR models use built-in infrared illumination with a wavelength beyond 900 nm, minimising visible red glow. The brightness can be adjusted to suit the scene.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-setup"></use></svg></span><h3>Web setup</h3><p>Use the built-in web page to quickly tune framing, focus, light, schedule and motion settings.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-motion"></use></svg></span><h3>Advanced motion detection</h3><p>Detection zones and sensitivity controls help avoid false triggers and focus on the feature.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-target"></use></svg></span><h3>Reliable bat capture</h3><p>Designed to reliably record emergence & re-entries in real world conditions.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-wifi"></use></svg></span><h3>Live video via Wi-Fi</h3><p>Stream live video over local Wi-Fi for positioning, fine-tuning and monitoring activity during surveys. Cameras can also be connected to the internet via 4G as an optional extra, allowing remote access from further afield.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-save"></use></svg></span><h3>Efficient video storage</h3><p>Motion-triggered clips and summary images make review faster and reduce unnecessary storage.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-battery"></use></svg></span><h3>Low power operation</h3><p>Efficient hardware and scheduling support long deployments from external 12 V batteries.</p></article>
+  <article class="capability-card"><span class="capability-card__icon" aria-hidden="true"><svg><use href="#cap-moon"></use></svg></span><h3>Dusk-to-dawn scheduling</h3><p>Automatically starts before night activity and stops after dawn to conserve power.</p></article>
+</div>
+</div>
+<p class="concept-six-section-note"><a href="{{ '/guides/compatible-kit/' | relative_url }}">Power and mounting details ↗</a> · <a href="{{ '/guides/user-manual/' | relative_url }}">Operating guide ↗</a></p>
+</section>
+
+  <section class="evidence-section" aria-label="Infrared recording example">
+    <img src="{{ '/assets/images/bat-infrared.webp' | relative_url }}" alt="Infrared footage of a bat returning to a tree roost">
+    <div class="evidence-section__copy">
+      <p class="eyebrow">Camera traps / bat roost monitoring</p>
+      <h2>Reliable recording, night after night.</h2>
+      <p>Our camera traps are designed to capture fast-moving bats in complete darkness, including emergence and re-entry events that conventional wildlife cameras often miss.</p>
+    </div>
+  </section>
+<section id="coverage" class="survey-case" aria-label="Coverage and live motion tracking">  <!-- COVERAGE & TRACKING -->
+  <div class="survey-case__subsection">
+
+    <header class="survey-case__header survey-case__header--subsection">
+      <p class="field-code">WHY REFLEX / COVERAGE &amp; TRACKING</p>
+      <h2>See more.</h2>
+    </header>
+
+    <div class="survey-case__grid">
+
+      <div class="survey-case__uses survey-case__uses--feature">
+
+        <article class="use-card">
+          <div>
+            <p class="case-code">ADVANCED TRACKING / WIDER APPLICATIONS</p>
+            <h3>Advanced<br>motion tracking.</h3>
+
+            <p>Motion tracking runs live on the camera, so tracked movement can be viewed immediately during a survey. Advanced motion detection highlights movement through the scene. Timestamp-matched visual summaries help you locate activity quickly and prioritise important footage for closer review.</p>
+            <p>Advanced motion detection can pick bats out from complex backgrounds</p>
+          </div>
+
+          <figure class="use-card__media">
+            <video
+              width="608"
+              height="376"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="none"
+              poster="{{ '/assets/images/thermal-tracking.webp' | relative_url }}"
+              data-deferred-src="{{ '/assets/videos/building-motion-tracking.mp4' | relative_url }}"
+              aria-label="Thermal camera interface tracking an individual bat near a building"
+            ></video>
+            <figcaption>Thermal / individual bat track</figcaption>
+          </figure>
+
+          <div class="use-card__tags" aria-label="Additional applications">
+            <span>Caves</span>
+            <span>Roof voids</span>
+            <span>Construction</span>
+            <span>Research</span>
+          </div>
+        </article>
+
+      </div>
+      <div class="survey-case__uses">
+
+        <article class="use-card">
+          <p class="case-code">BUILDING SURVEYS / RAPID DEPLOYMENT</p>
+          <h3>Wide angle video</h3>
+            <p>Wide-angle thermal and ultra-sensitive infrared can cover whole buildings and show where bats emerge and how they move.</p>
+            <p>The Reflex Lynx's large, ultra-sensitive infrared sensor produces bright images with less illumination, helping detect bats at distance with less image noise and fewer areas lost in dark shadow.</p>
+            <p>The Reflex Pit Viper provides wide-angle thermal imaging with a 80° horizontal field of view. The video is 60 Hz at 640 x 480 resolution, allowing bats to be detected at distance without infared illumination.</p>
+            <p>Both the Reflex Lynx and Reflex Pit Viper cameras use advanced motion detection to pick out tiny changes between pixels, highlighting brief movements that the human eye can miss when watching at full speed.</p>
+            <p>The cameras can capture activity around large structures</p>
+
+          <figure class="use-card__media">
+            <img
+              src="{{ '/assets/images/lynx-screenshot.webp' | relative_url }}"
+              width="600"
+              height="378"
+              loading="lazy"
+              alt="Infrared image of a Church from Reflex Lynx and external IR floodlight"
+            >
+            <figcaption>IR / Lynx FOV with external flood</figcaption>
+          </figure>
+        </article>
+
+      </div>
+      <div class="survey-case__uses">
+
+        <article class="use-card">
+          <p class="case-code">TREE ROOSTS / CLOSE VIEW</p>
+          <h3>At the roost entrance</h3>
+
+          <p>Close infrared imagery can provide incredible detail needed to identify species and interesting behaviour. Fast frame rates at 120 FPS provide detailed flights on emergence and re-entry.</p>
+
+          <figure class="use-card__media">
+            <img
+              src="{{ '/assets/images/bat-infrared.webp' | relative_url }}"
+              loading="lazy"
+              alt="Infrared recording of a bat at a tree-roost entrance"
+            >
+            <figcaption>Close-range IR / roost entrance</figcaption>
+          </figure>
+        </article>
+
+      </div>
+      <div class="survey-case__uses survey-case__uses--wide">
+
+        <article class="use-card">
+          <p class="case-code">EXTENDED MONITORING / LOW DISTURBANCE</p>
+          <h3>Longer monitoring.<br>Fewer site visits.</h3>
+          <p>Reflex cameras are designed for long-term outdoor deployment using weather-resistant hardware and IP68-rated components. Scheduled dusk-to-dawn operation and motion-triggered recording support extended monitoring while managing power consumption and data storage.</p>
+        </article>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+  <span id="camera" aria-hidden="true"></span>
+  <span id="future-cameras" aria-hidden="true"></span>
+  <section id="systems" class="systems-section" aria-labelledby="systems-heading">
+    <header class="systems-section__header">
+      <p class="field-code">CAMERA RANGE / THREE SYSTEMS</p>
+      <h2 id="systems-heading">Choose your camera.</h2>
+    </header>
+
+    <div class="system-list">
+      {% for camera in site.data.cameras %}
+        <article id="system-{{ camera.slug }}" class="system" style="--camera-accent: {{ camera.accent }}">
+          <div class="system__identity">
+            <span>0{{ forloop.index }}</span>
+            <p>{% if camera.slug == "standard" %}Close-range infrared{% elsif camera.slug == "lynx" %}Ultra-sensitive infrared{% else %}{{ camera.type }}{% endif %}</p>
+          </div>
+          <div class="system__visual">
+            <img src="{{ camera.image | relative_url }}" alt="{{ camera.image_alt }}">
+            <span class="winter-watermark">Pre-order now</span>
+          </div>
+          <div class="system__content">
+            <p class="field-code">{% if camera.slug == "lynx" %}Close monitoring, buildings and large structures{% else %}{{ camera.best_for | replace: "Roosts, trees and close features", "Roosts, trees and close-range monitoring" }}{% endif %}</p>
+            <h3>{{ camera.name }}</h3>
+            <p class="system__tagline">{% if camera.slug == "standard" %}Close-range infrared for monitoring in and around roosts.{% elsif camera.slug == "lynx" %}Ultra-sensitive infrared — brighter infrared imagery and greater usable range, particularly with external illumination.{% else %}{{ camera.tagline }}{% endif %}</p>
+            <p class="system__summary">{% if camera.slug == "lynx" %}An ultra-sensitive infrared camera suitable for close-range monitoring and imagery that supports species identification, as well as surveys of buildings and large structures. Its large, highly sensitive sensor provides brighter imagery with less illumination and greater usable range, particularly with external illumination. Focus is maintained between daylight and infrared.{% else %}{{ camera.summary | replace: "other close-range features", "other areas requiring close-range monitoring" | replace: "complex features at distance", "complex structures at distance" }}{% endif %}</p>
+            <p class="concept-six-guide-link">
+              {% if camera.slug == "standard" %}
+                <a href="{{ '/guides/choosing-a-bat-camera-trap/' | relative_url }}">Recording bats at a tree roost ↗</a>
+              {% elsif camera.slug == "lynx" %}
+                <a href="{{ '/guides/choosing-a-bat-camera-trap/' | relative_url }}">Recording bats at a tree roost ↗</a><br>
+                <a href="{{ '/guides/choosing-a-building-survey-camera/' | relative_url }}">How to choose a camera for bat surveys of buildings ↗</a>
+              {% else %}
+                <a href="{{ '/guides/choosing-a-building-survey-camera/' | relative_url }}">How to choose a camera for bat surveys of buildings ↗</a>
+              {% endif %}
+            </p>
+            <dl>
+              {% for spec in camera.specs %}
+                <div>
+                  <dt>{{ spec.label }}</dt>
+                  <dd>{{ spec.value }}</dd>
+                </div>
+              {% endfor %}
+            </dl>
+            <div class="system__footer">
+              <strong>{% if camera.slug == "pit-viper" %}£1,600 kit{% else %}{{ camera.price | remove: " kit" }} kit{% endif %}</strong>
+              <a href="#{{ camera.slug }}-checkout" data-checkout-target="{{ camera.slug }}-checkout">Pre-order {{ camera.short_name }} <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="comparison" class="comparison-section" aria-labelledby="comparison-heading">
+    <header class="comparison-section__header">
+      <p class="field-code">CAMERA COMPARISON / KEY SPECIFICATIONS</p>
+      <h2 id="comparison-heading">Compare the range.</h2>
+    </header>
+    <div class="comparison-table-wrap" tabindex="0" role="region" aria-labelledby="comparison-heading">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Specification</th>
+            {% for camera in site.data.cameras %}
+              <th scope="col">{{ camera.name }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% assign comparison_rows = "camera|Camera,sensitivity|Sensitivity,resolution|Resolution,aperture|Aperture,fov|Horizontal FOV,protection|Protection,inbuilt_led|Inbuilt LED,focus|Focus,max_fps|Max FPS,price|Price" | split: "," %}
+          {% for row in comparison_rows %}
+            {% assign row_parts = row | split: "|" %}
+            {% assign comparison_key = row_parts[0] %}
+            <tr>
+              <th scope="row">{{ row_parts[1] }}</th>
+              {% for camera in site.data.cameras %}
+                <td>{% if comparison_key == "price" and camera.slug == "pit-viper" %}£1,600 kit{% elsif comparison_key == "price" %}{{ camera.price | remove: " kit" }} kit{% elsif comparison_key == "focus" and camera.slug == "lynx" %}Manual · day/IR focus retained{% else %}{{ camera.comparison[comparison_key] }}{% endif %}</td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+  <section id="method" class="method-section" aria-labelledby="method-heading">
+    <div class="method-section__title">
+      <p class="field-code">FIELD WORKFLOW / FIVE STAGES</p>
+      <h2 id="method-heading">From field to footage.</h2>
+    </div>
+    <ol class="method-grid">
+      <li>
+        <span>01</span>
+        <h3>Position</h3><img class="workflow-image" src="{{ '/assets/images/camboomwide.webp' | relative_url }}" loading="lazy" alt="Camera on a boom positioned beside a tree roost">
+        <p>Position the camera to give a clear view of the area being monitored.</p>
+      </li>
+      <li>
+        <span>02</span>
+        <h3>Connect</h3><img class="workflow-image" src="{{ '/assets/images/Camera2025b.webp' | relative_url }}" loading="lazy" alt="Reflex camera deployed outdoors">
+        <p>Attach a suitable 12 V battery. The camera starts automatically and creates its Wi-Fi hotspot.</p>
+      </li>
+      <li>
+        <span>03</span>
+        <h3>Fine tune</h3><img class="workflow-image" src="{{ '/assets/images/phonestream.webp' | relative_url }}" loading="lazy" alt="Live camera view with a motion detection zone">
+        <p>Use the live page to set framing, focus, lighting, frame rate, sensitivity and motion zones.</p>
+      </li>
+      <li>
+        <span>04</span>
+        <h3>Record</h3><img class="workflow-image" src="{{ '/assets/images/thermal-tracking.webp' | relative_url }}" loading="lazy" alt="Live thermal motion tracking">
+        <p>Leave the dusk-to-dawn schedule and motion triggering to run automatically across the deployment.</p>
+      </li>
+      <li>
+        <span>05</span>
+        <h3>Interpret</h3><img class="workflow-image" src="{{ '/assets/images/MotionSummary.webp' | relative_url }}" loading="lazy" alt="Visual summary showing movement paths at a tree roost">
+        <p>Use timestamp-matched motion summaries to identify activity and prioritise clips for detailed review.</p>
+      </li>
+    </ol>
+    <div class="method-section__capabilities" aria-label="Workflow capabilities">
+      <span>Flexible mounting</span>
+      <span>Live setup</span>
+      <span>High-speed capture</span>
+    </div>
+    <!-- <div class="method-section__footer">
+      <p>Choose for the objective</p>
+      <p>Use 120 FPS with brighter illumination when clear individual frames are the priority, and 30 FPS with lower illumination when maximum runtime matters more.</p>
+    </div> -->
+  </section>
+
+  {% include content/example-uses.html %}
+
+  <span id="gallery" aria-hidden="true"></span>
+  <section id="videos" class="video-section-five" aria-labelledby="video-heading">
+    <header class="video-section-five__header">
+      <p class="field-code">FIELD FOOTAGE / CAMERA RECORDINGS</p>
+      <div>
+        <h2 id="video-heading">Reflex footage.</h2>
+        <p>Recorded emergences, re-entries and field examples from the Reflex cameras range.</p>
+      </div>
+    </header>
+    <div class="video-section-five__frame">
+      <a class="video-section-five__poster" href="https://youtube.com/playlist?list=PLW9Be5T9-EguXkuaMJxLf1MQtCrUGHf7g" target="_blank" rel="noopener" data-video-poster data-embed="https://www.youtube-nocookie.com/embed/videoseries?list=PLW9Be5T9-EguXkuaMJxLf1MQtCrUGHf7g&amp;autoplay=1" aria-label="Play the Reflex Cameras field video playlist">
+        <span class="video-section-five__images" aria-hidden="true">
+          <img src="{{ '/assets/images/bat-infrared.webp' | relative_url }}" width="1600" height="900" loading="lazy" alt="">
+        </span>
+        <span class="video-section-five__poster-copy">
+          <span>FIELD FOOTAGE / INFRARED</span>
+          <strong>Play the archive</strong>
+        </span>
+        <span class="video-section-five__play" aria-hidden="true">▶</span>
+      </a>
+    </div>
+    <a class="field-link" href="https://youtube.com/playlist?list=PLW9Be5T9-EguXkuaMJxLf1MQtCrUGHf7g">Open the full YouTube playlist <span aria-hidden="true">↗</span></a>
+  </section>
+
+
+  <section id="about" class="six-context six-context--pink" aria-labelledby="about-heading">
+    <div class="six-context__inner">
+      <p class="field-code">ABOUT REFLEX / BRISTOL, UK</p>
+      <h2 id="about-heading">ABOUT REFLEX CAMERAS.</h2>
+      <div class="six-context__grid">
+        <article><h3>Designed and built by Sam Davis.</h3>
+          <p>Reflex Cameras is a small, independent business based in Bristol run by bat worker Sam Davis.</p>
+          <p>Sam has worked with bats for over 12 years. The idea for Reflex cameras grew from the challenge of trying to monitor woodland bats; fast-moving animals that switch roosts regularly and have a habit of making survey plans difficult.</p>
+          <p>That led to the development of the first Reflex camera: a camera that could stay in place, keep watch and capture amazing moments that are easily missed.</p>
+          <p>Sam has spent the past nine years developing Reflex cameras, designing the hardware and software from the ground up and field-testing the cameras in local woodlands and around roosts. Each camera is hand-assembled in Bristol.</p>
+          </article>
+        </article>
+        <article><h3>From tree roosts to wider surveys.</h3><p>The adaptable hardware and software were originally designed for monitoring trees, but the cameras have since been used for many different types of monitoring, from loft voids to active mines. The range has now expanded with new infrared and thermal models for surveying buildings and larger areas.</p><p><a href="#examples">Explore the field examples ↗</a></p></article>
+      </div>
+    </div>
+  </section>
+
+  <span id="manual" aria-hidden="true"></span>
+  <section id="guides" class="guide-section" aria-labelledby="guides-heading">
+    <header class="guide-section__header">
+      <p class="field-code">GUIDES / FIELD ADVICE</p>
+      <h2 id="guides-heading">Guides and field advice.</h2>
+    </header>
+    <div class="guide-grid concept-six-guide-grid">
+      <a href="{{ '/guides/user-manual/' | relative_url }}">
+        <span>01 / OPERATE</span>
+        <h3>User manual</h3>
+        <p>Camera positioning, Wi-Fi setup, focus, motion detection, downloads and field maintenance.</p>
+        <strong>Open the manual ↗</strong>
+      </a>
+      <a href="{{ '/guides/compatible-kit/' | relative_url }}">
+        <span>02 / BUILD THE KIT</span>
+        <h3>Compatible kit</h3>
+        <p>Field-tested batteries, mounting options, connectors and accessories for reliable deployments.</p>
+        <strong>See compatible kit ↗</strong>
+      </a>
+      <a href="{{ '/guides/choosing-a-bat-camera-trap/' | relative_url }}">
+        <span>03 / BATS AND TREES</span>
+        <h3>Using camera traps to detect bat roosts in trees</h3>
+        <p>Recording emergence, re-entry and movement between a network of tree roosts, with practical examples from long-term monitoring.</p>
+        <strong>Read the bats and trees guide ↗</strong>
+      </a>
+      <a href="{{ '/guides/choosing-a-building-survey-camera/' | relative_url }}">
+        <span>04 / BUILDING SURVEYS</span>
+        <h3>How to choose a camera for bat surveys of buildings</h3>
+        <p>Thermal and infrared options, field of view, detail at distance and built in tools to help review recordings.</p>
+        <strong>Read the building-survey guide ↗</strong>
+      </a>
+    </div>
+  </section>
+
+  <section id="purchase" class="purchase-section-five" aria-labelledby="purchase-heading">
+    <header class="purchase-section-five__header">
+      <p class="field-code">CAMERA RANGE / PRICING + ORDERS</p>
+      <h2 id="purchase-heading">Pre-order your camera.</h2>
+    </header>
+
+    <div class="purchase-grid">
+      {% for camera in site.data.cameras %}
+        <article style="--camera-accent: {{ camera.accent }}">
+          <a class="camera-select" href="#{{ camera.slug }}-checkout" data-checkout-target="{{ camera.slug }}-checkout" aria-label="Select {{ camera.name }}"></a>
+          <p>0{{ forloop.index }} / {% if camera.slug == "standard" %}Close-range infrared{% elsif camera.slug == "lynx" %}Ultra-sensitive infrared{% else %}{{ camera.type }}{% endif %}</p>
+          <h3>{{ camera.name }} kit</h3>
+          <strong>{% if camera.slug == "pit-viper" %}£1,600{% else %}{{ camera.price | remove: " kit" }}{% endif %}</strong>
+          <span>{% if camera.slug == "lynx" %}Close monitoring, buildings and large structures{% else %}{{ camera.best_for | replace: "Roosts, trees and close features", "Roosts, trees and close-range monitoring" }}{% endif %}</span>
+          <span class="purchase-action">Pre-order now ↓</span>
+        </article>
+      {% endfor %}
+    </div>
+
+    <aside class="preorder-notice" aria-labelledby="preorder-heading">
+      <p class="field-code">ALL CAMERAS / NEXT PRODUCTION BATCH</p>
+      <h3 id="preorder-heading">Reflex cameras are available to pre-order.</h3>
+      <p>Parts for the next production batch are expected in <strong>December 2026</strong>, with cameras expected to be ready for dispatch in <strong>early 2027</strong>. Pre-order using the payment options below to reserve a camera from this batch.</p>
+      <p class="preorder-notice__existing">If you placed your order <strong>before 7 October 2026</strong>, your existing estimated dispatch date still applies.</p>
+    </aside>
+
+    <div class="checkout-unit" aria-label="Camera checkout"><div class="checkout-scroll">
+    <div id="standard-checkout" class="purchase-checkout checkout-panel" tabindex="-1">
+      <div>
+        <p class="case-code">REFLEX STANDARD / PRE-ORDER</p>
+        <h3>Reflex Standard camera &amp; accessory kit.</h3>
+        <p>Each camera includes the Standard Accessory Kit: an extension cable, leisure-battery terminal connector and protective box.</p>
+      </div>
+      <div class="purchase-checkout__button"><p>Secure checkout</p>
+        <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+        <stripe-buy-button buy-button-id="buy_btn_1UCzHaB611DYs6VBtNIlw9Cl" publishable-key="pk_live_51R4TbaB611DYs6VBYbn1xJvT5aJvavJA5Lh6K6ll7y1djAgEMzhZmZPcn9wsuEzc4xTEsI3nGnK0Hmaql19OXt0Y00BfaTO4as"></stripe-buy-button>
+      </div>
+    </div>
+
+    <div id="lynx-checkout" class="purchase-checkout checkout-panel" tabindex="-1">
+      <div>
+        <p class="case-code">REFLEX LYNX / PRE-ORDER</p>
+        <h3>Reflex Lynx camera &amp; accessory kit.</h3>
+        <p>Each camera includes the Standard Accessory Kit: an extension cable, leisure-battery terminal connector and protective box.</p>
+      </div>
+      <div class="purchase-checkout__button"><p>Secure checkout</p>
+        <script async
+          src="https://js.stripe.com/v3/buy-button.js">
+        </script>
+
+        <stripe-buy-button
+          buy-button-id="buy_btn_1UPkJoB611DYs6VBENpM0tIL"
+          publishable-key="pk_live_51R4TbaB611DYs6VBYbn1xJvT5aJvavJA5Lh6K6ll7y1djAgEMzhZmZPcn9wsuEzc4xTEsI3nGnK0Hmaql19OXt0Y00BfaTO4as">
+        </stripe-buy-button>
+      </div>
+    </div>
+    <div id="pit-viper-checkout" class="purchase-checkout checkout-panel" tabindex="-1">
+      <div>
+        <p class="case-code">PIT VIPER / PRE-ORDER</p>
+        <h3>Reflex Pit Viper camera &amp; accessory kit.</h3>
+        <p>Each camera includes the Standard Accessory Kit: an extension cable and leisure-battery terminal connector.</p>
+      </div>
+      <div class="purchase-checkout__button">
+        <script async
+          src="https://js.stripe.com/v3/buy-button.js">
+        </script>
+
+        <stripe-buy-button
+          buy-button-id="buy_btn_1UPkD9B611DYs6VB7vzOTSUo"
+          publishable-key="pk_live_51R4TbaB611DYs6VBYbn1xJvT5aJvavJA5Lh6K6ll7y1djAgEMzhZmZPcn9wsuEzc4xTEsI3nGnK0Hmaql19OXt0Y00BfaTO4as"
+        >
+        </stripe-buy-button>
+      </div>
+    </div>
+    </div>
+    <nav class="checkout-camera-nav" aria-label="Browse camera checkout options">
+      {% for camera in site.data.cameras %}
+        <a href="#{{ camera.slug }}-checkout" data-checkout-target="{{ camera.slug }}-checkout" style="--camera-accent: {{ camera.accent }}">{{ camera.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+
+    <div class="purchase-notes" aria-label="Order information">
+      <p><strong>Mount and battery</strong><span>Not included. See the Compatible Kit guide for field-tested options.</span></p>
+      <p><strong>Warranty</strong><span>Two years, covering manufacturing defects.</span></p>
+      <p><strong>Delivery</strong><span>UK shipping from £15.95. Sold internationally. Saffron Aid provides distribution in Australasia.</span></p>
+      <p><strong>Bulk orders</strong><span>For more than three cameras, contact us directly.</span></p>
+    </div>
+  </section>
+
+  <section id="analysis" class="guide-section" aria-labelledby="analysis-heading">
+    <header class="guide-section__header">
+      <p class="field-code">EXISTING FOOTAGE / ANALYSIS SERVICE</p>
+      <h2 id="analysis-heading">Already have<br>survey footage?</h2>
+    </header>
+    <p class="concept-six-section-note">The Reflex footage motion analysis service processes existing infrared and thermal video into timestamped motion-summary images, helping you find sections for closer review. This is a separate service for footage you have already recorded.</p>
+    <a class="field-link" href="{{ '/video-motion-analysis-service/' | relative_url }}">Explore the footage analysis service ↗</a>
+  </section>
+
+  <section id="contact" class="field-contact field-contact--form">
+    <div class="field-contact__intro">
+      <p class="field-code">TALK TO REFLEX / SURVEY ENQUIRIES</p>
+      <h2>Need more advice - get in touch.</h2>
+      <p>Tell us what you need to monitor, the distance involved and the intended deployment period.</p>
+    </div>
+    <form class="field-form" action="https://usebasin.com/f/2c8839609d3d" method="POST">
+      <div class="field-form__row">
+        <label for="Name"><span>Name</span><input type="text" name="name" id="Name" autocomplete="name"></label>
+        <label for="Email"><span>Email address</span><input type="email" name="email" id="Email" autocomplete="email"></label>
+      </div>
+      <label for="Company/batgroup"><span>Company / bat group</span><input type="text" name="Company/ bat group" id="Company/batgroup" autocomplete="organization"></label>
+      <label for="message"><span>Enter message</span><textarea name="message" id="message" rows="6"></textarea></label>
+      <p id="consent-contact-note">Please allow cookies using Cookie settings to enable the enquiry form.</p><div id="recaptcha-container"></div>
+      <input type="hidden" name="_gotcha">
+      <div class="field-form__footer">
+        <p>Your details are used only to respond to this enquiry.</p>
+        <button type="submit" id="submit-button" disabled>Submit</button>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="field-footer">
+  <img src="{{ '/assets/images/reflex-logo-white.webp' | relative_url }}" alt="Reflex Cameras">
+  <p>Specialist cameras for bat monitoring. Designed and hand-assembled in Bristol, UK.</p>
+  <div class="field-footer__links">
+    <a href="{{ '/video-motion-analysis-service/' | relative_url }}">Analysis Service ↗</a>
+    <a href="#top">Return to top ↑</a>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    document.querySelectorAll('video[data-deferred-src]').forEach(function (video) {
+      if (reducedMotion) return;
+
+      function loadAndPlay() {
+        if (!video.getAttribute('src')) {
+          video.src = video.dataset.deferredSrc;
+          video.load();
+        }
+        video.play().catch(function () {});
+      }
+
+      if (!('IntersectionObserver' in window)) {
+        loadAndPlay();
+        return;
+      }
+
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            loadAndPlay();
+          } else if (video.getAttribute('src')) {
+            video.pause();
+          }
+        });
+      }, { rootMargin: '300px 0px' });
+
+      observer.observe(video);
+    });
+  }());
+</script>
+
+<script>
+  document.querySelectorAll('[data-video-poster]').forEach(function (poster) {
+    poster.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      var frame = poster.closest('.video-section-five__frame');
+      var player = document.createElement('iframe');
+      player.src = poster.dataset.embed;
+      player.title = 'Reflex camera field video playlist';
+      player.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      player.referrerPolicy = 'strict-origin-when-cross-origin';
+      player.allowFullscreen = true;
+
+      frame.replaceChildren(player);
+      player.focus();
+    });
+  });
+</script>
+
+
+<script>
+document.querySelectorAll('[data-checkout-target]').forEach(function(link){
+ link.addEventListener('click',function(event){
+  var panel=document.getElementById(link.dataset.checkoutTarget); if(!panel)return;
+  event.preventDefault();var scroller=panel.parentElement;
+  var behavior=matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth';
+  scroller.scrollTo({left:panel.getBoundingClientRect().left-scroller.getBoundingClientRect().left+scroller.scrollLeft,behavior:behavior});
+  scroller.scrollIntoView({block:'center',behavior:behavior});panel.focus({preventScroll:true});
+ });
+});
+</script>
+
+<script>
+  (function () {
+    var pairedLayout = window.matchMedia('(min-width: 841px)');
+    var exampleCards = Array.from(document.querySelectorAll('#examples .example-card'));
+
+    exampleCards.forEach(function (card, index) {
+      card.addEventListener('toggle', function () {
+        if (!pairedLayout.matches) return;
+
+        var pairedCard = exampleCards[index % 2 === 0 ? index + 1 : index - 1];
+        if (pairedCard && pairedCard.open !== card.open) pairedCard.open = card.open;
+      });
+    });
+  }());
+</script>

@@ -6,7 +6,7 @@ permalink: /user-manual/
 
 # Reflex - Quick Guide
 
-Position the camera within 4m of the roost. For optimal results position the camera slightly higher than the feature and look down onto it.
+Position the camera within 4 m of the roost. For optimal results position the camera slightly higher than the feature and look down onto it.
 
 Plug in the battery.
 
@@ -53,9 +53,9 @@ Turn the camera off.
 
 Lay the camera on its back so the clear window is facing up. Firmly press down on the side of the clear window that you want to open near to where the clear plastic meets the grey plastic and insert a suitable flat head screwdriver into the slot between the two plastics. Use the screwdriver to push the grey tab outwards and away from the clear window and the hinge will pop open. The clear plastic lid can then be opened.
 
-![Apply pressure](/img/usermanual/Pressure.png)
+![Apply pressure](/assets/images/usermanual/Pressure.webp)
 
-![Open case](/img/usermanual/ScrewdriverOpen.png)
+![Open case](/assets/images/usermanual/ScrewdriverOpen.webp)
 
 Lever the clear window up and open.
 
@@ -78,36 +78,36 @@ Black is negative, red is positive. The red and black indicators are located on 
 
 Be careful not to touch both battery posts at the same time.
 
-![Reflex Leisure Battery Terminal Connector](/img/usermanual/LeisureBatteryConnector.jpg)
+![Reflex Leisure Battery Terminal Connector](/assets/images/usermanual/LeisureBatteryConnector.webp)
 
-![Leisure battery with post connectors](/img/usermanual/LeisureBattery.png)
+![Leisure battery with post connectors](/assets/images/usermanual/LeisureBattery.webp)
 
 Waterproof the battery in a suitable bag or box. If using a roll top bag run the cables along the roll whilst ensuring that the bag is sealed properly and will remain waterproof.
 
-![Leisure battery in a waterproof case](/img/usermanual/BatteryBox.jpg)
+![Leisure battery in a waterproof case](/assets/images/usermanual/BatteryBox.webp)
 
-![Leisure battery in a waterproof bag](/img/usermanual/LeisureBatteryInBag.png)
+![Leisure battery in a waterproof bag](/assets/images/usermanual/LeisureBatteryInBag.webp)
 
 Be careful not to touch both battery posts at the same time.
 
 ### Large Talentcell
-If connecting to a talentcell battery push the `Reflex 12v Male Barrel Jack Connector` into the 12v output port on a suitably rated Talentcell.
+If connecting to a talentcell battery push the `Reflex 12 V Male Barrel Jack Connector` into the 12 V output port on a suitably rated Talentcell.
 
 Make sure this connection won’t disconnect during deployment. Consider using an elastic band or electrical tape to secure the cable to the battery.
 
 Turn the Talentcell on.
 
-![Reflex 12v Male Barrel Jack Connector](/img/usermanual/TalentcellConnector.jpg)
+![Reflex 12 V Male Barrel Jack Connector](/assets/images/usermanual/TalentcellConnector.webp)
 
-![Talentcell](/img/usermanual/Talentcell.png)
+![Talentcell](/assets/images/usermanual/Talentcell.webp)
 
 ### Extension leads
 
 `Reflex Standard Extension Cables` extend the connection between the battery connectors described above and the camera (via the port on the bottom of the camera). They have been produced for demanding use with a weatherproof, extremely durable cable. Using the extension cables allows you to position the camera at height whilst the battery stays on the ground. You can still change the batteries and download videos over WiFi without access to the camera itself. When running the `Reflex Standard Extension Cables` up a tree, wrap them around the trunk or branches to reduce moment and drag.
 
-Each Reflex Standard Extension Cable is just over 4m long. Multiple `Reflex Standard Extension Cables` can be linked together if you want to position the camera at a greater height. To buy additional cables use the <a href="/index.html#contact">contact</a> form on our webpage.
+Each Reflex Standard Extension Cable is just over 4 m long. Multiple `Reflex Standard Extension Cables` can be linked together if you want to position the camera at a greater height. To buy additional cables use the <a href="/index.html#contact">contact</a> form on our webpage.
 
-![Reflex Standard Extension Lead](/img/usermanual/ReflexStandardExtensionLead.jpg)
+![Reflex Standard Extension Lead](/assets/images/usermanual/ReflexStandardExtensionLead.webp)
 
 <div style="page-break-after: always;"></div>
 
@@ -115,7 +115,7 @@ Each Reflex Standard Extension Cable is just over 4m long. Multiple `Reflex Stan
 
 ### Connecting power
 
-- Attach the relevant battery connector (`Reflex Leisure Battery Terminal Connector` or `Reflex 12v Male Barrel Jack Connector`) to the battery
+- Attach the relevant battery connector (`Reflex Leisure Battery Terminal Connector` or `Reflex 12 V Male Barrel Jack Connector`) to the battery
 - Attach the `Reflex Standard Extension Cable` to the battery connector:
     - Make sure the connectors are in the unlocked position
     - Line up lines on the battery connectors
@@ -129,13 +129,13 @@ Each Reflex Standard Extension Cable is just over 4m long. Multiple `Reflex Stan
 - The camera will boot automatically
 - Wait for 20 seconds whilst the camera turns on and starts a WiFi hotspot (or connects to a saved WiFi connection)
 
-![Reflex Connection](/img/usermanual/ReflexConnection.png)
+![Reflex Connection](/assets/images/usermanual/ReflexConnection.webp)
 
 ### Checking camera status
 
 When the camera is fully running the large infra-red LED will be lit and visible on a phone camera as a faint red glow.
 
-![Large LED Location](/img/usermanual/LargeLEDStatus.png)
+![Large LED Location](/assets/images/usermanual/LargeLEDStatus.webp)
 
 <div style="page-break-after: always;"></div>
 
@@ -178,7 +178,7 @@ The website has five pages:
 
 ### Home
 
-![Home Page](/img/usermanual/Home.png)
+![Home Page](/assets/images/usermanual/Home.webp)
 
 #### Video feed
 
@@ -218,11 +218,11 @@ Frames per second (FPS) refers to the number of images recorded in each second o
 
 The best framerate will depend on your objective, see the table below.
 
-| Objective                                                                                     | Recommended framerate | LED for subject < 1m away          | A 12v 50ah battery should last |
+| Objective                                                                                     | Recommended framerate | LED for subject <1 m away          | A 12 V 50ah battery should last |
 |-----------------------------------------------------------------------------------------------|-----------------------|--------------|--------------------------------|
-| To record as many nights as possible                                                          | 30FPS                 | Low (20)     | 26 nights                      |
-| To record good quality bright images                                                          | 60FPS                 | Medium (40)  | 19 nights                      |
-| To record the best possible images for species identification and see bat behaviour in detail | 120FPS                | Extreme (60) | 16 nights                      |
+| To record as many nights as possible                                                          | 30 FPS                 | Low (20)     | 26 nights                      |
+| To record good quality bright images                                                          | 60 FPS                 | Medium (40)  | 19 nights                      |
+| To record the best possible images for species identification and see bat behaviour in detail | 120 FPS                | Extreme (60) | 16 nights                      |
 
 <br>
 `LED Low` / `LED Medium` / `LED High` / `LED Extreme`<br>
@@ -274,7 +274,7 @@ Before disconnecting the power source, follow these steps to shut the camera dow
 
 ### Schedule
 
-![Schedule Page](/img/usermanual/Schedule.png)
+![Schedule Page](/assets/images/usermanual/Schedule.webp)
 
 The values in the table on this page detail the power statistics and scheduling of the camera. When deploying check that these are correct. Example values are provided below.
 
@@ -315,7 +315,7 @@ The camera will turn off automatically and stop its scheduled routine if it dete
 Small lithium battery packs i.e. Talentcell batteries have their own BMS protection and run at a a constant voltage determined by an internal regulator. If using a battery with internal BMS protection disable the cutoff by setting the `Set custom cutoff` value to 0.
 
 To determine the appropriate cutoff value, please consult the battery manufacturer's datasheet.
-For non-lithium batteries lower voltage cutoffs may extend run times but will likely reduce the overall lifespan of the battery. During testing an 11.3v cutoff was used with one 12v AGM battery which allowed for long run times with c.80% depletion but shortened the battery lifespan on each run. This is for informational purposes only it does not constitute a recommendation, check your battery datasheet and think about the lifespan of your battery.
+For non-lithium batteries lower voltage cutoffs may extend run times but will likely reduce the overall lifespan of the battery. During testing an 11.3v cutoff was used with one 12 V AGM battery which allowed for long run times with c.80% depletion but shortened the battery lifespan on each run. This is for informational purposes only it does not constitute a recommendation, check your battery datasheet and think about the lifespan of your battery.
 
 Disclaimer: This feature is not designed to be a substitute for a dedicated battery management system. Reflex Cameras Limited accept no liability for any damage to the battery or other equipment resulting from an unsuccessful voltage cutoff. If battery health is critical to your application, you must use a dedicated system such as an undervoltage protection device or a solar controller. These devices are specifically designed to monitor battery voltage accurately and implement safe cutoffs reliably.
 
@@ -329,7 +329,7 @@ The fields `Set custom date` and `Set custom time` are populated with the curren
 
 ### Log
 
-![Log Page](/img/usermanual/Log.png)
+![Log Page](/assets/images/usermanual/Log.webp)
 
 An interactive chart showing power statistics, shutdown, and startup times. Depending on the number of logs this can take from 5 seconds to 1 minute to load.
 
@@ -340,7 +340,7 @@ Clears the existing logs and restart the logging.
 
 ### Media
 
-![Media Page](/img/usermanual/Media.png)
+![Media Page](/assets/images/usermanual/Media.webp)
 
 A list containing all
 - recorded videos in mp4 format
@@ -368,7 +368,7 @@ Format an SD card so that it can be used by the camera. **Warning** this will de
 
 ### WiFi
 
-![WiFi Page](/img/usermanual/WiFi.png)
+![WiFi Page](/assets/images/usermanual/WiFi.webp)
 
 `Switch between WiFi and hotspot`<br>
 Change WiFi mode. For further details see the 'Advanced Users' section below.
@@ -390,7 +390,7 @@ Familiarise yourself with setting up the camera in the field by deploying it on 
 
 ### Positioning light stand on tree
 
-![Light Stand Setup](/img/usermanual/LightStandSetup.jpg)
+![Light Stand Setup](/assets/images/usermanual/LightStandSetup.webp)
 
 Recommended procedure:
 1. Remove leaves or cobwebs from the area of interest to avoid false triggers
@@ -403,7 +403,7 @@ Recommended procedure:
 
 ### Housekeeping
 
-![Tidy Cable](/img/usermanual/TidyCable.jpg)
+![Tidy Cable](/assets/images/usermanual/TidyCable.webp)
 
 Coil cables carefully when not in use. Avoid tight coiling. Instead, gently follow the cable's natural curve and alternate between "over" and "under" loops to prevent twists. There are several good instruction videos on YouTube.
 
@@ -411,7 +411,7 @@ Coil cables carefully when not in use. Avoid tight coiling. Instead, gently foll
 
 ## Reviewing footage
 
-![Reviewing Images](/img/usermanual/Preview.png)
+![Reviewing Images](/assets/images/usermanual/Preview.webp)
 
 Once footage is downloaded from the camera it is quickest to scroll through the jpeg files saved alongside the videos in the media folder. These jpeg files are a visual summary of motion in each video. Motion detected in each frame of the video is overlayed onto a black and white background using red, green, and blue colours in sequence. In older versions of the software the jpegs simply represent the first frame where motion was detected contain the wildlife that triggered the recording most of the time. The jpegs provide a quick way to review lots of media.
 
@@ -425,14 +425,6 @@ On Windows use FastPictureViewer or an equivalent.
 
 This section is for advanced users and contains methods to connect the cameras to the internet for an update.
 
-### Checking status
-
-There is a small indicator IR (infra-red) LED located at the top of the camera on the PCB. This can be used to monitor the  WiFi mode. This LED is infra-red so only visible  using the camera on a phone.
-- If the REFLEX camera is producing an active WiFi hotspot the small IR indicator LED will flash rapidly
-- If the REFLEX camera is in wifi mode the small IR indicator LED will flash slowly (once every 2 seconds)
-
-![Small IR Indicator LED Location](/img/usermanual/IndicatorLEDStatus.png)
-
 ### Different modes
 
 #### Hotspot mode
@@ -441,7 +433,7 @@ The website can be accessed by device (phone or computer) connected to the camer
 - SSID: `REFLEXHOTSPOT-REFLEX0000` - replace 0000 with the number printed inside the camera lid
 - Password: `REFLEXREFLEX` - on Windows it may ask you to enter a pin number rather than a password. In this case press connect using a password instead and enter `REFLEXREFLEX`. On some Android phones you may receive a notification stating `WiFi has no Internet Access. Tap for Options`. To connect to the hotspot, tap this notification then select `This network has no Internet Access. Stay connected?` and also check `Don't ask again for this network`.
 
-![Hotspot Mode](/img/usermanual/HotspotMode.png)
+![Hotspot Mode](/assets/images/usermanual/HotspotMode.webp)
 
 #### WiFi receive mode
 In this mode, the camera connects to nearby WiFi network. The camera broadcasts the **Reflex settings webpage** over this connection.
@@ -450,7 +442,7 @@ The webpage address is defined by the router i.e. xx.xx.xx.xxx:5000
 
 If the WiFi network has internet the camera can be updated in this mode by using the `Upgrade` button on the **Home Page** of the **Reflex settings webpage**.
 
-![WiFi Receive Mode](/img/usermanual/WiFiReceiveMode.png)
+![WiFi Receive Mode](/assets/images/usermanual/WiFiReceiveMode.webp)
 
 ##### WiFi receive mode Android hotspot
 On your Android phone create a hotspot on your phone with the SSID `REFLEX` with password `REFLEXREFLEX`
@@ -467,7 +459,7 @@ Open a webpage and type in this IP address, followed by :5000,  into the search 
 
 You will be connected to the camera.
 
-![Android Hotspot Settings](/img/usermanual/AndroidHotspot.png)
+![Android Hotspot Settings](/assets/images/usermanual/AndroidHotspot.webp)
 
 ##### WiFi receive mode iOS hotspot
 On your iPhone create a hotspot.
@@ -491,7 +483,7 @@ Open a webpage on Chrome and type in this hostname followed by :5000, into the s
 
 You should now see the **Reflex settings webpage**.
 
-![iOS Hotspot Settings](/img/usermanual/iOSHotspot.png)
+![iOS Hotspot Settings](/assets/images/usermanual/iOSHotspot.webp)
 
 #### WiFi receive mode - additional connections
 
@@ -511,7 +503,7 @@ If the page does not refresh automatically after at least 10 minutes, refresh th
 
 After the update is finished, it’s recommended to switch the camera back to hotspot mode for normal use (see [Hotspot mode](#hotspot-mode)). This mode is better suited to field operation.
 
-## How long does a REFLEX Camera last on a Talentcell 12V Lithium-ion Battery Pack, 11.1V/9000mAh 99.9Wh Portable Power Bank Li-ion Battery?
+## How long does a REFLEX Camera last on a Talentcell 12 V Lithium-ion Battery Pack, 11.1V/9000mAh 99.9Wh Portable Power Bank Li-ion Battery?
 
 In summer, you can expect approximately:
 
@@ -542,10 +534,10 @@ Yes. REFLEX Cameras are designed to run from a **12 V leisure battery**, so pa
 With the right‑sized panel, the camera can stay in the field far longer than with the battery alone - often all season.
 
 ## How long will the camera last running on different batteries?
-The number of nights a camera will record is dependent on the night length and camera settings. Higher camera frame rates require brighter lighting, which in turn consumes more power. A camera set to 30FPS will last roughly twice as long as one set to 120FPS.
+The number of nights a camera will record is dependent on the night length and camera settings. Higher camera frame rates require brighter lighting, which in turn consumes more power. A camera set to 30FPS will last roughly twice as long as one set to 120 FPS.
 
-It is possible to extend runtimes using most standard 12v batteries (excluding talentcell batteries) by using solar panels or by linking multiple batteries together. Be sure to follow the battery manufacturer's guidance. For recommendations on solar panels or battery linking, consult with an off-grid battery supplier.
+It is possible to extend runtimes using most standard 12 V batteries (excluding talentcell batteries) by using solar panels or by linking multiple batteries together. Be sure to follow the battery manufacturer's guidance. For recommendations on solar panels or battery linking, consult with an off-grid battery supplier.
 
-A battery weighing around 11kg can be carried fairly easily while navigating a woodland. This weight corresponds to a 75Ah lithium battery or a 40Ah lead-acid battery, both of which will provide several weeks of recording at 30FPS. Smaller, more portable 12V batteries, like the TalentCell models, can also be used but will deplete faster.
+A battery weighing around 11kg can be carried fairly easily while navigating a woodland. This weight corresponds to a 75Ah lithium battery or a 40Ah lead-acid battery, both of which will provide several weeks of recording at 30FPS. Smaller, more portable 12 V batteries, like the TalentCell models, can also be used but will deplete faster.
 
 If you'd like to estimate the system's runtime at 30FPS, enter a battery’s capacity in amp-hours below. This estimation assumes an average night length of 9 hours.
