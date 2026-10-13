@@ -59,3 +59,16 @@ permalink: /guides/compatible-kit/
     <a href="{{ '/' | relative_url }}">Back to website ↗</a>
   </div>
 </footer>
+
+<script>
+  document.querySelectorAll('.source-guide--kit > table').forEach(function (table, index) {
+    var hint = document.createElement('p');
+    hint.className = 'table-scroll-hint table-scroll-hint--kit';
+    hint.innerHTML = '<span aria-hidden="true">←</span><strong>Swipe to see the full table</strong><span aria-hidden="true">→</span>';
+    table.before(hint);
+    table.classList.add('scrollable-data-table');
+    table.tabIndex = 0;
+    table.setAttribute('role', 'region');
+    table.setAttribute('aria-label', 'Scrollable compatible kit table ' + (index + 1));
+  });
+</script>

@@ -2455,6 +2455,111 @@ html.concept-six-document {
   place-items: center;
 }
 
+/* Clear guide/version messaging and high-contrast mobile table affordances. */
+.structured-guide-page .guide-model-notice {
+  margin: 0 0 clamp(54px, 8vw, 90px);
+  padding: clamp(24px, 4vw, 38px);
+  border-top: 5px solid var(--heat);
+  background: #071013;
+  color: #f4f7f4;
+}
+
+.structured-guide-page .guide-model-notice .field-code {
+  color: var(--heat);
+}
+
+.structured-guide-page .guide-model-notice h2 {
+  max-width: 760px;
+  margin: 18px 0 16px;
+  color: #f4f7f4;
+  font-size: clamp(1.8rem, 4vw, 3.4rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.structured-guide-page .guide-model-notice > p:last-child {
+  max-width: 760px;
+  margin: 0;
+  color: #cbd6d2;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.structured-guide-page .guide-model-notice a {
+  color: #8ee8f5;
+  font-weight: 800;
+  text-underline-offset: 0.2em;
+}
+
+.table-scroll-hint {
+  display: none;
+}
+
+.comparison-table-wrap,
+.source-guide-page .source-guide--kit > .scrollable-data-table {
+  scrollbar-color: #071013 #91a09f;
+  scrollbar-width: auto;
+}
+
+.comparison-table-wrap::-webkit-scrollbar,
+.source-guide-page .source-guide--kit > .scrollable-data-table::-webkit-scrollbar {
+  height: 16px;
+}
+
+.comparison-table-wrap::-webkit-scrollbar-track,
+.source-guide-page .source-guide--kit > .scrollable-data-table::-webkit-scrollbar-track {
+  background: #91a09f;
+}
+
+.comparison-table-wrap::-webkit-scrollbar-thumb,
+.source-guide-page .source-guide--kit > .scrollable-data-table::-webkit-scrollbar-thumb {
+  border: 3px solid #91a09f;
+  border-radius: 999px;
+  background: #071013;
+}
+
+@media (max-width: 820px) {
+  .table-scroll-hint {
+    display: flex;
+    width: min(1320px, 100%);
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 auto 10px;
+    padding: 11px 13px;
+    background: #071013;
+    color: #f4f7f4;
+    font: 800 0.68rem/1.35 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .table-scroll-hint span {
+    color: var(--heat);
+    font-size: 1.05rem;
+  }
+
+  .source-guide-page .table-scroll-hint--kit {
+    margin-top: 30px;
+  }
+
+  .source-guide-page .table-scroll-hint--kit + table {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .guide-page-five .guide-page-hero--structured h1 {
+    font-size: clamp(3rem, 15vw, 5.5rem);
+  }
+
+  .guide-page-five .guide-page-hero--kit h1 {
+    font-size: clamp(2.75rem, 14.5vw, 5.5rem);
+  }
+}
+
 .structured-guide-page .structured-table {
   display: block;
   width: 100%;

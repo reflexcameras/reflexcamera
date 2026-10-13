@@ -1,7 +1,7 @@
 ---
 layout: site
-title: "User manual"
-description: "The complete Reflex camera quick guide, operating manual, field setup instructions and product FAQs."
+title: "Reflex Standard user guide"
+description: "The complete Reflex Standard quick guide, operating manual, field setup instructions and product FAQs. Reflex Lynx and Reflex Pit Viper guides are coming soon."
 body_class: "concept-three concept-four concept-five concept-six guide-page-five source-guide-page structured-guide-page"
 concept: 6
 stylesheet: "/assets/css/concept-three.css"
@@ -14,9 +14,9 @@ permalink: /guides/user-manual/
 <main id="main-content" class="field-guide">
   <section class="guide-page-hero guide-page-hero--structured" aria-labelledby="guide-title">
     <p class="field-code">REF / FIELD SUPPORT / GUIDE 01</p>
-    <h1 id="guide-title">User<br>manual.</h1>
+    <h1 id="guide-title">Standard<br>user guide.</h1>
     <div>
-      <p>The complete Reflex manual, arranged into numbered steps, chapter panels, setting rows and expandable FAQs.</p>
+      <p>This guide is for the <strong>Reflex Standard</strong>. User guides for the Reflex Lynx and Reflex Pit Viper are coming soon.</p>
       <p><a href="{{ '/#guides' | relative_url }}">Back to Guides and field advice ↗</a></p>
       <a href="#reflex---quick-guide">Start with the quick guide <span aria-hidden="true">↓</span></a>
     </div>
@@ -39,6 +39,12 @@ permalink: /guides/user-manual/
     </aside>
 
     <article class="guide-article source-guide source-guide--manual source-guide--structured">
+      <aside class="guide-model-notice" aria-labelledby="older-model-guide-heading">
+        <p class="field-code">OLDER REFLEX STANDARD MODELS / PRE-2024</p>
+        <h2 id="older-model-guide-heading">Is the LED and camera off-centre?</h2>
+        <p>If you have an older model where the LED and camera are not centred on the camera, please <a href="{{ '/#contact' | relative_url }}">request the correct PDF user guide from the contact page ↗</a>.</p>
+      </aside>
+
       {% capture manual_source %}{% include content/usermanual.md %}{% endcapture %}
       {{ manual_source | markdownify }}
 
@@ -52,7 +58,7 @@ permalink: /guides/user-manual/
 
 <footer class="field-footer">
   <img src="{{ '/assets/images/reflex-logo-white.webp' | relative_url }}" alt="Reflex Cameras">
-  <p>Field guide / User manual</p>
+  <p>Field guide / Reflex Standard</p>
   <div class="field-footer__links">
     <a href="{{ '/guides/compatible-kit/' | relative_url }}">Compatible kit ↗</a>
     <a href="{{ '/' | relative_url }}">Back to website ↗</a>
