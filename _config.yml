@@ -7,6 +7,9 @@ url: "https://reflexcameras.co.uk"
 #added below
 baseurl: /
 description: "High-performance camera traps for long term monitoring of bat roosts."
+social_image: "/assets/images/logo-no-background.png"
+social_image_width: 394
+social_image_height: 394
 
 include:
   - 2024-repo
