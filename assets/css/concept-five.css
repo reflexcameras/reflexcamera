@@ -918,6 +918,22 @@
   text-transform: uppercase;
 }
 
+.guide-page-five .guide-page-hero > div p .guide-page-hero__inline-link {
+  display: inline;
+  margin-top: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--cyan);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
 .guide-page-five .guide-layout {
   display: grid;
   width: min(1500px, 100%);
@@ -1621,12 +1637,6 @@ html.concept-six-document {
   scroll-padding-top: var(--field-header-offset, 130px);
 }
 
-@media (min-width: 681px) and (max-width: 1150px) {
-  .concept-six .field-header { grid-template-columns: auto 1fr; }
-  .concept-six .field-header__descriptor { display: none; }
-  .concept-six .field-nav { flex-wrap: wrap; }
-}
-
 .concept-six .field-nav {
   align-items: center;
   gap: clamp(10px, 1.8vw, 24px);
@@ -1719,6 +1729,23 @@ html.concept-six-document {
   display: flex;
   justify-content: flex-end;
   gap: 24px;
+}
+
+@media (min-width: 681px) and (max-width: 1150px) {
+  .concept-six .field-header { grid-template-columns: auto 1fr; }
+  .concept-six .field-header__descriptor { display: none; }
+  .concept-six .field-nav { flex-wrap: wrap; }
+
+  .concept-six .field-nav__menu summary,
+  .concept-six .field-nav__analysis,
+  .concept-six .field-nav__buy,
+  .concept-six .field-nav > a {
+    font-size: 0.75rem;
+  }
+
+  .concept-six .field-nav__panel a {
+    font-size: 0.7rem;
+  }
 }
 
 /* Full source guides: retain the original copy while using the Concept 6 visual system. */
@@ -1927,12 +1954,13 @@ html.concept-six-document {
 
   .concept-six .field-nav__menu summary,
   .concept-six .field-nav__analysis,
-  .concept-six .field-nav__buy {
+  .concept-six .field-nav__buy,
+  .concept-six .field-nav > a {
     justify-content: center;
     width: 100%;
     box-sizing: border-box;
     padding: 11px 4px;
-    font-size: 0.56rem;
+    font-size: 0.72rem;
   }
 
   .concept-six .field-nav__analysis {
@@ -1942,6 +1970,13 @@ html.concept-six-document {
     border-top: 1px solid rgba(203, 226, 231, 0.2);
     border-left: 0;
     color: var(--dim);
+  }
+
+  .concept-six .field-nav__buy {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .concept-six .field-nav__panel {
@@ -1958,6 +1993,7 @@ html.concept-six-document {
 
   .concept-six .field-nav__panel a {
     padding: 14px 13px;
+    font-size: 0.68rem;
   }
 
   .concept-six .field-footer__links {

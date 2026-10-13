@@ -359,7 +359,16 @@
 }
 
 .analysis-page .analysis-video-frame.is-playing .analysis-video-toggle {
-  opacity: 0.28;
+  opacity: 0;
+}
+
+.analysis-page .analysis-video-frame.is-playing:hover:not(.is-controls-idle) .analysis-video-toggle,
+.analysis-page .analysis-video-frame.is-playing .analysis-video-toggle:focus-visible {
+  opacity: 1;
+}
+
+.analysis-page .analysis-video-frame.is-playing.is-controls-idle .analysis-video-toggle:not(:focus-visible) {
+  opacity: 0;
 }
 
 .analysis-page .analysis-video-frame.is-playing .analysis-video-toggle__icon::before {

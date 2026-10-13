@@ -17,9 +17,9 @@ Once we’ve received your videos, we’ll process them and create a series of t
 
 ### Significant Time Savings
 
-Our automated method eliminates the need to manually watch hours of footage. You can go straight to the moments that matter \- the exact sections where bats are recorded \- saving your hours of review time.
+Our automated method eliminates the need to manually watch hours of footage. You can go straight to the moments that matter \- the exact sections where bats are recorded \- saving you hours of review time.
 
-User feedback indicates that the service enables reviewers to process footage from around 25 emergence surveys per day - more than four times the number achievable by watching videos manually at 1.5x speed.
+Users report being able to review footage from around 25 emergence surveys per day using the service – more than four times the number achievable by watching videos manually at 1.5× speed.
 
 ### Improved Detection Accuracy
 
@@ -31,7 +31,7 @@ Our processing method reliably identifies and highlights key events such as bat 
 
 ### You Stay in Control
 
-You, the ecologist, remain in charge of interpreting the results.
+You remain in charge of interpreting the results.
 
 The timestamped JPEG images correspond directly to the original video, allowing you to quickly navigate to the relevant sections and verify motion events for yourself.
 
