@@ -823,6 +823,10 @@
   line-height: 1.45;
 }
 
+.concept-five .field-form__footer p + p {
+  margin-top: 10px;
+}
+
 .concept-five .field-form button {
   min-height: 52px;
   padding: 14px 18px;

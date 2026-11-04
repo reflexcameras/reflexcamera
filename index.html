@@ -748,11 +748,14 @@ permalink: /
       </div>
       <label for="Company/batgroup"><span>Company / bat group</span><input type="text" name="Company/ bat group" id="Company/batgroup" autocomplete="organization"></label>
       <label for="message"><span>Enter message</span><textarea name="message" id="message" rows="6"></textarea></label>
-      <p id="consent-contact-note">Please allow cookies using Cookie settings to enable the enquiry form.</p><div id="recaptcha-container"></div>
+      <div id="recaptcha-container"></div>
       <input type="hidden" name="_gotcha">
       <div class="field-form__footer">
-        <p>Your details are used only to respond to this enquiry.</p>
-        <button type="submit" id="submit-button" disabled>Submit</button>
+        <div>
+          <p>Your details are used only to respond to this enquiry.</p>
+          <p id="consent-contact-note">Before submitting, please accept cookies using the banner at the bottom of the page. If the banner is closed, select Cookie settings to reopen it.</p>
+        </div>
+        <button type="submit" id="submit-button" aria-describedby="consent-contact-note" disabled>Submit</button>
       </div>
     </form>
   </section>
