@@ -444,7 +444,7 @@ permalink: /
           <div class="system__content">
             <p class="field-code">{% if camera.slug == "lynx" %}Close monitoring, buildings and large structures{% else %}{{ camera.best_for | replace: "Roosts, trees and close features", "Roosts, trees and close-range monitoring" }}{% endif %}</p>
             <h3>{{ camera.name }}</h3>
-            <p class="system__tagline">{% if camera.slug == "standard" %}Close-range infrared for monitoring in and around roosts.{% elsif camera.slug == "lynx" %}Ultra-sensitive infrared — brighter infrared imagery and greater usable range, particularly with external illumination.{% else %}{{ camera.tagline }}{% endif %}</p>
+            <p class="system__tagline">{% if camera.slug == "standard" %}Close-range infrared for monitoring in and around roosts.{% elsif camera.slug == "lynx" %}Ultra-sensitive infrared. Brighter infrared imagery and greater usable range, particularly with external illumination.{% else %}{{ camera.tagline }}{% endif %}</p>
             <p class="system__summary">{% if camera.slug == "lynx" %}An ultra-sensitive infrared camera suitable for close-range monitoring and imagery that supports species identification, as well as surveys of buildings and large structures. Its large, highly sensitive sensor provides brighter imagery with less illumination and greater usable range, particularly with external illumination. Focus is maintained between daylight and infrared.{% else %}{{ camera.summary | replace: "other close-range features", "other areas requiring close-range monitoring" | replace: "complex features at distance", "complex structures at distance" }}{% endif %}</p>
             <p class="concept-six-guide-link">
               {% if camera.slug == "standard" %}
