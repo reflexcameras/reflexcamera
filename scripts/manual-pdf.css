@@ -1,0 +1,62 @@
+@page { size:A4; margin:14mm 14mm 17mm; }
+html, body { background:white !important; color:#071013 !important; font-size:10pt; }
+* { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+body.structured-guide-page { margin:0; padding:0; }
+.structured-guide-page .source-guide { width:100%; max-width:none; margin:0; padding:0; }
+.structured-guide-page .source-guide h1 { font-size:28pt; line-height:1; margin:0 0 6mm; }
+.structured-guide-page .structured-quick-guide { margin:0; }
+.structured-guide-page .structured-quick-guide > h1,.structured-guide-page .structured-faqs > h1 { font-size:32pt; line-height:1; margin:0 0 7mm; }
+.structured-guide-page .structured-chapter { padding:6mm; margin:0 0 5mm; border-top-width:4px; }
+.structured-guide-page .structured-chapter > h2 { font-size:23pt; grid-template-columns:9mm 1fr; gap:3mm; margin:0 0 6mm; }
+.structured-guide-page .structured-subsection { padding:5mm; margin-top:4mm; }
+.structured-guide-page .structured-subsection > h3 {font-size:17pt; margin:0 0 4mm; }
+.structured-guide-page .structured-subsection > h4 {font-size:13pt; margin:5mm 0 3mm; }
+.structured-guide-page .structured-subsection > h5 {font-size:10pt; }
+.structured-guide-page .structured-chapter p,.structured-guide-page .structured-chapter ul,.structured-guide-page .structured-chapter ol,.structured-guide-page .structured-faq p,.structured-guide-page .structured-faq ul,.structured-guide-page .structured-faq ol {font-size:10pt; line-height:1.45; }
+.structured-guide-page p { orphans:3; widows:3; }
+h1,h2,h3,h4,h5,summary { break-after:avoid; }
+.structured-guide-page .structured-part-heading,.structured-guide-page .structured-faqs { break-before:page; }
+.structured-guide-page .structured-part-heading {padding:0 0 5mm; }
+.structured-guide-page .structured-faqs {margin-top:0; padding-top:6mm; }
+.structured-guide-page .structured-chapter { break-before:page; }
+.structured-guide-page .structured-part-heading + .structured-chapter {break-before:auto; }
+div[style*="page-break-after"] {display:none; }
+.structured-guide-page .structured-numbered-list {display:block; margin:3mm 0 !important; background:transparent; }
+.structured-guide-page .structured-numbered-list > li {break-inside:avoid; margin-bottom:1px; padding:3mm 4mm !important; grid-template-columns:8mm 1fr !important; gap:3mm !important; font-size:10pt; line-height:1.45; }
+.structured-guide-page .structured-quick-guide .structured-numbered-list li li {font-size:10pt; line-height:1.45; }
+.structured-guide-page .quick-guide-credentials,.structured-guide-page .quick-guide-checklist {margin-top:3mm !important; gap:2mm !important; }
+.structured-guide-page .structured-quick-guide .structured-numbered-list .quick-guide-credentials > li {padding:3mm; }
+.structured-guide-page .structured-setting-group {break-inside:avoid; padding:4mm; margin-top:3mm !important; }
+.structured-guide-page .structured-setting-label code {min-height:0; font-size:9pt; padding:1mm 2mm; }
+.structured-guide-page .structured-setting-label {margin-bottom:2mm; }
+.structured-guide-page .source-guide--structured p:has(> img:only-child) {break-inside:avoid; padding:3mm; margin:4mm 0; }
+.structured-guide-page .source-guide--structured p > img:only-child {max-height:90mm; width:100%; object-fit:contain; }
+.structured-guide-page .structured-photo-grid {break-inside:avoid; margin:4mm 0; gap:3mm; }
+.structured-guide-page .structured-photo-grid > p {min-height:0; }
+.structured-guide-page .structured-photo-grid img {max-height:65mm !important; }
+.structured-guide-page table {display:table !important; width:100%; overflow:visible; font-size:9pt; table-layout:auto; }
+thead {display:table-header-group;} tr {break-inside:avoid;} th,td {padding:2mm !important; overflow-wrap:anywhere; }
+.structured-guide-page .structured-faq {break-inside:avoid; margin:0 0 4mm; padding:5mm; }
+.structured-guide-page .structured-faq summary {font-size:15pt; line-height:1.15; padding:0; margin:0 0 4mm; }
+.structured-guide-page .structured-faq summary::after {display:none; }
+.structured-guide-page .structured-faq > :not(summary) {margin-left:0; margin-right:0; }
+.structured-guide-page .battery-runtime-calculator {break-inside:avoid; padding:4mm; margin:4mm 0 0; }
+.structured-guide-page .battery-runtime-calculator__header,.structured-guide-page .battery-runtime-calculator__body {padding:3mm; }
+.structured-guide-page .battery-runtime-calculator h3 {font-size:17pt; }
+.structured-guide-page .battery-runtime-calculator p {color:inherit; }
+.pdf-measure {position:absolute;left:-10000px;top:0;visibility:hidden;}
+.pdf-page {box-sizing:border-box;position:relative;display:flow-root;break-after:page; margin:0; padding:20mm 0 0;}
+.pdf-page:last-child {break-after:auto;}
+.pdf-page * {break-before:auto !important;break-after:auto !important;}
+.pdf-page .structured-chapter,.pdf-page .structured-subsection,.pdf-page .structured-faq {box-decoration-break:clone;}
+.structured-guide-page [data-pdf-number]::before {content:attr(data-pdf-number) !important;}
+.structured-guide-page h2[data-pdf-number]::before {content:attr(data-pdf-number) !important;}
+.structured-guide-page .structured-numbered-list > li[data-pdf-number]::before {content:attr(data-pdf-number) !important;}
+.pdf-repeated-heading {opacity:0.85;}
+.pdf-page .structured-quick-guide {margin-bottom:0;}
+.pdf-page .pdf-running-header {position:absolute;top:0;left:0;right:0;height:15mm;box-sizing:border-box;display:grid;grid-template-columns:32mm minmax(0,1fr);align-items:center;gap:5mm;padding:2.5mm 4mm;background:#071013;border-bottom:2px solid #00a7b5;color:#f4f7f4;}
+.pdf-page .pdf-running-header img {display:block;width:28mm;height:auto;max-height:9mm;object-fit:contain;margin:0;}
+.pdf-page .pdf-running-header__context {min-width:0;text-align:right;}
+.pdf-page .pdf-running-header__label {display:block;margin-bottom:1mm;font:700 6.5pt/1.2 Arial,sans-serif;letter-spacing:0.08em;color:#8ee8f5;}
+.pdf-page .pdf-running-header__location {display:block;font:700 7.5pt/1.25 Arial,sans-serif;color:#f4f7f4;}
+@media screen {.pdf-page {margin-bottom:20px;outline:1px solid #ddd;}}
