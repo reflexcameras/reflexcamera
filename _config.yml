@@ -62,7 +62,6 @@ reCaptcha:
 
 # Keep development sources and tooling out of the production artifact.
 exclude:
-  - camera-site-concepts
   - scripts
   - vendor
   - .venv

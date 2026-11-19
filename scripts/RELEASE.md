@@ -1,10 +1,10 @@
-# Concept 6 production migration
+# Release checks
 
-The root Jekyll site now serves Concept 6 at `/`, with five guides at `/guides/`.
-The archived concept project has been removed from this branch. Edit the root
-homepage, guides, shared includes and assets directly.
-Existing support pages remain at their original URLs. The `/concept-6/` pages
-redirect to the corresponding production pages, preserving query strings and fragments.
+The root Jekyll site serves the homepage at `/`, with guides at `/guides/`.
+Edit the root homepage, guides, shared includes and assets directly.
+Retired URLs (such as `/user-manual/`, `/kit/` and the old `/concept-6/` preview
+pages) redirect to their current pages via [redirects/](../redirects/), preserving
+query strings and fragments.
 
 ## Verify before publishing
 

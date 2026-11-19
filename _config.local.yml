@@ -6,7 +6,6 @@ baseurl: ""
 # makes local Jekyll startup unnecessarily slow (especially from iCloud Drive).
 include: []
 exclude:
-  - camera-site-concepts
   - scripts
   - .venv
   - .vscode

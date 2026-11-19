@@ -1635,7 +1635,7 @@
   }
 }
 
-/* Concept 6 guide navigation mirrors the main Concept 6 header. */
+/* Guide navigation mirrors the main site header. */
 html.concept-six-document {
   scroll-behavior: auto;
   scroll-padding-top: var(--field-header-offset, 130px);
@@ -1752,7 +1752,7 @@ html.concept-six-document {
   }
 }
 
-/* Full source guides: retain the original copy while using the Concept 6 visual system. */
+/* Full source guides: retain the original copy while using the site visual system. */
 .source-guide-page .guide-toc__related {
   display: block;
   margin-top: 18px;

@@ -21,7 +21,8 @@ illustrations and the analysis service's existing media. There is no root `img/`
 folder. Compatibility redirects live in [redirects/](redirects/) and use explicit
 permalinks to preserve old URLs. CSS named `concept-three`, `concept-four`
 and `concept-five` still styles the current website and must be retained.
-Older support pages and their dependencies remain available at their existing URLs.
+Retired pages (the old user manual, kit and welcome pages) now redirect to their
+current replacements.
 
 Do not edit or remove `2024-repo/` as part of website changes. Production builds
 must include it. See [release checks](scripts/RELEASE.md).
