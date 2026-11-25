@@ -62,6 +62,34 @@ Description: Debian package management system
  .
  For Debian package development tools, install dpkg-dev.
 
+Package: ffmpeg
+Version: 8:5.1.6-0+deb12u1+rpt1
+Architecture: arm64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 2533
+Depends: libavcodec59 (>= 7:5.0), libavdevice59 (>= 7:5.0), libavfilter8 (>= 7:5.1), libavformat59 (>= 7:5.1), libavutil57 (>= 7:5.1), libc6 (>= 2.35), libpostproc56 (>= 7:5.0), libsdl2-2.0-0 (>= 2.0.12), libswresample4 (>= 7:5.1), libswscale6 (>= 7:5.0)
+Suggests: ffmpeg-doc
+Filename: pool/main/f/ffmpeg/ffmpeg_5.1.6-0+deb12u1+rpt1_arm64.deb
+Size: 1979042
+MD5sum: bb4f4e0649998fc259b7cadcb1464f24
+SHA1: 759cc1593223a509830c550eb27fade613d69bcb
+SHA256: 4f2540b7aa39cbc6725890a5487be2abb5dcb289fcfc52a914ab9ae2f1490603
+Section: video
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Description: Tools for transcoding, streaming and playing of multimedia files
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains:
+  * ffmpeg: a command line tool to convert multimedia files between formats
+  * ffplay: a simple media player based on SDL and the FFmpeg libraries
+  * ffprobe: a simple multimedia stream analyzer
+  * qt-faststart: a utility to rearrange Quicktime files
+
 Package: fontconfig
 Version: 2.14.1-4
 Architecture: arm64
@@ -6843,6 +6871,23 @@ Description: Vertical Blanking Interval decoder (VBI) - runtime files
    * Functions to extract data transmissions in Teletext streams (currently
      Page Format Clear and Independent Data Line Format A);
    * Can multiplex and demultiplex DVB VBI PES and TS streams.
+
+Package: log2ram
+Version: 1.7.2
+Architecture: all
+Bugs: https://github.com/azlux/log2ram/issues
+Maintainer: Azlux <github@azlux.fr>
+Depends: bash (>= 4.3)
+Recommends: rsync
+Filename: pool/main/l/log2ram/log2ram_1.7.2_all.deb
+Size: 5368
+MD5sum: f263e03bbe0131fbff13b6c577849beb
+SHA1: eabe3fede240106e9a1920fc2f3a98a1f0e79754
+SHA256: 368c28816b75c639be94c628531e79ccb771fee1fe37de0f8aa870b184e4a630
+Section: net
+Priority: optional
+Homepage: https://github.com/azlux/log2ram
+Description: ramlog like for systemd (Put log into a ram folder)
 
 Package: lsb-base
 Source: lsb
